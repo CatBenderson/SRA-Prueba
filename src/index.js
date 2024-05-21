@@ -20,13 +20,13 @@ root.render(
       <SideBar />
       <div style={{ flex: 1, marginLeft: '1vw' }}>
         <Routes>
-          <Route exact path='/' element={<Principal />} />
-          <Route exact path='/recursos' element={<Recursos />} />
-          <Route exact path='/programacion' element={<InfoExperiencia />} />
-          <Route exact path='/programacion/1' element={<Unidad />} />
-          <Route exact path='/programacion/:id' element={<Unidad />} />
-          <Route exact path='/missing' element={<Missing />} />
-          <Route exact path='/prueba' element={<CodigoSeleccion archivo={codigoPorUnidad[1]} />}/>
+          <Route path='/' element={<Principal />} />
+          <Route path='/recursos' element={<Recursos />} />
+          <Route path='/programacion' element={<InfoExperiencia />} />
+          <Route path='/programacion/1' element={<Unidad />} />
+          <Route path='/programacion/:id' element={<Unidad />} />
+          <Route path='/missing' element={<Missing />} />
+          <Route path='/prueba' element={<CodigoSeleccion archivo={codigoPorUnidad[1]} />}/>
         </Routes>
       </div>
     </div>
