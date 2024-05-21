@@ -20,11 +20,11 @@ export default function SideBar() {
                 Sistema de refuerzo al aprendizaje
             </div>
             <hr />
-            <div className="opciones" onClick={() => handleRedirect('/')}>
+            <div className="opciones" onClick={() => handleRedirect('/SRA-Prueba/')}>
                 <FontAwesomeIcon className="iconoGeneral" icon={faHouse} />
                 <label> Vista general</label>
             </div>
-            <div className="opciones" onClick={() => handleRedirect('/recursos')}>
+            <div className="opciones" onClick={() => handleRedirect('/SRA-Prueba/recursos')}>
                 <FontAwesomeIcon className="iconoRecursos" icon={faBook} />
                 <label> Recursos de apoyo</label>
             </div>
