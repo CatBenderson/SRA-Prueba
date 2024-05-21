@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SRA-Prueba/static/css/main.94ceb7a4.css",
-    "main.js": "/SRA-Prueba/static/js/main.ab037f7c.js",
+    "main.js": "/SRA-Prueba/static/js/main.a924ef19.js",
     "static/js/453.7674083e.chunk.js": "/SRA-Prueba/static/js/453.7674083e.chunk.js",
     "static/media/1.txt": "/SRA-Prueba/static/media/1.34807824a68f6cfcfad1.txt",
     "static/media/2.txt": "/SRA-Prueba/static/media/2.b23a86723a602eccaee0.txt",
@@ -34,11 +34,11 @@
     "static/media/recursos.txt": "/SRA-Prueba/static/media/recursos.7dfbcfbc00aa95dbd801.txt",
     "static/media/experiencias-educativas.txt": "/SRA-Prueba/static/media/experiencias-educativas.e6114267cdda79b09508.txt",
     "main.94ceb7a4.css.map": "/SRA-Prueba/static/css/main.94ceb7a4.css.map",
-    "main.ab037f7c.js.map": "/SRA-Prueba/static/js/main.ab037f7c.js.map",
+    "main.a924ef19.js.map": "/SRA-Prueba/static/js/main.a924ef19.js.map",
     "453.7674083e.chunk.js.map": "/SRA-Prueba/static/js/453.7674083e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94ceb7a4.css",
-    "static/js/main.ab037f7c.js"
+    "static/js/main.a924ef19.js"
   ]
 }
