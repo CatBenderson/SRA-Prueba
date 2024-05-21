@@ -1,0 +1,234 @@
+{
+    "id": "10",
+    "nombre": "Mejores prácticas: Estándares de codificación y documentación",
+    "contenido": "Son un elemento fundamental dentro de las buenas prácticas ya que brindan estabilidad, reutilización y mantenibilidad al código, incrementando su calidad en general.  Dependiendo del lenguaje las reglas serán diferentes pero siempre hay generalizaciones que aplican a una mayoría\n\nIndentación y formato consistentes: El mantener una correcta indentación ayuda a que el código sea legible y coherente. Ayuda también a identificar los diferentes bloques dentro de un código permitiendo a los programadores una navegación y revisión más fluida.\n\n*Convenciones *de *nombres *descriptivos *y *significativos: Las variables, funciones, clases y entidades que se incluyen en el código deben ser autodescriptivas, es decir que su nombre tiene que estar estrictamente relacionado con lo que representan para que sea comprensible sin necesitar comentarios o explicaciones adicionales\n\n*Modularización *y *reutilización: Estos son elementos que ya se han abarcado en unidades anteriores (Fundamentos: Minimizar la complejidad y Fundamentos: Re-uso) \n\n*Comentarios *para *claridad: En algunas ocasiones un nombrado apropiado no es suficiente para describir la funcionalidad de una parte de código, en estos casos es de ayuda escribir comentarios para facilitar la documentación y entendimiento del código\n\n*Manejo *de *errores *y *gestión *de *excepciones: Partimos del entendimiento de que no hay programa perfecto, así que debemos estar preparados para que los errores ocurran. En casos así se debe dar al usuario mensajes claros y útiles para saber qué debe hacer a continuación\n\nCabe mencionar que el simple hecho de utilizar estas prácticas no aseguran el éxito de un proyecto pero si contribuyen a que su desempeño, calidad y aceptación sea mayor.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "10-1-P",
+            "pregunta": "¿Por qué es importante mantener una correcta indentación en el código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Porque disminuye la complejidad del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Porque reduce la legibilidad y coherencia del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Porque facilita la identificación de diferentes bloques y mejora la legibilidad",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Porque ayuda a evitar errores de sintaxis",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "10-2-P",
+            "pregunta": "¿Qué se entiende por convenciones de nombres descriptivos y significativos en el código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Utilizar nombres cortos e incomprensibles",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Utilizar nombres que no estén relacionados con lo que representan",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Utilizar nombres que estén estrechamente relacionados con lo que representan",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Utilizar nombres que no confundan a los programadores",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "10-3-P",
+            "pregunta": "¿Cuál es uno de los beneficios de la modularización y reutilización de código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Aumenta la complejidad del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Mejora la estabilidad, reutilización y mantenibilidad del código",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Reduce la legibilidad del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Incrementa el tamaño del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "10-4-P",
+            "pregunta": "¿En qué situaciones es útil utilizar comentarios en el código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Cuando el nombrado apropiado no es suficiente para describir la funcionalidad del código",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Cuando se desea aumentar la complejidad del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Cuando no se quiere ocultar información sobre el funcionamiento interno del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Cuando el código es suficientemente claro y autodescriptivo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "10-5-P",
+            "pregunta": "¿Por qué es importante el manejo de errores y la gestión de excepciones en el código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Porque asegura que no haya errores en el código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Porque aumenta la probabilidad de que ocurran errores en el código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Porque prepara al programa para manejar errores de manera adecuada y proporcionar mensajes claros y útiles al usuario",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Porque hace que el código sea más difícil de depurar",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

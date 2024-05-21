@@ -1,0 +1,52 @@
+.contenedor-card-experiencia {
+    width: 315px;
+    height: 150px;
+    min-width: 315px;
+    border: #18529D solid thin;
+    border-radius: 5px;
+    box-shadow: 0.2em 0.2em .7em rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 12px;
+}
+
+.imagen-card{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: #2262B4;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    vertical-align:middle;
+    display: inline-block;
+}
+
+
+.titulo-card{
+    margin-top: 15px;
+    min-height: 50px;
+    min-width: 200px;
+    width: 10px;
+    max-width: 15vw;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.boton-card{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #18529D;
+    border: #18529D ;
+    border-radius: 5px;
+    width: 95%;
+    height: 30px;
+}

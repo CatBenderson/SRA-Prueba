@@ -1,0 +1,234 @@
+{
+    "id": "16",
+    "nombre": "Árboles:  Tipos de árboles",
+    "contenido": "Una vez que sabemos qué son los árboles podemos hablar de su clasificación. En principio tenemos 2 grupos principales: Los árboles multicamino y los árboles binarios.  En el caso de los árboles multicamino estos pueden tener más de 2 hijos, de esta manera el acceso a los nodos es más eficiente\n\n Por otro lado, en los árboles binarios el máximo grado que pueden alcanzar es 2, esto significa que cada uno de sus nodos tienen un máximo de 2 hijos. Podemos clasificar los árboles binarios con  base en su similitud con otros árboles y por la estructura.\n\n\n*Por *similitud\n\n*Distintos: Se refiere a los árboles cuyas estructuras son diferentes\n\n*Similares: Árboles con estructuras idénticas pero información diferente\n\n*Equivalentes: Tanto la información como la estructura son idénticos\n\n*Por *estructura\n*Completos: Se trata de un árbol que para cada nivel tiene un conjunto lleno de nodos y todos los nodos hoja ocupan las posiciones más a la izquierda del árbol.\n\n*Llenos: Son los árboles donde todos los nodos tienen cero o dos hijos. \n\n*Degenerados: Árbol particular en el cual existe solo un nodo hoja y para cada nodo hoja existe un solo nodo hijo.\n",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/jRPysrx.png",
+            "alt": ""
+        },
+        "2": {
+            "url": "https://i.imgur.com/yCQaCI9.png",
+            "alt": "*Por *similitud\n\n*Distintos: Se refiere a los árboles cuyas estructuras son diferentes\n\n*Similares: Árboles con estructuras idénticas pero información diferente\n\n*Equivalentes: Tanto la información como la estructura son idénticos\n\n"
+        },
+        "3": {
+            "url": "https://i.imgur.com/Md8nxq0.png",
+            "alt": "*Por *estructura\n*Completos: Se trata de un árbol que para cada nivel tiene un conjunto lleno de nodos y todos los nodos hoja ocupan las posiciones más a la izquierda del árbol.\n\n*Llenos: Son los árboles donde todos los nodos tienen cero o dos hijos. \n\n*Degenerados: Árbol particular en el cual existe solo un nodo hoja y para cada nodo hoja existe un solo nodo hijo."
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "16-1-E",
+            "imagen": "https://i.imgur.com/mv7Xg74.png",
+            "pregunta": "¿Qué tipo de árbol es el de la imagen?",
+            "respuestas": {
+                "1": {
+                    "contenido": "No completo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Lleno",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "No lleno",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Degenerado",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "16-2-E",
+            "imagen": "https://i.imgur.com/Eb7vB1E.png",
+            "pregunta": "¿Qué tipo de árbol es el de la imagen?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Completo ",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Lleno",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "No degenerado",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Degenerado",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "16-3-E",
+            "imagen": "https://i.imgur.com/fGVCMA7.png",
+            "pregunta": "¿Qué tipo de árbol es el de la imagen?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Lleno",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Completo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "No degenerado",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Degenerado",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "16-1-P",
+            "pregunta": "¿Cuál es la principal diferencia entre los árboles multicamino y los árboles binarios?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Los árboles multicamino tienen un máximo de 2 hijos por nodo  y los árboles binarios tienen más de 2 hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Los árboles binarios y multicamino pueden tener más de 2 hijos por nodo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Los árboles multicamino pueden tener más de 2 hijos y los árboles binarios tienen un máximo de 2 hijos por nodo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Los árboles multicamino tienen una estructura más simple que los árboles binarios.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "16-2-P",
+            "pregunta": "¿Cómo se clasifican los árboles binarios según su similitud con otros árboles?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Distintos, Similares, Equivalentes",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": " Unicos, Similares, Idénticos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Diferentes, Similares, Equivalentes",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Únicos, Comunes, Duplicados",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "16-3-P",
+            "pregunta": "¿Qué tipo de árbol es aquel en el que cada nivel tiene un conjunto lleno de nodos y todas las hojas ocupan las posiciones más a la izquierda?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Completos",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Llenos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Degenerados",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Incompletos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "16-4-P",
+            "pregunta": "¿Cómo se llama al tipo de árbol en el que todos los nodos tienen cero o dos hijos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Completos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Llenos",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Degenerados",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Similares",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "16-5-P",
+            "pregunta": "¿Cuál es la característica principal de un árbol degenerado?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Cada nodo tiene exactamente un hijo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Existe solo un nodo hoja en el árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Para cada nodo hoja existe un solo nodo hijo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Todos los nodos tienen más de dos hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

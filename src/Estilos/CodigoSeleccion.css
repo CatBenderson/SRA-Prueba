@@ -1,0 +1,27 @@
+.contenedor-codigo-seleccion {
+    margin: 0 2%;
+    max-width: 600px;
+    min-width: 600px;
+}
+
+.boton, .botonSelect {
+    margin: 1px;
+    border-radius: 3px;
+    border-color: #18529D;
+    border-style: solid;
+    border-width: thin;
+    font-weight: bold;
+    color: #4D4D4D;
+    font-size: 14px;
+    padding: 5px;
+    width: 286px;
+}
+
+.boton {
+    background-color: #F5F5F5;
+}
+
+.botonSelect {
+    background-color: #18529D;
+    color: #F5F5F5;
+}

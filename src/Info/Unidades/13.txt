@@ -1,0 +1,234 @@
+{
+    "id": "13",
+    "nombre": "Mejores prácticas: Rutinas de alta calidad",
+    "contenido": "Al hablar acerca de mejorar nuestra manera de programar, tenemos que tocar el tema de las rutinas. Este concepto se refiere a un método función o procedimiento individuales que cumplen un propósito en específico y son invocables. Con esto en mente, cobra mucho sentido que sean una de las partes más importantes con las que trabajamos y de estas depende la calidad general de nuestro programa.  A continuación se presentarán las áreas que deben tomarse en cuenta para crear rutinas de alta calidad\n\n*Nombrado *(naming): El asignar un nombre adecuado a nuestras rutinas es esencial ya que el propio nombre lleva implícita la naturaleza del objeto o función que estamos manejando. Un buen nombre para una función contempla:\n\n        *- *Indicar *qué *es *lo *que *hace *la *función:  De manera general un nombre de función se compone de:  verbo + objeto. Un ejemplo de esto puede ser listarEmpleados()\n\n        *- *Evitar *nombres *vagos: Nombres tales como realizarCambios() pueden no dar demasiada información sobre sus verdaderas operaciones. \n\n        *- *Evitar *la *sobrecualificación:  En este caso, se debe tratar de no hacer los nombres redundantes, en el caso de listarListaEmpleados() , podemos reducirlo ya que al agregar el verbo ''listar'' entendemos que utilizamos una Lista\n\n        *- *Usar *antónimos: La consistencia del uso de antónimos, nos ayuda a tener consistencia y simetría, lo cual a su vez se traduce en legibilidad. Un ejemplo de esto es que si nombramos una rutina como añadirHoja() lo recomendable sería también usar removerHoja()\n\n        *- *Establecer *estándares *para *acciones *comunes: Para todas aquellas operaciones que realizan acciones similares, se recomienda utilizar una misma convención ya que esto facilita la lectura del código. Es recomendable que si tenemos empleado.obtenerDomicilio()  usemos también supervisor.obtenerDomicilio() en lugar de supervisor.obtenerCasa()\n\n*Longitud *ideal *para *una *rutina: Ya que cada función tiene una complejidad diferente, no hay una regla específica de cuantas líneas debe estar formada. Sin embargo las rutinas pequeñas siempre son lo más deseado.\n\n*Parámetros *de *una *rutina: Es importante que los parámetros se puedan diferenciar entre los operandos (parámetros con los que opera la rutina) y las opciones (representa los modos en los que una rutina va a funcionar). También, es importante mencionar que entre menos parámetros necesite una función será mejor. En lugar de declarar  añadirDomicilio(String calle, string numero, string colonia) es preferible añadirDomicilio(Domicilio domicilio)\n",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "13-1-E",
+            "imagen": "https://i.imgur.com/9W1AXVb.png",
+            "pregunta": "¿Cuál es el problema en esta rutina?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Mal manejo de parámetros",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Indicar qué es lo que hace la función",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "No establecer estándares",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Uso de nombres vagos",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "13-2-E",
+            "imagen": "https://i.imgur.com/souVjkr.png",
+            "pregunta": "¿Cuál es el problema en esta rutina?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Mal manejo de parámetros",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Uso de nombres vagos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "No indicar qué es lo que hace la función",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "No establecer estándares",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "13-1-P",
+            "pregunta": "¿Cuál es el propósito principal al utilizar antónimos en los nombres de rutinas?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Disminuir la complejidad",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Mejorar la consistencia y simetría",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Reducir la legibilidad",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Evitar el uso de nombres específicos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "13-2-P",
+            "pregunta": "¿Qué se recomienda al nombrar las rutinas cuando estas realizan acciones comunes?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Utilizar diferentes convenciones para operaciones similares",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Establecer estándares solo para operaciones únicas",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "No seguir ninguna convención",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Utilizar una misma convención para acciones similares",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "3": {
+            "id": "13-3-P",
+            "pregunta": "¿Cuál es un principio importante mencionado para la longitud ideal de una rutina?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Cuantas más líneas, mejor",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Mientras más compleja, mejor",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Rutinas pequeñas son preferibles",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "La longitud no importa",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "13-4-P",
+            "pregunta": "¿Cuál es la importancia del nombrado adecuado de rutinas?",
+            "respuestas": {
+                "1": {
+                    "contenido": "No es importante",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Facilita la lectura y comprensión del código",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Solo es relevante para funciones pequeñas",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Hace que las rutinas sean menos complejas",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "13-5-P",
+            "pregunta": "¿Por qué se sugiere evitar nombres vagos en las rutinas?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Para hacer el código menos abstracto",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Para reducir líneas utilizando nombres más cortos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Para proporcionar información clara sobre las operaciones de la rutina",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Para confundir a otros programadores",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

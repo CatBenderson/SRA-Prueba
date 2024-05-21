@@ -1,0 +1,32 @@
+.titulo-info-experiencia {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.contenedor-descripcion-experiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.descripcion-info-experiencia {
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.imagen-info-experiencia {
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.unidades-info-experiencia {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.divisor-experiencia {
+    margin-right: 20px;
+}

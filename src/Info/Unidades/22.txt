@@ -1,0 +1,234 @@
+{
+    "id": "22",
+    "nombre": "Grafos",
+    "contenido": "Se trata de conjuntos no vacíos y no lineales de objetos que comparten una relación entre ellos. Los grafos se conforman por vértices o nodos, que son la representación de los objetos. Estos vértices se encuentran unidos por medio arcos o aristas y gracias a esto se representan las relaciones entre ellos, dichas relaciones pueden ser arbitrarias así como carecer de una jerarquía. \n\nUn grafo G puede ser descrito por el par de vértices y aristas, G=(V, A), donde V es el conjunto de vértices o nodos y A es el conjunto de arcos.\n\nExisten dos tipos de grafos, los dirigidos y los no dirigidos.\n\n*Grafos *dirigidos: Se trata de grafos en los que cada una de sus aristas o arcos, tienen una dirección asignada. Dicha dirección se indica al colocar una flecha dirigida sobre ella. Estos grafos tienen ya un camino preestablecido debido a las direcciones de cada una de las relaciones. Dependiendo de las relaciones existentes, cada uno de los vértices puede ser terminal o de origen. Los vértices terminales son aquellos a los que la flecha termina apuntando, mientras que, como su nombre lo dice, los vértices de origen son en los que la flecha se origina. En el caso de que una flecha tenga ambas direcciones, cada uno de los vértices son terminales y de origen a la vez.\n\n*Grafos *no *dirigidos:  En el caso de los grafos no dirigidos, estos carecen de dirección sobre sus aristas esto significa que una arista puede indistintamente recorrerse desde cualquiera de sus puntos y en cualquier dirección. En estos grafos la relación entre vértices (1,2) es la misma que (2,1).\n\n\nOtros conceptos que son importantes de conocer a la hora de hablar sobre grafos son:\n\n*Orden:  Se define como orden al número de vértices que conforman a un grafo. Se puede calcular mediante la fórmula n(n-1)/2 \n*Grado: Se refiere al número de arcos que se relacionan sobre un nodo. En el caso de los grafos no dirigidos el grado de un nodo incluye a cada una de las relaciones que involucran al nodo en cuestión. Para los grafos dirigidos, este concepto se separa en grado de entrada, donde se toman en cuenta solo las relaciones que llegan al nodo y el grado de salida que se refiere a las relaciones salientes del nodo.\n*Factor *de *peso: Se trata de la magnitud asignada a arcos o relaciones entre nodos.\n*Camino *(P): Un camino es una secuencia de vértices conectados por aristas que se sigue dentro de un grafo. La longitud de un camino es el número de arcos del cual está compuesto o de la suma de los pesos de los arcos.\n",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/JcW2gSR.png",
+            "alt": "Este grafo se describiría como V = {1, 2, 3, 4, 5}  y A = { (1, 2), (1, 4), (2, 5), (3, 4), (4, 5)}"
+        },
+        "2": {
+            "url": "https://i.imgur.com/CFygJHm.png",
+            "alt": "Ejemplo de grafo dirigido"
+        },
+        "3": {
+            "url": "https://i.imgur.com/Q4eiNoF.png",
+            "alt": "Ejemplo de grafo no dirigido"
+        }
+    }, 
+    "ejercicios": {
+        "1": {
+            "id": "22-1-E",
+            "imagen": "https://i.imgur.com/FrzpJUY.png",
+            "pregunta": "Indica la manera correcta de describir el siguiente grafo",
+            "respuestas": {
+                "1": {
+                    "contenido": "v= {1, 2, 3, 4, 5, 6} A= {(1, 2), (1, 4), (2, 6), (4, 5), (5, 6)}",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "v= {1, 2, 4, 5, 6} A= {(1, 2), (1, 4), (2, 6), (4, 5), (5, 6)}",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "v= {1, 2, 4, 5, 6} A= {(1, 2), (1, 5), (2, 6), (4, 6), (5, 6)}",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "v= {1, 2, 3, 4, 5, 6} A= {(1, 2), (2, 4), (2, 6), (4, 3), (5, 6)}",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "22-2-E",
+            "imagen": "https://i.imgur.com/lKGslHF.png",
+            "pregunta": "Indica el orden del grafo y el grado del vértice en rojo del siguiente grafo",
+            "respuestas": {
+                "1": {
+                    "contenido": "Orden: 11,  Grado de nodo: 4",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Orden: 10,  Grado de nodo: 10",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Orden: 10,  Grado de nodo: 4",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Orden: 8,  Grado de nodo: 2",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "22-3-E",
+            "imagen": "https://i.imgur.com/SJ0rwtQ.png",
+            "pregunta": "Indica cual es un camino correcto para llegar del vértice verde al vértice rojo y cuál es la longitud del camino",
+            "respuestas": {
+                "1": {
+                    "contenido": "P = (0, 1, 2, 3, 4, 5),  Longitud= 12",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "P = (8, 9, 10, 6, 7, 5),  Longitud= 10",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "P = (0, 1, 2, 3, 7, 6),  Longitud= 10",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "P = (0, 8, 4, 3, 7, 5),  Longitud= 12",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "22-1-P",
+            "pregunta": "¿Cómo se define un grafo G en términos de vértices y aristas?",
+            "respuestas": {
+                "1": {
+                    "contenido": "G = (E, V)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "G = {V, A}",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": " G = (V, A)",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "G = [V, E]",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "22-2-P",
+            "pregunta": "¿Qué tipo de grafo tiene direcciones asignadas a cada una de sus aristas?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Grafos con peso",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Grafos no dirigidos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Grafos dirigidos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Grafos ordenados",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "22-3-P",
+            "pregunta": "¿Cómo se define el orden de un grafo?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Es el número de aristas del grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Es el número de vértices del grafo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Es la suma de los grados de los vértices.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Es la longitud máxima de un camino en el grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "22-4-P",
+            "pregunta": "¿Qué es el grado de un nodo en un grafo no dirigido?",
+            "respuestas": {
+                "1": {
+                    "contenido": "El número de vértices que entran al nodo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "El número de aristas conectadas al nodo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "La magnitud asignada a las aristas del nodo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "La longitud de la ruta más corta hasta otro nodo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "22-5-P",
+            "pregunta": "¿Cuál es la definición de camino en un grafo?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Una secuencia de aristas que se sigue dentro de un grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": " Una secuencia de vértices conectados por aristas que se sigue dentro de un grafo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "La magnitud asignada a las aristas de un grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "La ruta más corta entre dos nodos en un grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

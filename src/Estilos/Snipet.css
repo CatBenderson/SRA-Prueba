@@ -1,0 +1,40 @@
+.contenedor-snipet {
+    max-width: 600px;
+}
+
+.contenedor-barra {
+    line-height: 2.5;
+    min-width: 600px;
+}
+
+.barra-titulo {
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 15px;
+    border-radius: 5px 0px 0px 0px;
+    background-color: #3A404D;
+    width: 460px;
+    margin-bottom: 0px;
+    display: inline-block;
+    cursor: default;
+}
+
+.barra-copiar {
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 0px 5px 0px 0px;
+    background-color: #3A404D;
+    width: 85px;
+    margin-bottom: 0px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.codigo {
+    font-size: 1rem;
+    border-radius: 0px 0px 5px 5px;
+    width: 559px;
+    margin-top: 0px;
+}

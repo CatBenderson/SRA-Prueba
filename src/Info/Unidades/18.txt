@@ -1,0 +1,234 @@
+{
+    "id": "18",
+    "nombre": "Árboles binarios de búsqueda: Operaciones básicas",
+    "contenido": "Las operaciones básicas de los árboles binarios de búsqueda son dos, inserción y eliminación. \n\n*Inserción:  Antes de realizar una inserción debemos recordar que un nodo no puede tener más de 2 hijos. Para encontrar el sitio en el cual se debe realizar la inserción se debe comparar de manera recursiva con los valores que ya conforman al árbol comenzando por la raíz. En caso de que el nuevo valor sea menor que la raíz la comparación seguirá con el próximo nodo izquierdo. En el caso de que el valor sea mayor a la raíz se proseguirá comparando con el próximo nodo derecho. Este proceso se detiene cuando se encuentra un nodo que no tiene hijo con el cual seguir la comparación y el nuevo valor toma esa posición. \n\n*Eliminación: Al eliminar podemos tener un par de casos que abarcaremos a continuación. La primera situación es cuando el nodo no tiene hijos, en este caso solo borraremos el nodo sin mayores cambios al árbol.\nEn el caso de que el nodo a eliminar solo tenga un hijo se tiene que eliminar el nodo y el hijo del nodo borrado pasa a ser hijo del padre del nodo que hemos eliminado\nEn el último caso, cuando el nodo que queremos borrar tiene dos hijos el primer paso que se debe realizar es sustituir el nodo deseado ya sea por el nodo de mayor valor dentro del subárbol izquierdo o por el nodo de menor valor dentro del subárbol derecho.",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/XlBQ5OT.png",
+            "alt": "*Inserción\nSi queremos insertar el valor 11 comenzamos comparando con la raíz en este caso 15. Como 11 es menor que 15 seguiremos comparando con el valor del nodo hijo izquierdo. Volvemos a comparar con el valor de 2 y como 11 es mayor proseguimos a comparar con el valor del nodo hijo derecho. Finalmente al ser 11 menor que 13 colocamos el 11 al lado izquierdo."
+        },
+        "2": {
+            "url": "https://i.imgur.com/TZfNmJZ.png",
+            "alt": "Usaremos el primer árbol para realizar las eliminaciones de los valores 16, 15 y 9.\n\nEn el caso del número 16, al no tener hijos sólo debemos sacarlo del árbol.\n\nPara poder eliminar el valor 15 tenemos que convertir el nodo 17 en hijo del nodo 12\n\nFinalmente para eliminar el nodo 9 tenemos 2 opciones. El nodo mayor dentro del subárbol izquierdo es el número 4 mientras que el valor menor dentro del subárbol derecho es el 10. Cualquiera de estos 2 valores pueden tomar el valor del 9, en este caso para mantener el balance utilizaremos el 10 \n"
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "18-1-P",
+            "pregunta": "¿Cuáles son las dos operaciones básicas de los árboles binarios de búsqueda?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Inserción y actualización",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Inserción y eliminación",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Inserción y búsqueda",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Actualización y eliminación",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "18-2-P",
+            "pregunta": "¿Cómo se determina la posición de inserción de un nuevo nodo en un árbol binario de búsqueda?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Se elige al azar entre los nodos existentes",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Se compara de manera recursiva con los valores existentes",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Se coloca siempre como hijo derecho del nodo raíz",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Se compara de manera recursiva con los valores por insertar",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "18-3-P",
+            "pregunta": "¿Qué sucede si el valor a insertar es menor que el valor de la raíz en un árbol binario de búsqueda?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Se coloca como hijo derecho del nodo actual",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Se busca en el próximo nodo derecho",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Se coloca como hijo izquierdo del nodo actual",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Se busca en el próximo nodo izquierdo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "18-4-P",
+            "pregunta": "¿Qué ocurre cuando se elimina un nodo que no tiene hijos en un árbol binario de búsqueda?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Se elimina el nodo sin cambios adicionales en el árbol",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Se elimina el nodo y se traslada su hijo al padre del nodo eliminado",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": " Se sustituye el nodo por el nodo de mayor valor en el subárbol izquierdo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Se remplaza por la raíz",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "18-5-P",
+            "pregunta": "¿Qué nodo puede reemplazar a un nodo eliminado que tiene dos hijos en un árbol binario de búsqueda?",
+            "respuestas": {
+                "1": {
+                    "contenido": "El mayor valor en el subárbol izquierdo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "El menor valor en el subárbol derecho",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Cualquiera de los anteriores",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "El nodo raíz",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

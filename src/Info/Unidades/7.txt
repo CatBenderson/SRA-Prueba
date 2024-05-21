@@ -1,0 +1,234 @@
+{
+    "id": "7",
+    "nombre": "Fundamentos: Construir para la verificación",
+    "contenido": "Otro de los puntos elementales que debemos tener en mente al construir software es diseñar el software de tal modo que las fallas puedan ser detectadas fácilmente por los desarrolladores así como por testers y usuarios al momento de realizar pruebas y durante ejecuciones rutinarias. Esta área tiene dos tareas muy importantes:\n\n*Validación: Comprueba que el modelo se construyó de acuerdo a lo planeado, es decir que se cumplan las especificaciones del usuario.\n\n*Verificación: Comprueba la consistencia del modelo asegurando su correcta implementación.\n\nEntre las técnicas para apoyar la construcción para la verificación se encuentran:\n\n*Estándares *en *la *redacción *del *código: Ya hemos hablado de los estándares y de la importancia que tienen para tener un código consistente.  Manteniendo reglas de nombrado, indentación o nomenclatura se logra un código más legible.\n\n*Pruebas *unitarias:  Las pruebas unitarias son un tipo de prueba que se centra en verificar el comportamiento de unidades individuales de código, como funciones o métodos, de manera aislada. Estas pruebas se escriben para confirmar que una unidad de código funciona correctamente y produce los resultados esperados.\n\n*Pruebas *automatizadas: Las pruebas automatizadas son un conjunto más amplio de pruebas que incluye pruebas unitarias, pruebas de integración, pruebas de aceptación, entre otras. Estas pruebas se realizan utilizando herramientas de automatización y se ejecutan automáticamente, lo que ahorra tiempo y recursos en comparación con las pruebas manuales. Las pruebas automatizadas son fundamentales para garantizar que el software funcione como se espera en todos los niveles y escenarios posibles. \n\n*Empleo *restringido *de *estructuras *complejas: Implica evitar el uso excesivo de estructuras de código complejas pues pueden hacer que el código sea más complejo de entender y con mayor propensión a errores. Siempre se debe apostar por la simplicidad y la claridad del código.\n",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "7-1-P",
+            "pregunta": "Cuál es el propósito principal de las técnicas de validación y verificación en la construcción de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Optimizar el rendimiento del software.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Detectar errores durante las pruebas y ejecuciones rutinarias.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Mejorar la estética del código fuente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Garantizar la seguridad del software.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "7-2-P",
+            "pregunta": "¿Qué función desempeñan las pruebas unitarias en el proceso de verificación del software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Evalúan la consistencia del modelo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Verifican el cumplimiento de las especificaciones del usuario.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Comprueban el comportamiento de unidades individuales de código.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Automatizan la ejecución de pruebas manuales.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "7-3-P",
+            "pregunta": "¿Cuál es la diferencia entre pruebas unitarias y pruebas automatizadas?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Las pruebas unitarias se ejecutan automáticamente, mientras que las pruebas automatizadas son manuales.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Las pruebas automatizadas incluyen pruebas de aceptación, mientras que las pruebas unitarias no.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Las pruebas automatizadas verifican el software en todos los niveles y escenarios posibles, mientras que las pruebas unitarias se centran en unidades individuales de código.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Las pruebas unitarias son más amplias en alcance que las pruebas automatizadas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "7-4-P",
+            "pregunta": "¿Por qué es importante mantener reglas de nombrado, indentación o nomenclatura en el código fuente?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Para aumentar la complejidad del código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Para mejorar la estética del código.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Para dificultar la comprensión del código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Para evitar la detección de errores durante las pruebas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "7-5-P",
+            "pregunta": "¿Qué recomienda la técnica de empleo restringido de estructuras complejas en la construcción de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Utilizar estructuras de código complejas siempre que sea posible.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Apostar por la simplicidad y la claridad del código.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Incrementar la complejidad del código para hacerlo más robusto.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Evitar la realización de pruebas unitarias y automatizadas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

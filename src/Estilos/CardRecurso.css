@@ -1,0 +1,43 @@
+.contenedor-card-recurso {
+    max-width: 90%;
+    width: 90%;
+    min-width: 280px;
+    min-height: 70px;
+    border: #2262B4 solid thin;
+    border-radius: 5px;
+    box-shadow: 0.2em 0.2em .7em rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 5px;
+}
+
+.numero-recurso{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: #2262B4;
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align:middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.titulo-recurso-info{
+    margin-top: 15px;
+    min-height: 45px;
+    max-width: 15vw;
+    font-size: 18px;
+    margin: 15px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.contenedor-card-recurso:hover{
+    background-color: #CFE4FF;
+}

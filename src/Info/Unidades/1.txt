@@ -1,0 +1,232 @@
+{
+    "id": "1",
+    "nombre": "Pensamiento computacional",
+    "contenido": "En nuestro día a día nos vemos en la necesidad de resolver problemas y tomar decisiones. Muchas de estas tienen que ver con la tecnología, la cual se presenta de las maneras más inesperadas. Es seguro que alguna vez has visto a alguien idear la ruta ideal para evitar el tráfico, planear sus gastos o simplemente pensar en una manera de hacer más sencilla una tarea repetitiva. Si es así, ya has visto qué es el pensamiento computacional y a continuación lo detallaremos de mejor manera.\nDesde su concepción, el concepto ha cambiado muchas veces, en algunos casos se ha tratado como una herramienta mental, en otras como un proceso de pensamiento o incluso como una estrategia. A continuación se presenta la primera definición formal así como una de las más aceptadas en la actualidad.\n'El pensamiento computacional implica resolver los problemas, diseñar sistemas y entender el comportamiento humano, aprovechando los conceptos fundamentales para las ciencias informáticas. El pensamiento computacional incluye una gama de herramientas mentales que reflejan la amplitud del campo de la informática.'(Wing,2006)\n'El pensamiento computacional es el proceso de reconocimiento de aspectos de la informática en el mundo que nos rodea, y aplicar herramientas y técnicas de la informática para comprender y razonar sobre los sistemas y procesos tanto naturales como artificiales.' (The Royal Society,2012)\nAnte esto debemos hacer una aclaración: el pensamiento computacional y programar no son lo mismo. Aquí estamos hablando de la capacidad de utilizar el pensamiento abstracto para simplificar los elementos de un problema, obteniendo así elementos de importancia y un modelo que nos permita generar como solución una secuencia de procesos ejecutables en un sistema informático.\nAhora que sabemos de lo que estamos hablando, es importante darnos cuenta de los principios o pilares que lo conforman.'\n*1.- *Descomposición *de *un *problema: No es necesario idear una solución para el problema complejo en su totalidad, lo ideal es dividirlo en partes más pequeñas y manejables, permitiendo un análisis y respuesta individuales.\n*2.- *Reconocer *patrones: A continuación busca las similitudes o características comunes que se comparten entre problemas. De esta manera puedes reutilizar soluciones que han probado ser eficientes\n*3.- *Abstraer *lo *relevante: Debes concentrarte en la información que es de relevancia para tu problema, eliminar cualquier característica innecesaria. Generalmente, esto significa encontrar las características generales que tienen en común los elementos. Al tener una abstracción adecuada podemos generar un modelo que guiará nuestra idea de solución.\n*4.- *Escritura *de *algoritmos: Finalmente, se debe generar las instrucciones paso a paso para resolver el problema, teniendo en cuenta todo lo que hemos observado con anterioridad. Estos algoritmos pueden ser diagramas o pseudocódigo, pero siempre se busca idear los más eficientes.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id":"1-1-E",
+            "imagen": "https://i.imgur.com/nT202RR.png",
+            "pregunta": "Un camión tiene que hacer una entrega en una casa ¿Qué pasos debe seguir para llegar si tiene las siguientes restricciones?\n1.- Avanza hacia adelante hasta que ya no puede seguir\n2.- Puede girar 90° a la izquierda\n3.- Puede girar 90° a la derecha",
+            "respuestas": {
+                "1": {
+                    "contenido": "1, 2, 1, 2, 1, 2, 1, 3, 1, 3, 1, 2, 1",
+                    "retroalimentacion": "El camión logra llegar al destino",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "1, 2, 1, 2, 1, 1",
+                    "retroalimentacion": "El recorrido es posible de realizar sin embargo no se llega a la casa",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "1, 3, 1, 2, 1, 2, 3, 1",
+                    "retroalimentacion": "El recorrido no es posible de realizar pues el primer giro a la derecha es imposible de hacer",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "1, 2, 3, 2, 1, 2, 3, 1",
+                    "retroalimentacion": "El recorrido no es posible de realizar pues después de el primer giro a la izquierda no se da ningún avance y se procede a hacer un giro más.",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id":"1-1-P",
+            "pregunta": "¿Qué es el pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Resolver problemas matemáticos.",
+                    "retroalimentacion": "El pensamiento computacional va más allá de las matemáticas. Incluye habilidades como la descomposición de problemas, la abstracción, el reconocimiento de patrones y el diseño de algoritmos, que son aplicables a una amplia gama de problemas, no solo los matemáticos.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Un proceso de pensamiento relacionado con la tecnología.",
+                    "retroalimentacion": "Esta respuesta captura la esencia del pensamiento computacional sin limitarse a una actividad específica como programar o diseñar software",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Programar sistemas informáticos.",
+                    "retroalimentacion": "Si bien la programación es una parte importante del pensamiento computacional, este también abarca la capacidad de descomponer problemas, identificar patrones, abstraer conceptos y diseñar algoritmos, que son habilidades fundamentales incluso para aquellos que no están directamente involucrados en la programación de sistemas informáticos.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Diseñar herramientas de software.",
+                    "retroalimentacion": "Diseñar herramientas de software no puede ser la respuesta única para definir el pensamiento computacional porque este abarca habilidades más amplias como la descomposición de problemas, la abstracción y el diseño de algoritmos, que son aplicables en diversos contextos más allá del desarrollo de software.",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id":"1-2-P",
+            "pregunta": "¿Cuál es una de las definiciones más aceptadas del pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "El proceso de programar algoritmos en computadoras.",
+                    "retroalimentacion": "El pensamiento computacional implica más que simplemente programar algoritmos en computadoras. También incluye habilidades analíticas, resolución de problemas, identificación de patrones y abstracciones, y trabajo con datos de manera estructurada.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "El reconocimiento de aspectos de la informática en el mundo que nos rodea.",
+                    "retroalimentacion": "Reconocer aspectos de la informática en el mundo que nos rodea implica ver cómo los conceptos informáticos, como la descomposición de problemas, el reconocimiento de patrones y la abstracción, se aplican en diferentes contextos más allá de la informática pura.",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "La resolución de problemas en el ámbito de la biología.",
+                    "retroalimentacion": "El pensamiento computacional no está limitado a un solo dominio o campo, como la biología. Más bien, es un enfoque amplio para resolver problemas que se aplica a una variedad de áreas, incluida la biología, pero no se limita a ella.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "La capacidad de diseñar sistemas de inteligencia artificial.",
+                    "retroalimentacion": "El diseño de sistemas de inteligencia artificial puede implicar el uso de pensamiento computacional, pero este va más allá y abarca una gama más amplia de habilidades y conceptos",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id":"1-3-P",
+            "pregunta": "¿Cuál de las siguientes no es una característica del pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Descomposición de un problema.",
+                    "retroalimentacion": "Esta característica implica dividir un problema grande en partes más pequeñas y manejables. Este proceso es fundamental en el pensamiento computacional ya que permite analizar y entender problemas complejos de manera más efectiva.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Reconocimiento de patrones.",
+                    "retroalimentacion": "Esta habilidad es esencial en el pensamiento computacional, ya que permite encontrar relaciones entre elementos y utilizar esta información para comprender mejor un problema o desarrollar soluciones.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Creación de soluciones abstractas.",
+                    "retroalimentacion": "El pensamiento computacional involucra la capacidad de crear soluciones abstractas, es decir, soluciones que no dependen de un contexto específico y pueden aplicarse a diferentes situaciones o problemas similares. ",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Optimización de recursos.",
+                    "retroalimentacion": "Aunque la optimización de recursos puede ser una práctica importante en la resolución de problemas computacionales y en el desarrollo de algoritmos eficientes, no es una característica distintiva del pensamiento computacional en sí mismo. ",
+                    "estado": "true"
+                }
+            }
+        },
+        "4": {
+            "id":"1-4-P",
+            "pregunta": "¿Qué implica 'abstraer lo relevante' en el contexto del pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Concentrarse en detalles irrelevantes.",
+                    "retroalimentacion": "Centrarse en detalles irrelevantes sería lo opuesto a abstraer lo relevante y conduciría a una comprensión incorrecta del problema o a soluciones ineficaces.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Encontrar características generales comunes en los elementos.",
+                    "retroalimentacion": "Abstraer lo relevante en el pensamiento computacional implica identificar las características esenciales o patrones comunes en los elementos relacionados con un problema. Al hacerlo, se puede simplificar la comprensión del problema y desarrollar soluciones más efectivas",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Ignorar por completo la información del problema.",
+                    "retroalimentacion": "Ignorar completamente la información del problema conduciría a una comprensión incompleta o incorrecta del mismo y a la generación de soluciones inadecuadas.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Diseñar algoritmos complicados.",
+                    "retroalimentacion": "Abstraer lo relevante no está necesariamente relacionado con la complejidad de los algoritmos. Puede ser que la solución a un problema requiera un algoritmo simple o uno más complejo, dependiendo de la naturaleza del problema y de cómo se abstraigan los aspectos relevantes del mismo.",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id":"1-5-P", 
+            "pregunta": "¿Cuál es uno de los pilares del pensamiento computacional mencionados en el texto?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Descomposición de un problema.",
+                    "retroalimentacion": "La descomposición de un problema es uno de los pilares fundamentales del pensamiento computacional. Implica dividir un problema complejo en partes más pequeñas y manejables, lo que facilita su comprensión y resolución. ",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Reconocimiento de patrones solo en la naturaleza.",
+                    "retroalimentacion": "El reconocimiento de patrones es una parte importante del pensamiento computacional, pero no se limita únicamente a la naturaleza. ",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Ignorar cualquier información irrelevante.",
+                    "retroalimentacion": "Aunque es importante filtrar la información irrelevante, no constituye uno de los pilares del pensamiento computacional. ",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Realizar directamente a la escritura de algoritmos.",
+                    "retroalimentacion": "Realizar directamente a la escritura de algortimos sin comprender completamente el problema y sin descomponerlo adecuadamente puede conducir a soluciones ineficientes o incorrectas.",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

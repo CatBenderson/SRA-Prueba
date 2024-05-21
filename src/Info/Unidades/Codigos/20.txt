@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "public void recorrerInOrder(Nodo fruta) {\n        if (fruta != null) {\n            recorrerInOrder(fruta.izquierda);\n            System.out.println(''Cantidad: '' + fruta.cantidad + '', Nombre: '' + fruta.nombre);\n            recorrerInOrder(fruta.derecha);\n        }\n    }\n\n    public void recorrerPreOrder(Nodo fruta) {\n        if (fruta != null) {\n            System.out.println(''Cantidad: '' + fruta.cantidad + '', Nombre: '' + fruta.nombre);\n            recorrerPreOrder(fruta.izquierda);\n            recorrerPreOrder(fruta.derecha);\n        }\n    }\n\n    public void recorrerPostOrder(Nodo fruta) {\n        if (fruta != null) {\n            recorrerPostOrder(fruta.izquierda);\n            recorrerPostOrder(fruta.derecha);\n            System.out.println(''Cantidad: '' + fruta.cantidad + '', Nombre: '' + fruta.nombre);\n        }\n    }",
+                "texto": "*recorrerInOrder(Nodo *fruta): Este método realiza un recorrido inorden del árbol, lo que significa que primero visita el nodo izquierdo, luego el nodo actual y finalmente el nodo derecho.\n*recorrerPreOrder(Nodo *fruta): Este método realiza un recorrido en preorden del árbol, lo que significa que primero visita el nodo actual, luego el nodo izquierdo y finalmente el nodo derecho.\n*recorrerPostOrder(Nodo *fruta): Este método realiza un recorrido en postorden del árbol, lo que significa que primero visita el nodo izquierdo, luego el nodo derecho y finalmente el nodo actual.\n"
+            },
+            "python": {
+                "codigo": "    def recorrer_inorder(self, nodo):\n        if nodo is not None:\n            self.recorrer_inorder(nodo.izquierda)\n            print(\n                ''Cantidad: '' + str(nodo.cantidad) + '', Nombre: '' + nodo.nombre\n            )\n            self.recorrer_inorder(nodo.derecha)\n    \n    def recorrer_preorder(self, nodo):\n        if nodo is not None:\n            print(\n                ''Cantidad: '' + str(nodo.cantidad) + '', Nombre: '' + nodo.nombre\n            )\n            self.recorrer_preorder(nodo.izquierda)\n            self.recorrer_preorder(nodo.derecha)\n\n    def recorrer_postorder(self, nodo):\n        if nodo is not None:\n            self.recorrer_postorder(nodo.izquierda)\n            self.recorrer_postorder(nodo.derecha)\n            print(\n                ''Cantidad: '' + str(nodo.cantidad) + '', Nombre: '' + nodo.nombre\n            )",
+                "texto": "*recorrer_inorder(self, *nodo): Este método realiza un recorrido inorden del árbol, que significa que primero visita el nodo izquierdo, luego el nodo actual y finalmente el nodo derecho.\n*recorrer_preorder(self, *nodo): Realiza un recorrido en preorden del árbol, que significa que primero visita el nodo actual, luego el nodo izquierdo y finalmente el nodo derecho.\n*recorrer_postorder(self, *nodo): Realiza un recorrido en postorden del árbol, que significa que primero visita el nodo izquierdo, luego el nodo derecho y finalmente el nodo actual.\n"
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

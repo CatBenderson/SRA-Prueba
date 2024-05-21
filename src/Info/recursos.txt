@@ -1,0 +1,16 @@
+{
+    "nombre": "Recursos de apoyo",
+    "descripcion": "Los contenidos de esta experiencia educativa se encuentran diseñados siguiendo los lenguajes de programación Java y Python. En caso de no contar con la experiencia en alguno de estos lenguajes, ofrecemos los siguientes cursos de apoyo.",
+    "fuentes": [
+        {
+            "id": "1",
+            "lenguaje": "Curso básico para Java",
+            "url": "https://www.tutorialspoint.com/java/index.htm"
+        },
+        {
+            "id": "2",
+            "lenguaje": "Curso básico para Python",
+            "url": "https://www.tutorialspoint.com/python/index.htm"
+        }
+    ]
+}

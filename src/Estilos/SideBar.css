@@ -1,0 +1,38 @@
+.contenedor-sidebar {
+    background-color: #18529D;
+    max-width: 19vw;
+    min-width: 190px;
+    min-height: 100vh;
+    color: #FFFFFF;
+
+    
+}
+
+.titulo-sidebar {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.icono {
+    margin: auto;
+    display: block;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.opciones {
+    margin: auto;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+
+.opciones:hover {
+    background-color: #2262B4;
+}
