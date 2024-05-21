@@ -1,0 +1,234 @@
+{
+    "id": "23",
+    "nombre": "Grafos: Propiedades",
+    "contenido": "Los grafos tienen otras propiedades además de las que contemplamos en la unidad anterior. Algunas de sus propiedades principales son la adyacencia, la ponderación y el etiquetado.\n\n*Adyacencia: Se refiere a la relación que existe entre dos vértices conectados por medio de una arista. Se dice que dos vértices son adyacentes o vecinos si entre ellos existe un enlace directo. Esto también quiere decir que para una arista e = {a, b}, a y b son extremos de e a la vez que a y b son adyacentes entre sí.\n \n*Ponderación:  En algunos casos es necesario otorgar un valor a las aristas de un grafo. Este valor se conoce como ponderación o peso y aporta información relevante al modelo. Un grafo cuyas aristas cuentan con una ponderación es lo que se conoce como un grafo ponderado\n\n*Planaridad: Se refiere a la cualidad que tienen aquellos grafos que pueden ser representados sin que dos aristas o arcos se intersequen. \n\nDe la misma manera existen otros tipos de grafos además de los dirigidos y no dirigidos. \n\n*Grafos *conexos *y *no *conexo:  La diferencia entre estos grafos se encuentra en las conexiones existentes entre cada uno de sus vértices. Los grafos conexos son aquellos grafos en los que cada par de vértices se encuentra unido por un camino, esto quiere decir que debe existir al menos un camino para poder llegar de un vértice a cualquier otro. Por otro lado, los grafos no conexos se conforman de al menos dos subgrafos conexos pero que no tienen relación entre ellos.\n\n*Grafos *cíclicos *y *acíclicos: Los ciclos son una secuencia de vértices conectados por aristas donde el primer y último vértice son el mismo. Se trata de caminos cerrados donde los vértices se visitan una vez exceptuando el primero y el último que son el mismo. Un grafo cíclico es un grafo que contiene al menos un ciclo mientras que los grafos acíclicos no incluyen ningún ciclo dentro de su estructura.\n",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "23-1-E",
+            "imagen": "https://i.imgur.com/LYjO68l.png",
+            "pregunta": "Indica de qué tipo es este grafo",
+            "respuestas": {
+                "1": {
+                    "contenido": "Conexo y acíclico",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Conexo y ponderado",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Cíclico y ponderado",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "No conexo y cíclico",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "23-2-E",
+            "imagen": "https://i.imgur.com/U33BCfU.png",
+            "pregunta": "Indica qué arista se debe eliminar para obtener un grafo con planaridad y conexo",
+            "respuestas": {
+                "1": {
+                    "contenido": "Roja",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Azul",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Verde",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Naranja",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "23-1-P",
+            "pregunta": "¿Cómo se define la adyacencia en un grafo?",
+            "respuestas": {
+                "1": {
+                    "contenido": "La relación entre dos vértices conectados por medio de una arista.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "La cantidad de aristas en el grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "La longitud del camino más corto entre dos vértices.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "La relación entre dos aristas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "23-2-P",
+            "pregunta": "¿Qué es la ponderación en un grafo?",
+            "respuestas": {
+                "1": {
+                    "contenido": "La cualidad de un grafo que puede ser representado sin que dos aristas se intersequen.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "El número de vértices en el grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "El valor asignado a las aristas de un grafo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "La cualidad de un grafo en el que cada par de vértices se encuentra unido por un camino.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "23-3-P",
+            "pregunta": "¿Cómo se llama a un grafo que puede ser representado sin que dos aristas se intersequen?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Grafo conexo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Grafo ponderado.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Grafo planar.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Grafo cíclico.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "23-4-P",
+            "pregunta": "¿Cuál es la diferencia entre grafos conexos y no conexos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Los grafos conexos tienen aristas sin dirección, mientras que los no conexos tienen aristas dirigidas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Los grafos conexos no tienen ciclos, mientras que los no conexos pueden tener ciclos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                "contenido": "Los grafos conexos tienen cada par de vértices unidos por un camino, mientras que los no conexos no tienen relación entre algunos de sus vértices.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Los grafos conexos tienen una ponderación asignada a sus aristas, mientras que los no conexos no tienen ponderación.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "23-5-P",
+            "pregunta": "¿Qué caracteriza a un grafo cíclico?",
+            "respuestas": {
+                "1": {
+                    "contenido": "No incluye ningún ciclo dentro de su estructura.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Contiene al menos un ciclo dentro de su estructura",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Cada par de vértices se encuentra unido por un camino.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Puede ser representado sin que dos aristas se intersequen.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

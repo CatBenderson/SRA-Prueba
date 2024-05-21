@@ -1,0 +1,234 @@
+{
+    "id": "2",
+    "nombre": "Tipos de problemas: máquina de estados finito",
+    "contenido": "Como se mencionó en el tema anterior, el pensamiento computacional se aplica en diferentes campos de la vida cotidiana y de la tecnología. En este caso abordaremos una de las categorías de problemas existentes en este campo de la informática.\nLas máquinas de estados finitos son un concepto informático bastante extendido ya que se utilizan en casi todos los sistemas. Pueden entenderse como modelos computacionales que describen el comportamiento de un sistema mediante un número determinado de estados y de transiciones entre tales estados. Una de sus características es que en un determinado momento solo puede encontrarse en un estado de todos los posibles.\nEste tipo de máquinas siguen un conjunto de reglas que indican que transiciones puede o no realizas así como qué entradas provocan cada una de estas transiciones.\n \nTambién podemos observar las transiciones junto a sus respectivas entradas, las entradas son las que determinan al estado al que pasará. Por ejemplo, al ubicarnos en el estado inicial A, tenemos 2 posibles transiciones. Si lo que tenemos como entrada es T1 entonces la máquina pasará al estado B, en cambio, si tenemos como entrada T2 entonces pasará al estado C.\nHablando de transiciones es importante notar que estas pueden ser de X tipos:\n*1. *Transiciones *deterministas: Ocurren cuando un estado solo tiene una transición posible para una entrada. Conociendo el estado y la entrada específicos podemos saber qué estado será el siguiente.\n*2. *Transiciones *no *deterministas: En este caso, un estado puede tener más de una transición para una misma entrada. \n*3. *Transiciones *nulas *(ε): Aunque no se da en todos los casos, pueden existir situaciones en las que ciertas transiciones no requieren de una entrada. Se utilizan para representar movimientos sin entrada específica.\n*4. *Transiciones *de *loop: Ocurre cuando dada una entrada, la transición permite pasar al mismo estado en el que inició.\nAhora que conocemos que son las máquinas de estados finitos y sus elementos, podemos ver en que situaciones pueden ser útiles. Como ya se ha mencionado, son ampliamente utilizadas para modelar y solucionar problemas en áreas como la informática o la ingeniería.\n• *Automatización *de *Circuitos *Digitales: Las MEF se utilizan en el diseño de circuitos digitales secuenciales, como contadores, registros de desplazamiento y máquinas de estados secuenciales en sistemas electrónicos y microcontroladores.\n• *Compiladores *y *Analizadores *Sintácticos: Se utilizan MEF para construir analizadores sintácticos que reconocen y procesan la estructura de un lenguaje de programación. Cada etapa del análisis sintáctico se puede modelar como una MEF.\n• *Programación *de *autómatas: Un autómata funciona gracias a que cuenta con una secuencia programada de instrucciones y dependiendo de las entradas que obtenga serán las acciones que realizará. \nAhora hemos dejado claro que las máquinas de estados finitos son de gran importancia y utilidad en nuestro campo que es la informática. Es gracias a su versatilidad que podemos aprovecharlas para resolver problemas de automatización, de análisis de secuencias y de cambios de estado en el tiempo.\n",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/KTt6g3T.jpeg",
+            "alt": "Este diagrama representa una máquina de estados finitos con 4 estados:\n*A: Es el estado inicial es decir el punto en el que comienza la máquina, a partir de aquí comienza el procesamiento.\n*D: Es el estado final y como su nombre lo indica es cuando el procesamiento llega a su fin obteniendo un resultado final o deseable.\n*B *y *C:  Son estados transitorios, son pasos intermedios del procesamiento."
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "2-1-E",
+            "imagen": "https://i.imgur.com/8yKZB2b.jpeg",
+            "pregunta": "Con base en el diagrama y siguiendo la cadena 0110021011, indica cual es el estado final  y si se logra o llegar al estado deseado",
+            "respuestas": {
+                "1": {
+                    "contenido": "Estado B, se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Estado A, no se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Estado D, se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Estado D, no se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "2-2-E",
+            "imagen": "https://i.imgur.com/8yKZB2b.jpeg",
+            "pregunta": "Con base en el diagrama y siguiendo la cadena 1010021001, indica cual es el estado final  y si se logra o llegar al estado deseado",
+            "respuestas": {
+                "1": {
+                    "contenido": "Estado E, se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Estado C, se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Estado C, no se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Estado E, no se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "2-3-E",
+            "imagen": "https://i.imgur.com/8yKZB2b.jpeg",
+            "pregunta": "Con base en el diagrama y siguiendo la cadena 1200000020, indica cual es el estado final  y si se logra o llegar al estado deseado",
+            "respuestas": {
+                "1": {
+                    "contenido": "Estado B, se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Estado B, no se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Estado F, no se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Estado D, se llega al estado final",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "2-1-P",
+            "pregunta": "¿Qué representan los estados en una máquina de estados finitos (MEF)?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Las transiciones entre estados.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Los resultados finales del procesamiento.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Las condiciones o situaciones del sistema.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Las acciones asociadas a las transiciones.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "2-2-P",
+            "pregunta": "¿Cuál es la función de un estado final en una MEF?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Indicar el inicio del procesamiento.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Representar condiciones de error.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Indicar el punto donde se obtiene un resultado deseable.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Modelar un estado transitorio.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "2-3-P",
+            "pregunta": "¿Cómo se llaman las transiciones que permiten que un estado pase al mismo estado en una MEF?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Transiciones deterministas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Transiciones no deterministas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Transiciones nulas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Transiciones de loop.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "4": {
+            "id": "2-4-P",
+            "pregunta": "¿Qué aplicación mencionada en el texto utiliza las MEF para modelar circuitos digitales secuenciales?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Compiladores y Analizadores Sintácticos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Automatización de Circuitos Digitales.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Programación de autómatas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Modelado de Protocolos de Comunicación en Telecomunicaciones.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "2-5-P",
+            "pregunta": "¿Cuál es una característica de las transiciones no deterministas en una MEF?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Cada estado tiene una única transición posible para una entrada dada.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Pueden existir múltiples transiciones para un estado y entrada específicos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "No requieren de una entrada específica.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Permiten transiciones entre estados diferentes.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

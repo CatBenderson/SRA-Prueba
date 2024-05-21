@@ -1,0 +1,234 @@
+{
+    "id": "24",
+    "nombre": "Grafos: Representación",
+    "contenido": "Existen diferentes maneras de representar o implementar grafos en los diferentes lenguajes de programación. Las dos representaciones principales son por medio de matrices de adyacencia y listas de adyacencia.\n\n*Matriz *de *adyacencia: Se trata de una representación linear de un grafo. Consiste de una matriz cuadrada cuya cantidad de filas y columnas es la misma que la cantidad de vértices que tiene el grafo. El contenido de la matriz es el mapeado de las aristas del grafo. En el caso de los grafos no ponderados se utiliza 0 para indicar que no hay relación entre vértices y 1 para mapear una arista. En el caso de que las aristas tengan peso, es decir que sea un grafo ponderado, se ocupará el valor del peso en lugar el 1 para indicar la existencia de la arista.\n\n*Listas *de *adyacencia: Las listas de adyacencia son listas enlazadas en las que cada nodo representa un vértice. En caso de existir una relación entre nodos, esta se representa por medio de un apuntador del primer vértice al segundo y así sucesivamente con cada vértice adyacente. Una vez listadas todas las relaciones, el último apuntador se define como nulo. De igual manera de esta manera se pueden representar grafos ponderados y no ponderados. En el caso de los grafos ponderados, sería necesario aumentar un espacio en el nodo de la lista de adyacencia que muestra el peso de la arista.",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/hsaT5F5.png",
+            "alt": "Matriz de adyacencia de un grafo no ponderado"
+        },
+        "2": {
+            "url": "https://i.imgur.com/Xbm9f49.png",
+            "alt": "Matriz de adyacencia de un grafo ponderado"
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "24-1-P",
+            "pregunta": "¿Cómo se representa un grafo mediante una matriz de adyacencia?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Mediante una lista enlazada de nodos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Mediante una matriz rectangular donde se utiliza 0 para indicar la presencia de aristas y 1 para indicar su ausencia.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Mediante una lista enlazada donde cada nodo tiene un valor numérico.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Mediante una matriz cuadrada donde se utiliza 0 para indicar la ausencia de aristas y 1 para indicar su presencia.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "24-2-P",
+            "pregunta": "¿Qué representa cada fila y columna en una matriz de adyacencia?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Representan los vértices del grafo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Representan las aristas del grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Representan los pesos de las aristas del grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Representan las relaciones de adyacencia entre los vértices del grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "24-3-P",
+            "pregunta": "¿Cómo se representa un grafo mediante listas de adyacencia?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Mediante una matriz cuadrada donde se utiliza 0 para indicar la ausencia de aristas y 1 para indicar su presencia.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Mediante una lista enlazada donde cada nodo tiene un valor numérico.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Mediante una lista enlazada donde cada nodo representa un vértice y contiene apuntadores a los vértices adyacentes.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Mediante una matriz rectangular donde las filas representan vértices y las columnas aristas",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "24-4-P",
+            "pregunta": "¿Qué información adicional se necesita en una lista de adyacencia para representar un grafo ponderado?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Un conjunto de pares ordenados.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Un valor booleano que indica la existencia de una arista.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Un valor que indica el peso de la arista.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Una matriz cuadrada.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "24-5-P",
+            "pregunta": "¿Qué tipo de estructura de datos se utiliza para implementar una lista de adyacencia en muchos lenguajes de programación?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Matriz bidimensional.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Árbol binario.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Lista enlazada.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Pila.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "id": "20",
+    "nombre": "Árboles binarios de búsqueda: Operaciones complementarias",
+    "contenido": "Algunas de las operaciones complementarias en los árboles binarios de búsqueda pueden ser los diferentes tipos de recorridos que pueden realizarse. Estos se tratan de los recorridos inorden, preorden y posorden. \nA continuación entraremos en detalle con cada uno de estos. \n\n*Recorrido *inorden: Es el recorrido en el que se visitan de manera recursiva los nodos del subárbol izquierdo, posteriormente el nodo raíz y finalmente un recorrido recursivo del subárbol derecho.\n*Recorrido *preorden: En un recorrido en preorden, visitamos primero el nodo raíz, luego recursivamente recorremos el subárbol izquierdo, seguido de un recorrido recursivo del subárbol derecho.\n*Recorrido *posorden: En un recorrido en postorden, se realizan recursivamente recorridos  del subárbol izquierdo y del subárbol derecho seguidos de una visita al nodo raíz\n\nLa implementación de estos recorridos se lleva a cabo de la siguiente manera: \n",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "20-1-E",
+            "imagen": "",
+            "pregunta": "En un árbol de búsqueda que almacena los datos de empleados de una empresa, donde cada empleado tiene años de servicio y un nombre. ¿Cual es el orden final tras aplicar el recorrido preorden de los siguientes elementos? \n Años de servicio: 14, Nombre: Alejandro\n\nAños de servicio: 18, Nombre: Laura\n\nAños de servicio: 12, Nombre: Carlos\n\nAños de servicio: 1, Nombre: Martin\n\nAños de servicio: 3, Nombre: Sofía\n\nAños de servicio: 6, Nombre: Ana",
+            "respuestas": {
+                "1": {
+                    "contenido": "14, 13, 12, 1, 6, 18",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "18, 14, 12, 1, 3, 6",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "14, 12, 1, 3, 6, 18",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "14, 12, 1, 3, 6",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "20-2-E",
+            "imagen": "",
+            "pregunta": "Utilizando los mismos datos del ejercicio anterior ¿Cual es el orden final tras aplicar el recorrido inorden de los elementos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "1, 3, 6, 12, 14, 18",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "14, 1, 3, 6, 12, 18",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "1, 3, 6, 12, 14, 18, 14",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "1, 2, 3, 6, 14, 18",
+                    "retroalimentacion": "false",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "20-3-E",
+            "imagen": "",
+            "pregunta": "Utilizando los mismos datos del primer ejercicio ¿Cual es el orden final tras aplicar el recorrido postorden de los elementos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "7, 3, 1, 12, 18, 14",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "6, 3, 1, 12, 14, 18",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "6, 3, 1, 12, 18",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "6, 3, 1, 12, 18, 14",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "20-1-P",
+            "pregunta": "¿En qué orden se visita primero el nodo raíz en el recorrido preorden?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Después del subárbol derecho",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Después del subárbol izquierdo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Antes de cualquier otro nodo",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Después de visitar todos los nodos del árbol",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "20-2-P",
+            "pregunta": "¿Qué recorrido visita primero el nodo izquierdo, luego el nodo actual y finalmente el nodo derecho?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Recorrido preorden",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Recorrido inorden",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Recorrido posorden",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Ninguna de las anteriores",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "20-3-P",
+            "pregunta": "¿Cuál es el orden de visita de los nodos en el recorrido inorden?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Nodo actual, nodo izquierdo, nodo derecho",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Nodo derecho, nodo izquierdo, nodo actual",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Nodo izquierdo, nodo actual, nodo derecho",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "No hay un orden específico",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "20-4-P",
+            "pregunta": "En un recorrido en postorden, ¿cuál nodo se visita primero?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Nodo raíz",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Nodo izquierdo",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Nodo derecho",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "No se visita ningún nodo primero",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "20-5-P",
+            "pregunta": "¿En qué orden se visitan los nodos en el recorrido posorden?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Nodo actual, nodo izquierdo, nodo derecho",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Nodo izquierdo, nodo derecho, nodo actual",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Nodo derecho, nodo izquierdo, nodo actual",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "No hay un orden específico",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

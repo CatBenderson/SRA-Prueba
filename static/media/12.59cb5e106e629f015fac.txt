@@ -1,0 +1,234 @@
+{
+    "id": "12",
+    "nombre": "Mejores prácticas: Técnicas de codificación",
+    "contenido": "Un código limpio significa un código más legible y más sencillo de mantener. Una gran herramienta que nos ayuda a lograr un código de calidad, son las técnicas de codificación, estas pueden aplicarse a cualquier lenguaje de programación en toda clase de proyectos. A continuación se listarán algunas de las técnicas esenciales a la hora de programar.\n\n*Planea *antes *de *programar:  Consiste en definir, desde las clases, módulos y funciones que conforman un proyecto hasta en qué funcionalidad se va a trabajar así como dividirla en partes pequeñas más fáciles de completar.\n\n*Comenta *el *código: No siempre seremos nosotros los encargados de modificar nuestro código por lo que agregar comentarios, sobre todo en las partes más complejas, puede ayudar a desarrolladores a entender el motivo y la funcionalidad del código. Un buen comentario debe incluir en porqué se está haciendo y no solo qué es lo que hace.\n\n*Prueba *tu *código: Cuando se prueba un código se encuentran los errores y problemas a tiempo, es recomendable realizar pruebas usando un framework de pruebas y así automatizar este proceso.\n\n*Principio *DRY: DRY son las siglas para ''Don´t Repeat Yourself'' o ''No te Repitas tú Mismo''. Este principio se basa en que debemos confiar en funciones, clases e instancias para evitar reescribir código que ya hemos escrito una vez. \n\n*Disminuye *el *copiar *y *pegar: En muchos casos cuando nos encontramos atascados en un problema, confiamos en la ayuda de internet o algún proyecto anterior en el que hemos trabajado y terminamos copiando y pegando código. Esto no significa que tenemos que idear la solución completamente por nuestra cuenta si no que tomar esas ayudas como inspiración para escribir nuestro propio código.\n\n*Trabaja *continuamente *en *tus *habilidades: Sabemos cómo la tecnología está en constante avance, esto incluye también los lenguajes o frameworks con los que trabajamos. Trata siempre de estar al día con lo más usado en el área profesional y mantente practicando la programación de manera regular.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "12-1-E",
+            "imagen": "https://i.imgur.com/iTzSp4W.png",
+            "pregunta": "¿Qué técnica de programación falta en el siguiente código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Prueba tu código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Comentar apropiadamente el código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Disminuye el copiar y pegar",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Principio DRY",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "12-2-E",
+            "imagen": "https://i.imgur.com/Bxv3NmO.png",
+            "pregunta": "¿Qué técnica de programación falta en el siguiente código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Comentar apropiadamente el código",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Prueba tu código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Principio DRY",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Planea antes de programar",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "12-1-P",
+            "pregunta": "¿Qué implica la técnica de ''Planea antes de programar''?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Definir las clases, módulos y funciones de un proyecto. ",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Comentar el código ",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Probar el código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Planificar el desarrollo del proyecto.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "12-2-P",
+            "pregunta": "¿Cuál es la función principal de los comentarios en el código? ",
+            "respuestas": {
+                "1": {
+                    "contenido": "Facilitar la copia y pegado. ",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Explicar qué hace el código. ",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Automatizar el proceso de pruebas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Planificar el desarrollo del proyecto.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "12-3-P",
+            "pregunta": "¿Qué significa el principio DRY en programación? ",
+            "respuestas": {
+                "1": {
+                    "contenido": "Don't Really Yield.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Do Repeat Yourself.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Don't Run Yet.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Don't Repeat Yourself.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "4": {
+            "id": "12-4-P",
+            "pregunta": "¿Por qué es recomendable realizar pruebas al código? ",
+            "respuestas": {
+                "1": {
+                    "contenido": "Para aumentar la complejidad del código. ",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Para encontrar errores y problemas a tiempo. ",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Para evitar el uso de funciones e instancias. ",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Para planificar el desarrollo del proyecto.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "12-5-P",
+            "pregunta": "¿Qué se sugiere respecto al copiar y pegar código de internet o proyectos anteriores? ",
+            "respuestas": {
+                "1": {
+                    "contenido": "Evitar completamente el uso de código externo. ",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Repetir el código exacto sin cambios. ",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Utilizarlo como inspiración y escribir nuestro propio código. ",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Agregar comentarios para clarificar el código copiado.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

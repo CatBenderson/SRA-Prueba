@@ -1,0 +1,234 @@
+{
+    "id": "6",
+    "nombre": "Fundamentos: Anticiparse al cambio",
+    "contenido": "Es bien sabido que las tecnologías que utilizamos hoy en día no serán las más eficaces por siempre. Conforme los años avanzan, la tecnología evoluciona y el software que desarrollamos debe estar preparado para ello.\n\nPara los desarrolladores y las empresas es imposible detenerse ante los cambios en el mundo, por un lado ocurren día a día eventos inesperados que nos obligan a cambiar nuestro estilo de vida. Crisis económicas, pandemias, desastres naturales, son todos eventos inesperados que cambiar por completo el actuar de una empresa. Por otro lado cuando hablamos estrictamente de factores que involucran el desarrollo de software encontramos 3 grandes factores que generan cambios en el producto\n\n*Requisitos *cambiantes: Es uno de los aspectos más comunes a los que equipos de desarrollo se enfrentan, los cambios en los requerimientos del cliente muchas veces son urgentes y no puede ocurrir que por modificaciones a las planeaciones el proyecto se rompa. Desde el comienzo del desarrollo debemos tener claro y estar preparados para que estos cambios ocurran\n\n*Control *de *dependencias: Este es un punto muy importante a la hora de trabajar con un proyecto y que va muy de la mano con el mantenimiento. Las dependencias nuevas que se incorporan pueden ser imprevistas, causar problemas o caer en la degradación. Para evitar esto, es muy importante que las dependencias sean controladas por los módulos de la aplicación. Este control consiste en la creación de cortafuegos de dependencias. A través de estos cortafuegos las dependencias no se propagan.\n\n*Asuntos *empresariales:  Este punto suele llegar a salirse de nuestro control pero también debemos estar preparados por si ocurre. Ya sea por un cambio en el volumen comercial del producto o por un cambio en los presupuestos o los tiempos de entrega, debemos contemplar un plan para que la conclusión del proyecto suceda de la mejor manera.\n",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/wswk6PW.png",
+            "alt": "Una manera de afrontar estos cambios es implementar nuevas metodologías de trabajo, sobre todo aquellas que reciben el nombre de ágiles, pueden ser de gran ayuda ya que siguen 4 pasos importantes:\n\n*Especificación *de *líneas *base: Nos permite avanzar de manera gradual, solo pasando a una etapa siguiente cuando las especificaciones hayan sido revisadas, corregidas y aprobadas.\n\n*Identificación *de *objetos: Es importante registrar los cambios que sufren nuestros objetos pues sabemos que en el proceso van a evolucionar. Tener un grafo que muestre esto nos ayuda a organizar mejor nuestro proyecto\n\n*Control *de *versiones: Complementa la evolución de los objetos, al combinar procedimientos y herramientas para gestionar sus versiones. Esto permite especificar configuraciones alternativas de un sistema dependiendo de la versión.\n*Control *estricto *de *cambios: Combina procesamientos humanos y herramientas automáticas para proporcionar un mecanismo de control del cambio. Esto involucra el poder dar de alta y de baja objetos cuando se someten a un cambio, manteniendo un control de acceso y sincronía.\n"
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "6-1-P",
+            "pregunta": "¿Qué factor común puede generar cambios en el desarrollo de software según el texto?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Requisitos cambiantes.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Problemas de infraestructura.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Nuevas tecnologías de desarrollo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Mejoras en la eficiencia del equipo de desarrollo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "6-2-P",
+            "pregunta": "¿Qué es esencial para evitar problemas con dependencias en un proyecto de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Incorporar dependencias de forma constante.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Controlar las dependencias mediante ''cortafuegos''.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Limitar el uso de librerías y dependencias.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Dejar que las dependencias se propaguen libremente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "6-3-P",
+            "pregunta": "¿Qué aspectos pueden afectar los asuntos empresariales en el desarrollo de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Cambios en la interfaz de usuario.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Crisis económicas.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Mejoras en el rendimiento del código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Cambios en los requisitos del cliente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "6-4-P",
+            "pregunta": "¿Qué metodologías de trabajo se mencionan como útiles para afrontar los cambios en el desarrollo de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Metodologías estáticas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Metodologías híbridas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Metodologías ágiles.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Metodologías tradicionales.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "6-5-P",
+            "pregunta": "¿Cuál es uno de los pasos importantes de las metodologías ágiles mencionadas en el texto?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Desarrollo rápido sin especificación previa.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Implementación de tecnologías obsoletas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Control estricto de cambios.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": " Especificación de líneas base.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        }
+    }
+}

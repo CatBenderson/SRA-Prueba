@@ -1,0 +1,234 @@
+{
+    "id": "25",
+    "nombre": "Grafos: Ejemplos",
+    "contenido": "Los grafos pueden aplicarse a una amplia variedad de áreas, desde el campo de la ingeniería y la electrónica hasta biología y medicina, incluyendo claramente las áreas de la computación.\n\n*Modelo *de *red *social: Representar a los usuarios de una red social por medio de grafos resulta de gran utilidad tanto a la hora de abordar estrategias comerciales como al mejorar los sistemas y aplicaciones. En cuanto a las estrategias comerciales se hace mucho uso de algoritmos de detección de comunidades. Estos algoritmos se basan en la idea de que los nodos contenidos dentro de una misma comunidad comparten atributos, características comunes o relaciones fundamentales.\n\n\n*Infraestructura *de *red: La infraestructura de red son todos aquellos elementos de hardware que componen una red. Esto incluye ordenadores, impresoras, servidores, routers, cables entre otros.  Debido a lo extensas que pueden llegar a ser la mejor manera de visualizarlas en su totalidad es por medio de grafos en los que cada elemento de hardware es un vértice y mediante las aristas se indican las relaciones entre ellos. Resulta también muy útil plantearlas en forma de grafos ya que al utilizar algoritmos de grafos se pueden modelar de mejor manera así como optimizar los procesos sobre las redes.\n\n\n*Resolución *de *rutas: La gestión eficiente de procesos y la logística son esenciales para el éxito empresarial. Los grafos pueden modelar flujos de trabajo, rutas de suministro y cadenas de valor. Los algoritmos de grafos pueden encontrar las rutas más cortas, optimizar la asignación de recursos y minimizar los costos operativos, lo que conduce a una mayor eficiencia y competitividad.\n",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "25-1-P",
+            "pregunta": "¿Por qué resulta útil representar a los usuarios de una red social por medio de grafos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Para mejorar la seguridad de la red social.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Para simplificar la estructura de la red social.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Para abordar estrategias comerciales y mejorar los sistemas y aplicaciones.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Para aumentar la velocidad de conexión en la red social.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "25-2-P",
+            "pregunta": "¿En qué consisten los algoritmos de detección de comunidades en una red social?",
+            "respuestas": {
+                "1": {
+                    "contenido": "En identificar usuarios inactivos en la red social.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "En encontrar usuarios con intereses similares en la red social.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "En identificar grupos de usuarios que comparten atributos en la red social.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "En mejorar la velocidad de conexión entre usuarios en la red social.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "25-3-P",
+            "pregunta": "¿Cómo se pueden visualizar de manera efectiva las infraestructuras de red?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Por medio de listas de adyacencia.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Por medio de matrices de adyacencia.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Por medio de árboles de búsqueda binaria.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "Por medio de grafos ",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "4": {
+            "id": "25-4-P",
+            "pregunta": "¿Qué pueden modelar los grafos en la gestión eficiente de procesos y la logística empresarial?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Flujos de trabajo y rutas de suministro.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Estructura de bases de datos.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Modelos de inteligencia artificial.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "Algoritmos de compresión de datos.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "5": {
+            "id": "25-5-P",
+            "pregunta": "¿Qué pueden hacer los algoritmos de grafos en la gestión eficiente de procesos y la logística empresarial?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Encontrar las rutas más largas.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Minimizar la asignación de recursos.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Optimizar la asignación de recursos y encontrar las rutas más cortas.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Maximizar los costos operativos.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "id": "15",
+    "nombre": "Árboles: Fundamentos teóricos",
+    "contenido": "Los árboles son estructuras de datos no lineales y dinámicos conformados por  nodos u hojas que se encuentran conectados por medio de aristas también llamadas ramas. \n\nEn el área de la computación, los nodos suelen representar entidades y objetos mientras que las aristas representan la manera en la que los nodos se relacionan.  A continuación revisaremos algunos de los términos más comunes a la hora de trabajar con árboles.\n\n*Camino: Se refiere a la secuencia de nodos conectados dentro de un árbol\n\n*Raíz: Es el nodo que se encuentra en el punto más alto del árbol, solo puede existir un nodo raíz y sólo un camino existente desde el nodo raíz a cualquier otro nodo, de no cumplirse esta regla no estamos tratando con un árbol.\n\n*Padre: Es cualquier nodo (sin contar la raíz) que tiene al menos un nodo que desciende de él \n\n*Hijo: Es cualquier nodo que desciende de otro nodo. \n\n*Hoja: Se trata de nodos que no tienen hijos\n\n*Subárbol: Es un grupo o sección de nodos que se encuentra dentro del árbol, relacionados por medio de un padre, este a su vez se convierte en la raíz del nuevo subárbol.\n\n*Nivel: Se refiere a las generaciones que hay desde el nodo raíz hasta el nodo en cuestión. La raíz es de nivel cero, los hijos de la raíz serían nivel uno y así sucesivamente.\n\n*Altura: Es el nivel máximo del que consiste un árbol.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "15-1-E",
+            "imagen": "https://i.imgur.com/ZP1I4Tg.png",
+            "pregunta": "¿Cuáles son los nodos hoja de este árbol?",
+            "respuestas": {
+                "1": {
+                    "contenido": "D, J, H, I",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "A, D, H, I",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "A, B, C, D",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "C, E, G, I",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "15-2-E",
+            "imagen": "https://i.imgur.com/ZP1I4Tg.png",
+            "pregunta": "¿Cuál es la altura de este árbol?",
+            "respuestas": {
+                "1": {
+                    "contenido": "3",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "4",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "1",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "2",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "15-3-E",
+            "imagen": "https://i.imgur.com/ZP1I4Tg.png",
+            "pregunta": "¿En qué nivel se encuentra el nodo E?",
+            "respuestas": {
+                "1": {
+                    "contenido": "3",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "4",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "1",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "2",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "15-1-P",
+            "pregunta": "¿Cómo se define un camino en un árbol?",
+            "respuestas": {
+                "1": {
+                    "contenido": "La relación entre nodos y hojas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "La secuencia de nodos conectados dentro del árbol.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "El nivel de un nodo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "La cantidad de hijos de un nodo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "15-2-P",
+            "pregunta": "¿Cuál es la definición de ''hoja'' en un árbol?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Un nodo que no tiene hijos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Un nodo que tiene al menos un nodo descendiente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Un nodo que está en el nivel cero.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Un nodo que se encuentra en la raíz.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "15-3-P",
+            "pregunta": "¿Qué es un ''subárbol'' en la estructura de un árbol?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Un nodo que no tiene hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Un grupo de nodos relacionados por medio de un padre.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Un nodo que se encuentra en el nivel máximo del árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Una raíz que no tiene hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "15-4-P",
+            "pregunta": "¿Cuál es la definición correcta de ''raíz'' en un árbol?",
+            "respuestas": {
+                "1": {
+                    "contenido": "El nodo que no tiene hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "El nodo más bajo del árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "El nodo que se encuentra en el punto más alto del árbol.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "El nodo que tiene más hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "15-5-P",
+            "pregunta": "¿Cómo se llama un nodo que tiene al menos un nodo descendiente?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Padre.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Raíz.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Hoja.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Camino.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

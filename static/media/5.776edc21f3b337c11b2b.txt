@@ -1,0 +1,234 @@
+{
+    "id": "5",
+    "nombre": "Fundamentos: Minimizar la complejidad",
+    "contenido": "Producimos software para poder ayudarnos a manejar tareas del día a día, en contextos cada vez más variados y por personas diferentes, ante esto, es inevitable que las aplicaciones sean cada vez más robustas y complejas.  Sin embargo debemos mantener una estructura simple que nos permita mejorar la eficiencia, calidad y extensibilidad de los proyectos.\nComencemos por reconocer que la complejidad pude ser de 5 tipos:\n*1. *Complejidad *Algorítmica: La eficiencia de los algoritmos utilizados en el software es fundamental. Algoritmos ineficientes pueden llevar a un rendimiento pobre y afectar negativamente la experiencia del usuario.\n*2. *Complejidad *Estructural: La estructura del código es esencial para la comprensión y el mantenimiento. La anidación excesiva de estructuras de control y dependencias complicadas entre módulos pueden aumentar la complejidad y dificultar la gestión del código.\n*3. *Complejidad *de *Datos: La gestión de datos es fundamental en la mayoría de las aplicaciones. Estructuras de datos demasiado complicadas o bases de datos mal diseñadas pueden ser una fuente importante de complejidad.\n*4. *Complejidad *Funcional: La funcionalidad del software debe ser clara y bien definida. Demasiadas funciones o características pueden dificultar la comprensión y el mantenimiento.\n*5. *Complejidad *de *Seguridad: La seguridad es crucial en el desarrollo de software. La falta de medidas de seguridad adecuadas y la exposición a vulnerabilidades pueden tener consecuencias graves.\nAhora que conocemos en qué aspectos puede haber complejidad mostraremos algunas técnicas que podemos aplicar para evitarla o solucionarla.\n*Uso *de *estándares: Ayudan a que un proyecto alcance sus objetivos con eficiencia, calidad y bajo costo. Además aseguran un apoyo en los aspectos de seguridad de un sistema. Algunos de los estándares que se pueden implementar son:\n        • Formatos y contenidos de documentos\n        • Estándares específicos de lenguajes de programación\n        • Nomenclaturas e indentación\n        • Estándares de interfaces o llamadas al sistema\n        • Notaciones de los diagramas.\nComo se puede notar, algunos de estos estándares son internos (son definidos por el mismo equipo de desarrollo) y externos (convenciones reguladas por organizaciones), aplicando ambos se asegura una mejor calidad en el trabajo.\n*Diseño *modular:  Se refiere a una metodología de diseño que implica dividir un sistema de software en módulos o componentes más pequeños y autónomos, donde cada módulo realiza una función o tarea específica dentro del sistema. Estos módulos están diseñados de manera que sean independientes entre sí en la medida de lo posible y se comunican a través de interfaces bien definidas.\n*Técnicas *de *construcción *enfocadas *en *la *calidad: Además de fallos en los requerimiento o en el diseño, pueden existir problemas durante la construcción que afecten la calidad de un producto. Existen muchas técnicas para asegurar la calidad del código:\n        • Pruebas unitarias\n        • Desarrollo en base a pruebas\n        • Programación defensiva)\n        • Debugging\n        • Inspecciones\n        • Revisiones técnicas",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "5-1-E",
+            "imagen": "https://i.imgur.com/MR2FrsP.jpeg",
+            "pregunta": "Gestor de tareas: Consiste en una aplicación que permite a los usuarios crear, organizar y seguir sus tareas ya sea por día, semana o mes. Cuenta con una plataforma de colaboración en equipos y ofrece recordatorios para las tareas pendientes. Juan es un usuario de esta plataforma, sin embargo, en su antiguo dispositivo no recibía las notificaciones de sus tareas además de que solía consumirle mucha batería. De la misma manera considera que es una aplicación lenta, sobre todo al guardar los datos. El simple registro de una tarea tarda más de lo que debería y a veces cuando las quiere ver todas, faltan algunas que ya había registrado. En general considera que la interfaz es muy compleja, a pesar de ya usarla por un tiempo, suele tardar para encontrar alguna funcionalidad que no suele usar frecuentemente. El último problema que ha tenido es que perdió su cuenta anterior, la aplicación mencionó que se debía a un incidente de seguridad que habían sufrido y que tratarían en arreglarlo pronto, sin embargo ha leído en internet que el código de tal aplicación tiene muchas funciones largas y anidadas y que por esto, es difícil de mantener. ¿A qué tipo de complejidad corresponde cada problema?",
+            "respuestas": {
+                "1": {
+                    "contenido": "1c, 2b, 2f, 3e, 3g, 4a, 4h, 5d",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "1d, 2b, 2f, 3e, 3g, 4a, 4h, 5c",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "1c, 2f, 2d, 3e, 3g, 4a, 4h, 5b",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "1e, 2f, 2b, 3c, 3a, 4g, 4h, 5d",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "5-1-P",
+            "pregunta": "¿Cuál de los siguientes aspectos puede afectar negativamente la experiencia del usuario si no se maneja adecuadamente en el desarrollo de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Complejidad estructural",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Complejidad de seguridad",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Complejidad de datos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Complejidad funcional",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "5-2-P",
+            "pregunta": "¿Qué implica la complejidad algorítmica en el desarrollo de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Problemas relacionados con la eficiencia de los algoritmos utilizados.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Dificultad en la comprensión y el mantenimiento del código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Gestión inadecuada de las estructuras de datos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Falta de medidas de seguridad adecuadas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "5-3-P",
+            "pregunta": "¿Cuál es una técnica recomendada para evitar la complejidad estructural en el código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Desarrollo en base a pruebas",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Uso de estándares",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Debugging",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Programación defensiva",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "5-4-P",
+            "pregunta": "Qué implica el diseño modular en el desarrollo de software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Dividir un sistema de software en módulos independientes",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Realizar pruebas unitarias para asegurar la calidad del código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Identificar y corregir errores en el código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Implementar medidas de seguridad para proteger el sistema.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "5-5-P",
+            "pregunta": "¿Cuál de las siguientes técnicas se utiliza específicamente para asegurar la calidad del código durante la construcción del software?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Inspecciones",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Pruebas unitarias",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Análisis de estadísticas",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Desarrollo en base a pruebas",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

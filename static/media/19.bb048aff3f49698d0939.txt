@@ -1,0 +1,234 @@
+{
+    "id": "19",
+    "nombre": "Árboles binarios de búsqueda: Implementación",
+    "contenido": "Teniendo ya un entendimiento de las características que tienen los árboles vamos a demostrar cómo se implementan.\nComo se puede observar en la imagen, nuestro árbol, al igual que como ya lo hemos comentado consiste de nodos. Cada uno de estos nodos contempla apuntadores que nos ayudan a conformar la estructura de nuestro árbol. Con esto en mente, para implementar un árbol será necesario implementar la clase Nodo que servirá como base para la construcción de un árbol binario. Cada objeto de tipo Nodo contiene referencias a su nodo padre, nodo hijo derecho y nodo hijo izquierdo, junto con la información que nos interesa almacenar.",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/FQChFXa.png",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "19-1-E",
+            "imagen": "https://i.imgur.com/saMGKRS.png",
+            "pregunta": "Genera un árbol de búsqueda que almacene los siguientes datos de empleados de una empresa. Cada empleado tiene años de servicio y un nombre. \n\nAños de servicio: 9, Nombre: Juan\nAños de servicio: 2, Nombre: Julio\nAños de servicio: 1, Nombre: Mariano\nAños de servicio: 16, Nombre: Jose\nAños de servicio: 11, Nombre: Nadia\nAños de servicio: 8, Nombre: Karla\nAños de servicio: 4, Nombre: Oscar\n ¿Cuál es el árbol resultante?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Primera imagen",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Segunda imagen",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Tercer imagen",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Cuarta imagen",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "19-1-P",
+            "pregunta": "¿Qué elementos ayudan a conformar la estructura del árbol binario de búsqueda?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Objetos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Datos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Apuntadores",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Nodos hijo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "19-2-P",
+            "pregunta": "¿Cuál es la función principal de la clase Nodo en un árbol binario?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Controlar la inserción de nuevos nodos en el árbol",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Almacenar información asociada a cada nodo",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Realizar operaciones de búsqueda en el árbol",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Determinar la altura del árbol",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "19-3-P",
+            "pregunta": "¿Cuál es la función principal de la clase Nodo en la implementación de árboles binarios?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Almacenar la cantidad y el nombre de cada fruta.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Representar un nodo en la estructura del árbol, con referencias a su nodo padre, hijo derecho e hijo izquierdo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Realizar operaciones de inserción, eliminación y recorrido en el árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Mostrar los nodos del árbol en formato acostado",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "19-4-P",
+            "pregunta": "¿Qué hace el método obtener_menor_valor en un árbol binario?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Inserta un nuevo nodo en el árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Elimina un nodo con el valor más pequeño en un subárbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Muestra los nodos del árbol en un orden específico.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Encuentra el nodo con el valor más pequeño en un subárbol.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "5": {
+            "id": "19-5-P",
+            "pregunta": "¿A qué función apoya el método obtenerMenorValor?",
+            "respuestas": {
+                "1": {
+                    "contenido": "eliminarNodo()",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "insertar()",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "mostrarAcostado()",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "ordenar()",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

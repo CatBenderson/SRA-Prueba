@@ -1,0 +1,123 @@
+{
+    "nombre": "Programación",
+    "descripcion": "Un profesional  dentro del área de Tecnologías de Información requiere tener dominio de saberes en la solución de problemas empleando estructuras de datos y los algoritmos relacionados con ella, ya que repercuten de forma directa en el almacenamiento y tratamiento de la información, desde el punto de vista funcional. Por tanto, la programación se construye sobre los cimientos de dichos algoritmos y estructuras de datos, de ahí la importancia de su conocimiento y aplicación en la solución de problemas específicos.",
+    "imagen": "https://img.freepik.com/fotos-premium/codigo-programacion-pantalla_339569-1124.jpg",
+    "unidades": [
+        {
+            "id": "1",
+            "nombre": "Pensamiento computacional"
+        },
+        {
+            "id": "2",
+            "nombre": "Tipos de problemas: máquina de estados finito"
+        },
+        {
+            "id": "3",
+            "nombre": "Tipos de problemas: red social"
+        },
+        {
+            "id": "4",
+            "nombre": "Construcción de software"
+        },
+        {
+            "id": "5",
+            "nombre": "Fundamentos: Minimizar la complejidad"
+        },
+        {
+            "id": "6",
+            "nombre": "Fundamentos: Anticiparse al cambio"
+        },
+        {
+            "id": "7",
+            "nombre": "Fundamentos: Construir para la verificación"
+        },
+        {
+            "id": "8",
+            "nombre": "Fundamentos: Re-uso"
+        },
+        {
+            "id": "9",
+            "nombre": "Mejores prácticas"
+        },
+        {
+            "id": "10",
+            "nombre": "Mejores prácticas: Estándares de codificación y documentación"
+        },
+        {
+            "id": "11",
+            "nombre": "Mejores prácticas: Calidad en el código"
+        },
+        {
+            "id": "12",
+            "nombre": "Mejores prácticas: Técnicas de codificación"
+        },
+        {
+            "id": "13",
+            "nombre": "Mejores prácticas: Rutinas de alta calidad"
+        },
+        {
+            "id": "14",
+            "nombre": "Estructuras de datos"
+        },
+        {
+            "id": "15",
+            "nombre": "Árboles: Fundamentos teóricos"
+        },
+        {
+            "id": "16",
+            "nombre": "Árboles:  Tipos de árboles"
+        },
+        {
+            "id": "17",
+            "nombre": "Árboles:  Árboles binarios de búsqueda"
+        },
+        {
+            "id": "18",
+            "nombre": "Árboles binarios de búsqueda: Operaciones básicas"
+        },
+        {
+            "id": "19",
+            "nombre": "Árboles binarios de búsqueda: Implementación"
+        },
+        {
+            "id": "20",
+            "nombre": "Árboles binarios de búsqueda: Operaciones complementarias"
+        },
+        {
+            "id": "21",
+            "nombre": "Árboles binarios de búsqueda: Aplicaciones"
+        }
+        ,{
+            "id": "22",
+            "nombre": "Grafos"
+        }
+        ,{
+            "id": "23",
+            "nombre": "Grafos: Propiedades"
+        }
+        ,{
+            "id": "24",
+            "nombre": "Grafos: Representación"
+        }
+        ,{
+            "id": "25",
+            "nombre": "Grafos: Ejemplos"
+        }
+        ,{
+            "id": "26",
+            "nombre": "Métodos de ordenamiento"
+        }
+        ,{
+            "id": "27",
+            "nombre": "Métodos de ordenamiento: Merge Sort"
+        }
+        ,{
+            "id": "28",
+            "nombre": "Métodos de ordenamiento: Heap Sort"
+        }
+        ,{
+            "id": "29",
+            "nombre": "Métodos de ordenamiento: Quick Sort"
+        }
+    ]
+}

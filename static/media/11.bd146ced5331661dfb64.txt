@@ -1,0 +1,234 @@
+{
+    "id": "11",
+    "nombre": "Mejores prácticas: Calidad en el código",
+    "contenido": "La calidad en el código es un aspecto fundamental que impacta en diferentes momentos del ciclo de vida de software. \n\nEl primero de ellos es la detección de errores. Un código de buena calidad va a permitir identificar prontamente las áreas de error, evitando costos mayores en un futuro. Esto va estrictamente relacionado con la agilidad en el desarrollo ya que al poder identificar errores más rápido, se mejora la experiencia al desarrollador y se pueden realizar los cambios con prontitud.\n\nDos aspectos que también son importantes son la mantenibilidad y la escalabilidad pues entre más alta sea la calidad más sencillo será modificar, mantener y escalar un proyecto en un futuro. \n\nAlgunas recomendaciones para genera código de calidad son las siguientes\n\n*Código *limpio: Un código limpio es más fácil de leer, entender y mantener.  Es una tarea a la que se debe dedicar tiempo para asegurar que sea legible y con una buena estructura. Para lograrlo se pueden seguir los estándares de codificación de los que ya hemos hablado (Mejores prácticas: Estándares de codificación y documentación)\n\n*Pruebas *unitarias: Permiten a los desarrolladores identificar y solucionar pequeños problemas antes de que escalen a la vez que les permiten documentar la funcionalidad del código. Existen herramientas con JUnit o Nunit que permiten desarrollar dichas pruebas. Es importante mencionar que al probar se deben incluir todos los casos de uso posibles para una mejor calidad.\n\n*Revisión *de *código: Es una actividad muy importante dentro de un equipo de desarrollo, a pesar de que estemos convencidos de que nuestro código cumple con los estándares requeridos, la revisión por parte de un compañero de equipo o por una herramienta siempre será una ayuda adicional.\n\n*Refactorización *de *código: Se trata de reescribir el código que ya se tiene para mejorarlo sin alterar sus funcionalidades. Esto se hace con la intención de mejorar la legibilidad, eficiencia y mantenibilidad del código. Herramientas como SonarQube o CodeClimate ayudan a detectar las oportunidades de refactorización.\n\n*Control *de *versiones: Un control de versiones permite a los desarrolladores llevar un seguimiento de los cambios en el código a la vez de colaborar de mejor manera gracias a la ayuda de mensajes de confirmación o ramas nuevas. Git o SVN son herramientas muy usadas en este campo.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "11-1-P",
+            "pregunta": "¿Cuál es uno de los beneficios principales de tener código de buena calidad?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Aumento de costos futuros",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Reducción de la velocidad de desarrollo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Identificación más rápida de errores",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Mejora la comunicación entre equipos de desarrollo",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "11-2-P",
+            "pregunta": "¿Cómo contribuye la calidad del código a la agilidad en el desarrollo?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Aumentando la complejidad del proyecto",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Facilitando la experiencia del desarrollador y permitiendo cambios rápidos",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Ralentizando el proceso de identificación de errores",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Reduciendo la colaboración entre desarrolladores",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "11-3-P",
+            "pregunta": "¿Por qué es importante la mantenibilidad y la escalabilidad del código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Porque disminuye la complejidad del proyecto",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Porque aumenta la cantidad de errores en el código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Porque facilita la modificación, mantenimiento y crecimiento del proyecto en el futuro",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Porque disminuye la calidad del proyecto",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "11-4-P",
+            "pregunta": "¿Cuál de las siguientes recomendaciones contribuye a generar código de calidad?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Reducir la cantidad de pruebas unitarias",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "No documentar el código para mantenerlo más claro",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Realizar revisiones de código de forma diaria",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Escribir código limpio y seguir estándares de codificación",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "5": {
+            "id": "11-5-P",
+            "pregunta": "¿Cuál es el propósito de la refactorización de código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Mejorar la legibilidad, eficiencia y mantenibilidad del código sin alterar su funcionalidad",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Aumentar la complejidad del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Reducir la flexibilidad del código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Introducir más errores en el código",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

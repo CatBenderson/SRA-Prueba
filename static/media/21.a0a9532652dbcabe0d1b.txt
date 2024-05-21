@@ -1,0 +1,234 @@
+{
+    "id": "21",
+    "nombre": "Árboles binarios de búsqueda: Aplicaciones",
+    "contenido": "Dentro del campo de las tecnologías de la información, los árboles binarios de búsqueda son una estructura con una amplia variedad de usos y aplicaciones. A continuación mostraremos algunas de ellas.\n\n*Montículo *binario: Un heap o montículo es un árbol binario completo, y además parcialmente ordenado, tal que el valor de su raíz es mayor o igual que las raíces de sus hijos, siendo también heaps ambos hijos. Debido a su estructura permite obtener el mínimo elemento de un conjunto en tiempo constante, sin importar el tamaño del conjunto. Gracias a esto toma importancia en situaciones que utilizan el modelo de cola de propiedad, en la que se obtienen los elementos en base a cierta prioridad. Ejemplos de esto es el orden de atención de los pacientes en un hospital con base en su urgencia o una cola de prioridad de trabajos de impresión con base en su extensión.\n\n*Árboles *de *Merkle: También conocidos como árboles de hash binario, son estructuras de datos que permiten verificar la integridad de los elementos dentro de una base de datos. Son de gran importancia dentro de áreas como la criptografía, el blockchain e incluso en algunas criptomonedas. Para construir un árbol de Merkle, primero se divide todo el conjunto de datos en segmentos más pequeños llamados bloques. Si no hay un número par de bloques, el último bloque se duplica para conseguir paridad. A cada bloque se le asigna un hash, que se convierte en un nodo hoja del árbol. Para establecer la jerarquía del árbol, se combinan (concatenan) dos hashes de nodos hoja vecinos. El par concatenado se somete a un hash para producir un nodo padre que se sitúa por encima de los dos nodos hoja originales. El proceso de emparejamiento y hash continúa capa por capa, ascendiendo por el árbol hasta que sólo queda un hash en la parte superior. El hash final, conocido como “raíz de Merkle” o “hash raíz”, resume todo el conjunto de datos.\n",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/wBRS1vi.png",
+            "alt": ""
+        },
+        "2": {
+            "url": "https://i.imgur.com/ZMx6cUc.png",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "21-1-P",
+            "pregunta": "¿Cuál es una característica clave de un montículo binario?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Es un árbol binario incompleto.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "La raíz siempre es menor o igual que los valores de sus hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Permite obtener el mínimo elemento de un conjunto en tiempo constante.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "No se utiliza en situaciones que requieren priorización.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "21-2-P",
+            "pregunta": "¿Qué estructura de datos es utilizada para verificar la integridad de elementos dentro de una base de datos en criptografía y blockchain?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Lista enlazada.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Montículo binario.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Árbol de Merkle.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Grafo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "21-3-P",
+            "pregunta": "¿Qué ocurre si el número de bloques en la construcción de un árbol de Merkle es impar?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Se descarta el último bloque.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Se duplica el último bloque para conseguir paridad.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Se crea un nuevo bloque combinando los bloques restantes.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Se continua con la construcción del árbol sin cambios.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "21-4-P",
+            "pregunta": "¿Qué tipo de aplicaciones se benefician de un montículo binario?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Aplicaciones de reconocimiento facial.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Sistemas de navegación GPS.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Sistemas de cola de prioridad.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Protección de criptomonedas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "21-5-P",
+            "pregunta": "¿Cuál es el resultado final del proceso de emparejamiento y hash en un árbol de Merkle?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Un nuevo conjunto de datos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Un hash que resume todo el conjunto de datos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Una lista ordenada de bloques.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "La eliminación de la raíz del árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

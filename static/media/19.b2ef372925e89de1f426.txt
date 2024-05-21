@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "package arbolJava;\n\npublic class Nodo {\n    public Nodo padre;\n    public Nodo derecha;\n    public Nodo izquierda;\n    public int cantidad;\n    public String nombre;\n\n    public Nodo(int indice){\n        this.cantidad = indice;\n        this.derecha=null;\n        this.izquierda = null;\n        this.padre = null;\n        this.nombre = null;\n    }\n}",
+                "texto": "En este caso la clase Nodo cuenta con los siguientes atributos:\n*Nodo *padre: Atributo de tipo nodo que almacena una referencia al nodo padre.\n*Nodo *derecha: Atributo de tipo nodo que almacena una referencia al hijo derecho del nodo.\n*Nodo *izquierda: Atributo de tipo nodo que almacena una referencia al hijo izquierdo del nodo.\n*int *cantidad: Entero que almacena el valor asociado al nodo, en este caso se conceptualiza como la cantidad de cierta fruta.\n*String *nombre: Cadena de caracteres que almacena el nombre de una fruta asociada al nodo.\nEsta clase nodo es usada por la clase árbol."
+            },
+            "python": {
+                "codigo": "class Nodo:\n\n    def __init__(self, nombre, cantidad):\n        self.cantidad = cantidad\n        self.nombre = nombre\n        self.derecha = None\n        self.izquierda = None\n",
+                "texto": "En este caso la clase Nodo cuenta con los siguientes atributos:\n*cantidad: Almacena el valor asociado al nodo, en este caso se conceptualiza como la cantidad de cierta fruta.\n*nombre: Almacena el nombre de una fruta asociada al nodo.\n*derecha: Atributo de tipo nodo que almacena una referencia al hijo derecho del nodo.\n*izquierda: Atributo de tipo nodo que almacena una referencia al hijo izquierdo del nodo.\n\nEsta clase nodo es usada por la clase árbol.\n"
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "package arbolJava;\n\npublic class Arbol {\n    Nodo raiz;\n\n    public Arbol() {\n        raiz = null;\n    }\n\n    public void insertar(String nombre, int cantidad) {\n        Nodo fruta = new Nodo(cantidad);\n        fruta.nombre = nombre;\n\n        if (raiz == null) {\n            raiz = fruta;\n        } else {\n            Nodo auxiliar = raiz;\n            while (auxiliar != null) {\n                fruta.padre = auxiliar;\n                if (fruta.cantidad >= auxiliar.cantidad) {\n                    auxiliar = auxiliar.derecha;\n                } else {\n                    auxiliar = auxiliar.izquierda;\n                }\n            }\n\n            if (fruta.cantidad < fruta.padre.cantidad) {\n                fruta.padre.izquierda = fruta;\n            } else {\n                fruta.padre.derecha = fruta;\n            }\n        }\n    }\n\n    public void mostrarAcostado(int nivel, Nodo fruta) {\n        if (fruta == null)\n            return;\n\n        mostrarAcostado(nivel + 1, fruta.derecha);\n\n        for (int i = 0; i < nivel; i++)\n            System.out.print('......');\n\n        System.out.println(fruta.cantidad);\n\n        mostrarAcostado(nivel + 1, fruta.izquierda);\n    }\n\n    public Nodo eliminarNodo(Nodo fruta, int cantidad) {\n        if (fruta != null) {\n            if (cantidad < fruta.cantidad) {\n                fruta.izquierda = eliminarNodo(fruta.izquierda, cantidad);\n            } else if (cantidad > fruta.cantidad) {\n                fruta.derecha = eliminarNodo(fruta.derecha, cantidad);\n            } else {\n                if (fruta.izquierda == null) {\n                    return fruta.derecha;\n                } else if (fruta.derecha == null) {\n                    return fruta.izquierda;\n                }\n                fruta.cantidad = obtenerMenorValor(fruta.derecha);\n                fruta.derecha = eliminarNodo(fruta.derecha, fruta.cantidad);\n            }\n\n            return fruta;\n        } else\n            return null;\n    }\n\n    private int obtenerMenorValor(Nodo fruta) {\n        int menorValor = fruta.cantidad;\n        while (fruta.izquierda != null) {\n            menorValor = fruta.izquierda.cantidad;\n            fruta = fruta.izquierda;\n        }\n        return menorValor;\n    }\n}\n",
+                "texto": "Esta clase tiene como atributos un Nodo raiz, es un objeto de tipo Nodo que representa la raíz del árbol. Los métodos que contempla son:\n\n*insertar(String *nombre, *int *cantidad): Este método inserta un nuevo nodo en el árbol. Recibe como parámetros el nombre y la cantidad para el nuevo nodo. Primero crea un nuevo nodo con los datos proporcionados. Luego, si la raíz del árbol es vacía, establece el nuevo nodo como raíz. En caso contrario, recorre el árbol comparando el valor de la cantidad del nuevo nodo con la cantidad de cada nodo existente para encontrar la ubicación correcta del nuevo nodo.\n*mostrarAcostado(int *nivel, *Nodo *fruta): Este método muestra los nodos del árbol en formato ''acostado'', es decir, muestra los nodos desde los niveles más altos hacia los niveles más bajos, empezando desde el nodo más a la derecha y descendiendo hasta el nodo más a la izquierda.\n*eliminarNodo(Nodo *fruta, *int *cantidad): Este método elimina un nodo con una cantidad específica del árbol. Recibe como parámetros el nodo actual y la cantidad de la fruta a eliminar. Utiliza recursión para encontrar el nodo con la cantidad dada y luego lo elimina del árbol.\n*obtenerMenorValor(Nodo *fruta): Este método ayuda a encontrar el menor valor (cantidad) en un subárbol, dado un nodo como raíz. Se utiliza para encontrar el sucesor del nodo que se eliminará.\n"
+            },
+            "python": {
+                "codigo": "from Nodo import Nodo\n\n\nclass Arbol:\n\n    def __init__(self):\n        self.raiz = None\n\n    def insertar(self, nodo, nombre, cantidad):\n\n        if self.raiz is None:\n            self.raiz = Nodo(nombre, cantidad)\n        else:\n            if cantidad < nodo.cantidad:\n                if nodo.izquierda is None:\n                    nodo.izquierda = Nodo(nombre, cantidad)\n                else:\n                    self.insertar(nodo.izquierda, nombre, cantidad)\n            else:\n                if nodo.derecha is None:\n                    nodo.derecha = Nodo(nombre, cantidad)\n                else:\n                    self.insertar(nodo.derecha, nombre, cantidad)\n\n    def mostrar_acostado(self, nivel, nodo):\n        if nodo is None:\n            return\n\n        self.mostrar_acostado(nivel + 1, nodo.derecha)\n\n        for i in range(nivel):\n            print('......', end='')\n\n        print(nodo.cantidad)\n\n        self.mostrar_acostado(nivel + 1, nodo.izquierda)\n\n    def eliminar_nodo(self, nodo, cantidad):\n        if nodo is None:\n            return nodo\n\n        if cantidad < nodo.cantidad:\n            nodo.izquierda = self.eliminar_nodo(nodo.izquierda, cantidad)\n        elif cantidad > nodo.cantidad:\n            nodo.derecha = self.eliminar_nodo(nodo.derecha, cantidad)\n        else:\n            if nodo.izquierda is None:\n                temp = nodo.derecha\n                nodo = None\n                return temp\n            elif nodo.derecha is None:\n                temp = nodo.izquierda\n                nodo = None\n                return temp\n\n            temp = self.obtener_menor_valor(nodo.derecha)\n            nodo.cantidad = temp.cantidad\n            nodo.cantidad = temp.cantidad\n            nodo.derecha = self.eliminar_nodo(nodo.derecha, temp.cantidad)\n\n        return nodo\n\n    def obtener_menor_valor(self, nodo):\n        auxiliar = nodo\n        while auxiliar.izquierda is not None:\n            auxiliar = auxiliar.izquierda\n        return auxiliar\n",
+                "texto": "Esta clase tiene como atributos raiz, representa la raíz del árbol. Los métodos que contempla son:\n\n*insertar(self, *nodo, *nombre, *cantidad): Este método inserta un nuevo nodo en el árbol. Toma como parámetros el nodo actual, el nombre y la cantidad del nuevo nodo a insertar. Si la raíz del árbol es `None`, el nuevo nodo se convierte en la raíz. Si no es `None`, se recorre el árbol comparando la cantidad del nuevo nodo con la cantidad de cada nodo existente para encontrar la ubicación correcta del nuevo nodo.\n\n*mostrar_acostado(self, *nivel, *nodo): Este método muestra los nodos del árbol en formato 'acostado', es decir, muestra los nodos desde los niveles más altos hacia los niveles más bajos, empezando desde el nodo más a la derecha y descendiendo hasta el nodo más a la izquierda.\n\n*eliminar_nodo(self, *nodo, *cantidad): Este método elimina un nodo con una cantidad específica del árbol. Toma como parámetros el nodo actual y la cantidad a eliminar. Utiliza recursión para encontrar el nodo con la cantidad dada y luego lo elimina del árbol.\n\n*obtener_menor_valor(self, *nodo): Este método ayuda a encontrar el menor valor (cantidad) en un subárbol, dado un nodo como raíz. Se utiliza para encontrar el sucesor del nodo que se eliminará.\n"
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

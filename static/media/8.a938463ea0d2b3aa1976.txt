@@ -1,0 +1,234 @@
+{
+    "id": "8",
+    "nombre": "Fundamentos: Re-uso",
+    "contenido": "Una de las mejores técnicas que tenemos a la hora de programar es la reutilización. La reutilización o re-uso implica utilizar elementos ya existentes para la solución de diferentes problemas. Aplicar esto en nuestros proyectos tiene beneficios tales como:\n\n*Mayor *productividad *y *ahorro *de *tiempo:  Al evitar trabajar en una solución desde cero y no tener que reescribir el código una y otra vez, disminuimos las horas que empleamos en cada componente del proyecto logrando cumplir con plazos establecidos.\n\n*Menor *riesgo: Cuando reutilizamos código, es porque sabemos que funciona en algún otro sistema y que se ha probado muchas veces antes.\n\n*Mejora *de *la *calidad: Algunos bloques de código reutilizables son revisados por expertos antes de estar disponibles para su uso, esto garantiza que el programa en el que se aplique tendrá un grado más de calidad.\n\n*Menores *costos: Reutilizando el mismo bloque de códigos, hay una reducción en los costes relacionados con el desarrollador y mantenimiento de software.\n\nLa reutilización se puede aplicar a diferentes niveles del proyecto\n\n*Función: Es uno de los ejemplos más básicos de reutilización, al ser un conjunto de líneas agrupadas para realizar una tarea específica, los programadores pueden llamarlas varias veces sin tener que volver a escribir su totalidad.\n\n*Bibliotecas: Son un conjunto de funciones y clases que se pueden incorporar a un proyecto. Están diseñadas para facilitar el trabajo del programador ya que le permiten acceder fácilmente a su contenido sin necesidad de escribirlos desde cero.\n\n*Clase: Una clase es un fragmento de código que se puede reutilizar en diferentes partes del programa con la ayuda de herencia y polimorfismo. Está compuesta por variables y métodos. Lo que permite crear objetos con los mismos atributos pero comportamientos ligeramente diferenciados entre sí.\n\n*Frameworks: Los frameworks son librerías o conjuntos predefinidos de bibliotecas diseñados para facilitar la creación rápida y sencilla de proyectos complejos sin necesidad de empezar desde 0. Se basan en muchas convenciones preestablecidas. En consecuencia, no hay necesidad de volver a escribir el mismo código varias veces para lograr resultados similares entre proyectos distintos.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "8-1-P",
+            "pregunta": "¿Cuál es uno de los beneficios de aplicar la reutilización de código en proyectos de programación?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Aumento del riesgo al utilizar código previamente probado.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Mayor complejidad en el desarrollo de soluciones.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Reducción de horas de trabajo y ahorro de tiempo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Mayor costo en el desarrollo y mantenimiento de software.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "8-2-P",
+            "pregunta": "¿Qué implica el menor riesgo al reutilizar código en un proyecto?",
+            "respuestas": {
+                "1": {
+                    "contenido": "No se requiere realizar pruebas de calidad.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": " El código ha sido revisado por expertos antes de su uso.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Se garantiza que no habrá problemas de compatibilidad.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Se asume que el código siempre funcionará sin errores.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "8-3-P",
+            "pregunta": "¿Qué es una función en el contexto de la reutilización de código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Un conjunto de instrucciones para realizar una tarea específica que puede ser llamado varias veces.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Un conjunto de bibliotecas predefinidas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Una estructura de código basada en herencia y polimorfismo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Una colección de clases y objetos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "8-4-P",
+            "pregunta": "¿Qué son los frameworks en el contexto de la reutilización de código?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Conjuntos de funciones que se pueden llamar varias veces.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Conjuntos de bibliotecas diseñadas para facilitar la creación rápida de proyectos",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Estructuras de código basadas en herencia y polimorfismo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Un conjunto de variables y métodos encapsulados en una clase.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "8-5-P",
+            "pregunta": "¿Qué implica la reutilización de clases en un proyecto de programación?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Utilizar funciones predefinidas para realizar tareas específicas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Incorporar bibliotecas de terceros en el código.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Crear objetos con atributos y comportamientos compartidos pero ligeramente diferenciados entre sí.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Utilizar un conjunto predefinido de herramientas para el desarrollo de software.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

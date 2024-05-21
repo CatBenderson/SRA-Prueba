@@ -1,0 +1,234 @@
+{
+    "id": "3",
+    "nombre": "Tipos de problemas: red social",
+    "contenido": "Otra área en la que se puede aplicar el pensamiento computacional es a la hora de diseñar una red social.  Las redes sociales son plataformas que permiten que las persona conecten, compartan información y colaboren a través de internet. Teniendo tantas funcionalidades, es inevitable que se vuelva un sistema complejo que integra elementos como muro, publicaciones, comentarios  y reacciones. Además en este tipo de sistemas entra un aspecto muy relevante: la experiencia de usuario. Pero ¿De qué manera específica están relacionadas las redes sociales con el pensamiento computacional? A continuación abarcaremos algunos puntos\n   *1. *Diseño *de *algoritmos *de *recomendación: Estas plataformas hacen uso de esta clase de algoritmos para dar a cada usuario una experiencia más personalizada y agradable. Estos algoritmos hacen uso de técnicas de análisis de datos, de aprendizaje automático, entre otras.\n   *2. *Procesamiento *con *grandes *volúmenes *de *datos: Las redes sociales más populares tienen millones de usuarios y esto se traduce en inmensos volúmenes de datos, ante esto es esencial diseñar sistemas para almacenar, recuperar y analizar la información\n   *3. *Gestión *de *interfaz *de *usuario: La experiencia de usuario es de gran importancia para mantener a los usuarios satisfechos y utilizando el sistema. Aplicar los mejores flujos de interacciones y navegación así como patrones de diseño es posible gracias a la implementación de algoritmos y técnicas relacionadas al pensamiento computacional.\n   *4. *Optimización *de *Contenido *y *Publicidad: Se aplican técnicas de pensamiento computacional para optimizar la distribución de contenido y anuncios en función de las preferencias de los usuarios, lo que puede influir en los ingresos y la retención de usuarios.\nComo pudimos ver, tanto el diseño como el desarrollo de una red social tienen en sus bases aspectos del pensamiento computacional, gracias a este se abordan desafíos técnicos y estratégicos clave en cada una de las capas de un sistema de esta magnitud, todo con el fin de mejorar la experiencia del usuario.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "3-1-P",
+            "pregunta": "¿En qué aspecto específico las redes sociales están relacionadas con el pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Diseño de algoritmos de juegos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Gestión de relaciones interpersonales.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Procesamiento con grandes volúmenes de datos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Planificación de eventos sociales.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "3-2-P",
+            "pregunta": "¿Cuál es uno de los usos principales de los algoritmos de recomendación en las redes sociales?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Analizar grandes volúmenes de datos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Optimizar la distribución de contenido y anuncios",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Personalizar la experiencia del usuario.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Organizar eventos locales.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "3-3-P",
+            "pregunta": "¿Qué implica la gestión de interfaz de usuario en el contexto de las redes sociales?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Optimizar la experiencia de navegación del usuario.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Mantener a los usuarios insatisfechos",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Mejorar la calidad de las imágenes compartidas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Planificar campañas publicitarias.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "3-4-P",
+            "pregunta": "¿Qué objetivo tiene la optimización de contenido y publicidad en las redes sociales?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Aumentar la popularidad de la plataforma.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Incrementar el número de seguidores de los usuarios.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Mejorar la satisfacción del cliente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Influenciar en los ingresos y la retención de usuarios.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "5": {
+            "id": "3-5-P",
+            "pregunta": "¿Por qué es esencial el diseño de algoritmos para el procesamiento de grandes volúmenes de datos en las redes sociales?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Porque aumenta la complejidad del sistema",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Porque aumenta la cantidad de información disponible para los usuarios",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Para almacenar y analizar la gran cantidad de información generada por millones de usuarios.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Para incrementar el número de seguidores de los usuarios.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}
