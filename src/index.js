@@ -15,7 +15,7 @@ import Recursos from './Componentes/InfoRecursos';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter >
     <div style={{ display: 'flex' }}>
       <SideBar />
       <div style={{ flex: 1, marginLeft: '1vw' }}>
