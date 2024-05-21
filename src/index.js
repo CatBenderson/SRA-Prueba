@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import SideBar from './Componentes/SideBar';
 import Principal from './Componentes/Principal';
@@ -15,7 +15,7 @@ import Recursos from './Componentes/InfoRecursos';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter >
+  <HashRouter>
     <div style={{ display: 'flex' }}>
       <SideBar />
       <div style={{ flex: 1, marginLeft: '1vw' }}>
@@ -30,7 +30,8 @@ root.render(
         </Routes>
       </div>
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
+
 
 reportWebVitals();
