@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SRA-Prueba/static/css/main.94ceb7a4.css",
-    "main.js": "/SRA-Prueba/static/js/main.77aca807.js",
+    "main.css": "/SRA-Prueba/static/css/main.4a4f9601.css",
+    "main.js": "/SRA-Prueba/static/js/main.b6aa3265.js",
     "static/js/453.7674083e.chunk.js": "/SRA-Prueba/static/js/453.7674083e.chunk.js",
     "static/media/1.txt": "/SRA-Prueba/static/media/1.34807824a68f6cfcfad1.txt",
     "static/media/2.txt": "/SRA-Prueba/static/media/2.b23a86723a602eccaee0.txt",
@@ -9,6 +9,7 @@
     "static/media/22.txt": "/SRA-Prueba/static/media/22.abcc83c2881a4f3fbdda.txt",
     "static/media/6.txt": "/SRA-Prueba/static/media/6.30a13ff887221c54b3b1.txt",
     "static/media/13.txt": "/SRA-Prueba/static/media/13.57204a78dc61b7daaf97.txt",
+    "static/media/19.txt": "/SRA-Prueba/static/media/19.bb048aff3f49698d0939.txt",
     "static/media/8.txt": "/SRA-Prueba/static/media/8.a938463ea0d2b3aa1976.txt",
     "static/media/11.txt": "/SRA-Prueba/static/media/11.bd146ced5331661dfb64.txt",
     "static/media/7.txt": "/SRA-Prueba/static/media/7.97aa88bc77e5815b5de3.txt",
@@ -19,10 +20,10 @@
     "static/media/16.txt": "/SRA-Prueba/static/media/16.f899044f081e0005c1dc.txt",
     "static/media/10.txt": "/SRA-Prueba/static/media/10.9db93afdf085461c4491.txt",
     "static/media/21.txt": "/SRA-Prueba/static/media/21.a0a9532652dbcabe0d1b.txt",
-    "static/media/24.txt": "/SRA-Prueba/static/media/24.4f6add768d8bb7bb3ea5.txt",
-    "static/media/19.txt": "/SRA-Prueba/static/media/19.bb048aff3f49698d0939.txt",
+    "static/media/24.txt": "/SRA-Prueba/static/media/24.cc9b4cc8036d11ac3216.txt",
     "static/media/25.txt": "/SRA-Prueba/static/media/25.453d0f2e3d1a0290fe20.txt",
-    "static/media/20.txt": "/SRA-Prueba/static/media/20.892509beff9ebd60b272.txt",
+    "static/media/20.txt": "/SRA-Prueba/static/media/20.a7e385494df4cad6fe37.txt",
+    "static/media/27.txt": "/SRA-Prueba/static/media/27.1966e3e1215fa2e0fcb0.txt",
     "static/media/15.txt": "/SRA-Prueba/static/media/15.26ac6175487cff046c3d.txt",
     "static/media/26.txt": "/SRA-Prueba/static/media/26.f9a51ecb9ab10c6e9cf6.txt",
     "static/media/9.txt": "/SRA-Prueba/static/media/9.a2618608850b95da3dde.txt",
@@ -33,12 +34,12 @@
     "index.html": "/SRA-Prueba/index.html",
     "static/media/recursos.txt": "/SRA-Prueba/static/media/recursos.7dfbcfbc00aa95dbd801.txt",
     "static/media/experiencias-educativas.txt": "/SRA-Prueba/static/media/experiencias-educativas.e6114267cdda79b09508.txt",
-    "main.94ceb7a4.css.map": "/SRA-Prueba/static/css/main.94ceb7a4.css.map",
-    "main.77aca807.js.map": "/SRA-Prueba/static/js/main.77aca807.js.map",
+    "main.4a4f9601.css.map": "/SRA-Prueba/static/css/main.4a4f9601.css.map",
+    "main.b6aa3265.js.map": "/SRA-Prueba/static/js/main.b6aa3265.js.map",
     "453.7674083e.chunk.js.map": "/SRA-Prueba/static/js/453.7674083e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94ceb7a4.css",
-    "static/js/main.77aca807.js"
+    "static/css/main.4a4f9601.css",
+    "static/js/main.b6aa3265.js"
   ]
 }
