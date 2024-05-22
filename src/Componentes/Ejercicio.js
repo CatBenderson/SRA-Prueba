@@ -59,7 +59,7 @@ export default function Ejercicio({ ejercicio }) {
                             onChange={manejarSeleccion}
                             checked={respuestaSeleccionada === key}
                         />
-                        <label htmlFor={ejercicio.id + key}> <strong> {`${key}) `} </strong> {`${ejercicio.respuestas[key].contenido}`}</label>
+                        <label htmlFor={ejercicio.id + key}> {`${key}) `} {`${ejercicio.respuestas[key].contenido}`}</label>
                     </div>
                 ))}
                 <button type='submit' className='boton-ejercicio'>Seleccionar</button>

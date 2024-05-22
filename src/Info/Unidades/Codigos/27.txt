@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "public class HeapSort {\n          public void sort(int arr[])\n          {\n                    int n = arr.length;\n\n                    // Reordenar el arreglo para construir el heap\n                    for (int i = n / 2 - 1; i >= 0; i--)\n                              heapify(arr, n, i);\n\n                    // Extraer los elementos del heap uno por uno \n                    for (int i = n - 1; i >= 0; i--) {\n                              // Mover la raiz actual al final\n                              int temp = arr[0];\n                              arr[0] = arr[i];\n                              arr[i] = temp;\n\n                              // Llamar a heapify en el heap reducido\n                              heapify(arr, i, 0);\n\n            // Imprimir el estado actual del arreglo\n            System.out.print(\"Paso \" + (n - i) + \": \");\n            printArray(arr);\n                    }\n          }\n\n          // Aplicar heapify a un subarbol de raiz nodo i el cual es un index en arr[]. n es el tamaño del heap\n          void heapify(int arr[], int n, int i)\n          {\n                    int mayor = i; // Inicializar el mayor como raíz\n                    int izq = 2 * i + 1; // Izquierda = 2*i + 1\n                    int der = 2 * i + 2; // derecha = 2*i + 2\n\n                    // Si el hijo izquierdo es mayor que la raíz\n                    if (izq < n && arr[izq] > arr[mayor])\n                              mayor = izq;\n\n                    // Si el hijo derecho es mayor que el mayor ya registrado\n                    if (der < n && arr[der] > arr[mayor])\n                              mayor = der;\n\n                    // Si el mayor no es la raíz\n                    if (mayor != i) {\n                              int aux = arr[i];\n                              arr[i] = arr[mayor];\n                              arr[mayor] = aux;\n\n                              // Aplicar heapify recursivamente al subarbol\n                              heapify(arr, n, mayor);\n                    }\n          }\n\n          void printArray(int arr[])\n          {\n                    int n = arr.length;\n                    for (int i = 0; i < n; ++i)\n                              System.out.print(arr[i] + \" \");\n                    System.out.println();\n          }\n}\n",
+                "texto": "*public *void *sort(int *arr[]): Tiene como argumento *int *arr[] que es el arreglo de enteros que se va a ordenar.Primero, convierte el arreglo en un heap máximo llamando al método *heapify para cada nodo, comenzando desde el último nodo no hoja hasta la raíz. Luego, extrae los elementos del heap uno por uno, moviendo la raíz actual al final del arreglo no ordenado.\n\n*void *heapify(int *arr[], *int *n, *int *i): Este método se encarga de que un subárbol con raíz en el nodo de índice i cumpla la propiedad de un heap máximo. Comienza asumiendo que el nodo actual es el mayor. Luego, compara el nodo con sus hijos izquierdo y derecho, actualizando el índice del mayor si uno de los hijos es mayor que el nodo actual. Si el mayor no es el nodo inicial, intercambia los valores y se llama recursivamente. \n\n*void *printArray(int *arr[]): Este método se utiliza para mostrar el estado del arreglo en diferentes etapas del proceso de ordenamiento."
+            },
+            "python": {
+                "codigo": "class HeapSort:\n    def sort(self, arr):\n        n = len(arr)\n\n        # Reordenar el arreglo para construir el heap\n        for i in range(n // 2 - 1, -1, -1):\n            self.heapify(arr, n, i)\n\n        # Extraer los elementos del heap uno por uno\n        for i in range(n - 1, -1, -1):\n            # Mover la raiz actual al final\n            arr[0], arr[i] = arr[i], arr[0]\n\n            # Llamar a heapify en el heap reducido\n            self.heapify(arr, i, 0)\n\n            # Imprimir el estado actual del arreglo\n            print(\"Paso\", n - i, \":\", arr)\n\n    # Aplicar heapify a un subarbol de raiz nodo i el cual es un index en arr[]. n es el tamaño del heap\n    def heapify(self, arr, n, i):\n        mayor = i  # Inicializar el mayor como raíz\n        izq = 2 * i + 1  # Izquierda = 2*i + 1\n        der = 2 * i + 2  # derecha = 2*i + 2\n\n        # Si el hijo izquierdo es mayor que la raíz\n        if izq < n and arr[izq] > arr[mayor]:\n            mayor = izq\n\n        # Si el hijo derecho es mayor que el mayor ya registrado\n        if der < n and arr[der] > arr[mayor]:\n            mayor = der\n\n        # Si el mayor no es la raíz\n        if mayor != i:\n            arr[i], arr[mayor] = arr[mayor], arr[i]\n\n            # Aplicar heapify recursivamente al subarbol\n            self.heapify(arr, n, mayor)\n",
+                "texto": "*def *sort(self, *arr): Toma un arreglo de enteros y lo ordena utilizando el algoritmo de Heap Sort. Primero, convierte el arreglo en un heap máximo llamando al método heapify para cada nodo, comenzando desde el último nodo no hoja hacia la raíz. Luego, extrae los elementos del heap uno por uno, moviendo la raíz actual al final del arreglo no ordenado y reduciendo el tamaño del heap. Después de cada intercambio, llama nuevamente a heapify para restaurar la propiedad del heap en el subarreglo restante.\n\n*def *heapify(self, *arr, *n, *i): Este método se encarga de que un subárbol con raíz en el nodo de índice i cumpla la propiedad de un heap máximo. Comienza asumiendo que el nodo actual es el mayor. Luego, compara el nodo con sus hijos izquierdo y derecho, actualizando el índice del mayor si uno de los hijos es mayor que el nodo actual. Si el mayor no es el nodo inicial, intercambia los valores y se llama recursivamente."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "public class Main {\n    public static void main(String args[])\n          {\n                    HeapSort hs = new HeapSort();\n                    int arr[] = { 12, 11, 13, 5, 6, 7 };\n\n        System.out.print(\"Arreglo inicial: \");\n                    hs.printArray(arr);\n        System.out.println();\n\n                    hs.sort(arr);\n\n                    System.out.print(\"Arreglo ordenado: \");\n                    hs.printArray(arr);\n          }\n}",
+                "texto": "La clase *Main recupera un arreglo para posteriomente aplicar el método de ordenamiento Heap Sort"
+            },
+            "python": {
+                "codigo": "from HeapSort import HeapSort\n\n\nclass Main:\n    arr = [12, 11, 13, 5, 6, 7]\n\n    print(\"Arreglo inicial:\", arr)\n\n    hs = HeapSort()\n    hs.sort(arr)\n\n    print(\"Arreglo ordenado:\", arr)",
+                "texto": "La clase *Main recupera un arreglo para posteriomente aplicar el método de ordenamiento Heap Sort"
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

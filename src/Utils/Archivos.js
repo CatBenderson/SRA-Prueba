@@ -24,8 +24,11 @@ import xxiii from '../Info/Unidades/23.txt';
 import xxiv from '../Info/Unidades/24.txt';
 import xxv from '../Info/Unidades/25.txt';
 import xxvi from '../Info/Unidades/26.txt';
+import xxvii from '../Info/Unidades/27.txt';
 import xixC from '../Info/Unidades/Codigos/19.txt';
 import xxC from '../Info/Unidades/Codigos/20.txt';
+import xxivC from '../Info/Unidades/Codigos/24.txt';
+import xxviiC from '../Info/Unidades/Codigos/27.txt';
 
 export const archivosPorUnidad = {
     1: i,
@@ -54,10 +57,13 @@ export const archivosPorUnidad = {
     24: xxiv,
     25: xxv,
     26: xxvi,
+    27: xxvii,
 };
 
 export const codigoPorUnidad = {
     19: xixC,
-    20: xxC
+    20: xxC,
+    24: xxivC,
+    27: xxviiC,
 };
  

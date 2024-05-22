@@ -1,7 +1,0 @@
-class Nodo:
-
-    def __init__(self, nombre, servicio):
-        self.servicio = servicio
-        self.nombre = nombre
-        self.izquierda = None
-        self.derecha = None

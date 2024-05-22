@@ -1,0 +1,234 @@
+{
+    "id": "27",
+    "nombre": "Métodos de ordenamiento: Merge Sort",
+    "contenido": "Se trata de un método de ordenamiento con un algoritmo que utiliza la recursividad para evaluar mitades dentro de un array de datos. De manera más específica consiste en dividir el vector en partes más pequeñas, estas partes se ordenan y finalmente se mezclan entre sí siguiendo el orden deseado. \n\nEste método de ordenamiento sigue los siguientes pasos.\n\n- Si la longitud del array es menor o igual a 1 entonces ya está ordenado.\n- El array a ordenar se divide en dos mitades de tamaño similar.\n- Cada mitad se ordena de forma recursiva aplicando el método MergeSort.\n- A continuación las dos mitades ya ordenadas se mezclan formando una secuencia ordenada.\n\nEste método de ordenamiento tiene una complejidad (O) de:  \n\n*O= *(n⋅log(n))\n\nDonde n es el número de valores fijo, en términos de complejidad de tiempo para este algoritmo no difiere mucho si los valores iniciales se tienen en un orden ascendente, descendente o aleatorio pues la matriz se divide y se fusiona mediante la comparación, tanto si la matriz ya está ordenada como si no.",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/A77aRjO.png",
+            "alt": "Ejemplo del proceso que sigue el algoritmo Merge Sort"
+        },
+        "2": {
+            "url": "https://i.imgur.com/76BBpNV.png",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "27-1-E",
+            "imagen": "",
+            "pregunta": "Dado un arreglo arr = [7,10,3,4,2,8] al ejecutar el algoritmo ¿En qué paso el arreglo se encuentra como [3, 2, 4, 7, 8, 10]?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Paso 1",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Paso 2",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Paso 3",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Paso 4",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "27-2-E",
+            "imagen": "",
+            "pregunta": "Dado un arreglo arr = [6,11,9,1,13] al ejecutar el algoritmo ¿En qué paso el arreglo se encuentra como [11, 6, 9, 1, 13]?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Paso 1",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Paso 2",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Paso 3",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Paso 4",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "27-1-P",
+            "pregunta": "¿Cuál es el primer paso del algoritmo MergeSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Dividir el array en partes más pequeñas.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Mezclar las dos mitades del array.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Verificar si el array está vacío.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Contar la longitud del array.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "27-2-P",
+            "pregunta": "¿En qué consiste el paso de \"mezclar\" en el algoritmo MergeSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Ordenar las mitades del array.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Dividir el array en partes más pequeñas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Fusionar las dos mitades ordenadas del array en una secuencia ordenada.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Contar la longitud del array.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "27-3-P",
+            "pregunta": "¿Cuál es la complejidad temporal del algoritmo MergeSort en términos de notación O grande (O)?",
+            "respuestas": {
+                "1": {
+                    "contenido": "O(n)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "O(log n)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "O(n^2)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "O(n⋅log(n))",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "4": {
+            "id": "27-4-P",
+            "pregunta": "¿Cómo afecta el estado inicial del array al rendimiento del algoritmo MergeSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "No afecta al rendimiento.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Afecta negativamente si el array está ordenado de forma descendente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Afecta positivamente si el array está ordenado de forma ascendente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Afecta negativamente si el array está ordenado de forma aleatoria.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "27-5-P",
+            "pregunta": "¿Cuál es la condición de parada en la recursión del algoritmo MergeSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Si la longitud del array es menor o igual a 1.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Si la longitud del array es igual a 2.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Si la longitud del array es mayor que 1.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Si la longitud del array es igual a 0.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

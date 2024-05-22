@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "public class Arista {\n    int origen;\n    int terminal;\n    int peso;\n\n    public Arista(int origen, int terminal, int peso) {\n        this.origen = origen;\n        this.terminal = terminal;\n        this.peso = peso;\n    }\n}\n\npublic class Vertice {\n    int adyacente;\n    int peso;\n\n    public Vertice(int adyacente, int peso) {\n        this.adyacente = adyacente;\n        this.peso = peso;\n    }\n}\n",
+                "texto": "Estas clases son la base para representar un grafo. \n\nLa clase *Arista, modela una conexión entre dos vértices en un grafo, incluyendo un peso. Contempla los siguientes atributos.\n\n*int *origen: Representa el vértice de origen de la arista.\n*int *terminal: Representa el vértice terminal (o destino) de la arista.\n*int *peso: Representa el peso o costo asociado a la arista.\n\nLa clase *Vertice modela un vértice adyacente en una lista de adyacencia. Sus atributos son:\n\n*int *adyacente: Representa el vértice adyacente (vecino) al vértice actual.\n*int *peso: Representa el peso o costo asociado a la conexión con el vértice adyacente.\n\nAsí también cada clase cuenta con un constructor  que inicializa una nueva instancia de clase con los valores especificados."
+            },
+            "python": {
+                "codigo": "class Arista:\n    def __init__(self, origen, terminal, peso):\n        self.origen = origen\n        self.terminal = terminal\n        self.peso = peso\n\n\nclass Vertice:\n    def __init__(self, adyacente, peso):\n        self.adyacente = adyacente\n        self.peso = peso",
+                "texto": "Estas clases son la base para representar un grafo. \n\nLa clase *Arista, modela una conexión entre dos vértices en un grafo, incluyendo un peso. Contempla los siguientes atributos.\n\n*self.origen: Representa el vértice de origen de la arista.\n*self.terminal: Representa el vértice terminal (o destino) de la arista.\n*self.peso: Representa el peso o costo asociado a la arista.\n\nLa clase *Vertice modela un vértice adyacente en una lista de adyacencia. Sus atributos son:\n\n*self.adyacente: Representa el vértice adyacente (vecino) al vértice actual.\n*self.peso: Representa el peso o costo asociado a la conexión con el vértice adyacente.\n\nAsí también cada clase cuenta con un constructor  que inicializa una nueva instancia de clase con los valores especificados."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class Grafo {\n    List<List<Vertice>> listaAdyacencia = new ArrayList<>();\n \n    public Grafo(List<Arista> aristas)   {\n    \n        for (int i = 0; i < aristas.size(); i++){\n            listaAdyacencia.add(i, new ArrayList<>());\n        }\n \n        for (Arista e : aristas){\n            listaAdyacencia.get(e.origen).add(new Vertice(e.terminal, e.peso));\n        }\n    }\n\n\n    public static void mostrarGrafo(Grafo grafo)  {\n        int verticeOrigen = 0;\n        int tamañoLista = grafo.listaAdyacencia.size();\n \n        System.out.println(\"Grafo\");\n        while (verticeOrigen < tamañoLista) {\n            \n            for (Vertice aristaSaliente : grafo.listaAdyacencia.get(verticeOrigen)) {\n                System.out.print(\"Vertice:\" + verticeOrigen + \" ==> \" + aristaSaliente.adyacente + \n                                \" (\" + aristaSaliente.peso + \")\t\");\n            }\n \n            System.out.println();\n            verticeOrigen++;\n        }\n    }\n}",
+                "texto": "La clase *Grafo implementa un grafo utilizando una lista de adyacencia para representar las conexiones entre los vértices.\n\nComo atributos se encuentra *List<Arista> *aristas: Lista de aristas que forman el grafo. Cada arista está modelada por una instancia de la clase *Arista.\n\nEl constructor *Grafo(List<Arista> *aristas) se encarga de la inicialización y construcción de la lista de adyacencia. Se itera sobre el tamaño de la lista de aristas y se agrega una nueva lista vacía para cada vértice en *listaAdyacencia. Para cada arista en la lista aristas, se agrega un nuevo *Vertice correspondiente al vértice terminal y el peso de la arista a la sublista correspondiente al vértice de origen en *listaAdyacencia.\n\nEl método *static *void *mostrarGrafo(Grafo *grafo) muestra las conexiones del grafo de manera legible mostrando cada vértice de origen y sus vértices adyacentes con los pesos correspondientes.Utiliza un bucle while para iterar sobre cada vértice en *listaAdyacencia.\nPara cada vértice de origen, itera sobre sus aristas salientes y las imprime en el formato \"Vertice: *origen ==> *adyacente ( *peso)\".\nIncrementa el contador *verticeOrigen después de procesar cada vértice."
+            },
+            "python": {
+                "codigo": "from Vertice import Vertice\n\n\nclass Grafo:\n    def __init__(self, aristas):\n        self.listaAdyacencia = [[] for _ in range(len(aristas))]\n        for e in aristas:\n            self.listaAdyacencia[e.origen].append(Vertice(e.terminal, e.peso))\n\n    def mostrarGrafo(grafo):\n        verticeOrigen = 0\n        tamañoLista = len(grafo.listaAdyacencia)\n\n        print(\"Grafo:\")\n        while verticeOrigen < tamañoLista:\n            for aristaSaliente in grafo.listaAdyacencia[verticeOrigen]:\n                print(f\"Vertice: {verticeOrigen} ==> {aristaSaliente.adyacente} ({aristaSaliente.peso})\t\")\n            print()\n            verticeOrigen += 1",
+                "texto": "La clase Grafo implementa un grafo utilizando una lista de adyacencia para representar las conexiones entre los vértices.\n\nComo atributos se encuentra:\n \n*self.listaAdyacencia *= *[[] *for *_ *in *range(len(aristas))]: Una lista de listas que representa la lista de adyacencia del grafo. Cada sublista contiene los vértices adyacentes (vecinos) de un vértice dado, modelados mediante instancias de la clase *Vertice.\n\nEl constructor *def *__init__(self, *aristas) se encarga de la inicialización y construcción de la lista de adyacencia. Se crea una lista de listas vacías donde cada sublista corresponde a un vértice en el grafo. La cantidad de sublistas es igual a la cantidad de aristas, lo cual puede requerir ajuste según la implementación específica.Para cada arista en la lista *aristas, se agrega un nuevo *Vertice correspondiente al vértice terminal y el peso de la arista a la sublista correspondiente al vértice de origen en *listaAdyacencia.\n\nEl método *def *mostrarGrafo(grafo) muestra las conexiones del grafo de manera legible mostrando cada vértice de origen y sus vértices adyacentes con los pesos correspondientes.Utiliza un bucle while para iterar sobre cada vértice en listaAdyacencia.\nPara cada vértice de origen, itera sobre sus aristas salientes y las imprime en el formato \"Vertice: *origen ==> *adyacente ( *peso)\".\nIncrementa el contador *verticeOrigen después de procesar cada vértice."
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "import java.util.Arrays;\nimport java.util.List;\n\nclass Main{\n    public static void main (String[] args)    {\n    \n        List<Arista> aristas = Arrays.asList(new Arista(0, 1, 2),new Arista(0, 2, 4),\n                   new Arista(1, 2, 4),new Arista(2, 0, 5), new Arista(2, 1, 4),\n                   new Arista(3, 2, 3), new Arista(4, 5, 1),new Arista(5, 4, 3));\n \n        \n        Grafo grafo = new Grafo(aristas);\n \n        Grafo.mostrarGrafo(grafo);\n    }\n}",
+                "texto": "La clase *Main sirve como punto de entrada para el programa.Define una lista de aristas para crear un grafo, posteriormente instancia un grafo utilizando la lista de aristas. Finalmente, llama al método para mostrar el grafo, imprimiendo las conexiones y pesos de cada vértice."
+            },
+            "python": {
+                "codigo": "from Arista import Arista\nfrom Grafo import Grafo\n\nclass Main:\n    aristas = [\n        Arista(0, 1, 2), Arista(0, 2, 4),\n        Arista(1, 2, 4), Arista(2, 0, 5),\n        Arista(2, 1, 4), Arista(3, 2, 3),\n        Arista(4, 5, 1), Arista(5, 4, 3)\n    ]\n\n    grafo = Grafo(aristas)\n\n    Grafo.mostrarGrafo(grafo)\n",
+                "texto": "La clase *Main sirve como punto de entrada para el programa.Define una lista de aristas para crear un grafo, posteriormente instancia un grafo utilizando la lista de aristas. Finalmente, llama al método para mostrar el grafo, imprimiendo las conexiones y pesos de cada vértice."
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

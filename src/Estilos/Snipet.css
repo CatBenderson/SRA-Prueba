@@ -1,10 +1,10 @@
 .contenedor-snipet {
-    max-width: 600px;
+    max-width: 750px;
 }
 
 .contenedor-barra {
     line-height: 2.5;
-    min-width: 600px;
+    min-width: 750px;
 }
 
 .barra-titulo {
@@ -24,7 +24,7 @@
     color: #FFFFFF;
     border-radius: 0px 5px 0px 0px;
     background-color: #3A404D;
-    width: 85px;
+    width: 135px;
     margin-bottom: 0px;
     display: inline-block;
     text-align: right;
@@ -33,8 +33,8 @@
 }
 
 .codigo {
-    font-size: 1rem;
+    font-size: 14px;
     border-radius: 0px 0px 5px 5px;
-    width: 559px;
+    width: 609px;
     margin-top: 0px;
 }

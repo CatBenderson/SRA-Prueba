@@ -1,7 +1,7 @@
 .contenedor-codigo-seleccion {
     margin: 0 2%;
-    max-width: 600px;
-    min-width: 600px;
+    max-width: 750px;
+    min-width: 750px;
 }
 
 .boton, .botonSelect {
@@ -14,7 +14,7 @@
     color: #4D4D4D;
     font-size: 14px;
     padding: 5px;
-    width: 286px;
+    width: 310px;
 }
 
 .boton {
