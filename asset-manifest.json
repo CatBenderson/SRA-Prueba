@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SRA-Prueba/static/css/main.4a4f9601.css",
-    "main.js": "/SRA-Prueba/static/js/main.b3c8b4b9.js",
+    "main.css": "/SRA-Prueba/static/css/main.74ec0649.css",
+    "main.js": "/SRA-Prueba/static/js/main.60d58597.js",
     "static/js/453.7674083e.chunk.js": "/SRA-Prueba/static/js/453.7674083e.chunk.js",
     "static/media/1.txt": "/SRA-Prueba/static/media/1.34807824a68f6cfcfad1.txt",
     "static/media/2.txt": "/SRA-Prueba/static/media/2.b23a86723a602eccaee0.txt",
@@ -18,7 +18,7 @@
     "static/media/12.txt": "/SRA-Prueba/static/media/12.59cb5e106e629f015fac.txt",
     "static/media/3.txt": "/SRA-Prueba/static/media/3.2ce2cc693d5fa1ea755b.txt",
     "static/media/16.txt": "/SRA-Prueba/static/media/16.f899044f081e0005c1dc.txt",
-    "static/media/10.txt": "/SRA-Prueba/static/media/10.9db93afdf085461c4491.txt",
+    "static/media/10.txt": "/SRA-Prueba/static/media/10.1bfd404710f803e2e786.txt",
     "static/media/21.txt": "/SRA-Prueba/static/media/21.a0a9532652dbcabe0d1b.txt",
     "static/media/24.txt": "/SRA-Prueba/static/media/24.cc9b4cc8036d11ac3216.txt",
     "static/media/25.txt": "/SRA-Prueba/static/media/25.453d0f2e3d1a0290fe20.txt",
@@ -34,12 +34,12 @@
     "index.html": "/SRA-Prueba/index.html",
     "static/media/recursos.txt": "/SRA-Prueba/static/media/recursos.7dfbcfbc00aa95dbd801.txt",
     "static/media/experiencias-educativas.txt": "/SRA-Prueba/static/media/experiencias-educativas.e6114267cdda79b09508.txt",
-    "main.4a4f9601.css.map": "/SRA-Prueba/static/css/main.4a4f9601.css.map",
-    "main.b3c8b4b9.js.map": "/SRA-Prueba/static/js/main.b3c8b4b9.js.map",
+    "main.74ec0649.css.map": "/SRA-Prueba/static/css/main.74ec0649.css.map",
+    "main.60d58597.js.map": "/SRA-Prueba/static/js/main.60d58597.js.map",
     "453.7674083e.chunk.js.map": "/SRA-Prueba/static/js/453.7674083e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a4f9601.css",
-    "static/js/main.b3c8b4b9.js"
+    "static/css/main.74ec0649.css",
+    "static/js/main.60d58597.js"
   ]
 }
