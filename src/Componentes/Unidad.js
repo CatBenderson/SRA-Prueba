@@ -13,6 +13,8 @@ export default function Unidad() {
     const [codigo, setCodigo] = useState({});
     const [selectedImage, setSelectedImage] = useState(null);
     const [modalVisible, setModalVisible] = useState(false);
+    const [numEjercicio, setNumEjercicio] = useState(1)
+    const [numPregunta, setNumPregunta] = useState(1)
 
 
 
@@ -27,6 +29,34 @@ export default function Unidad() {
         setSelectedImage({ url, alt });
         setModalVisible(true);
     };
+
+    function cambiarSiguienteEjercicio() {
+        var aux = numEjercicio + 1;
+        if (aux < 4 && ejercicios[numEjercicio + 1]?.pregunta) {
+            setNumEjercicio(aux)
+        }
+    }
+
+    function cambiarAnteriorEjercicio() {
+        var aux = numEjercicio - 1;
+        if (aux > 0 && ejercicios[numEjercicio - 1]?.pregunta) {
+            setNumEjercicio(aux)
+        }
+    }
+
+    function cambiarSiguientePregunta() {
+        var aux = numPregunta + 1;
+        if (aux < 6 && preguntas[numPregunta + 1]?.pregunta) {
+            setNumPregunta(aux)
+        }
+    }
+
+    function cambiarAnteriorPregunta() {
+        var aux = numPregunta - 1;
+        if (aux > 0 && preguntas[numPregunta - 1]?.pregunta) {
+            setNumPregunta(aux)
+        }
+    }
 
 
     function siguienteUnidad() {
@@ -102,7 +132,7 @@ export default function Unidad() {
 
                     {codigo.clases &&
                         [1, 2, 3, 4, 5].map(num => (
-                            codigo?.clases[num]?.java?.codigo && ( 
+                            codigo?.clases[num]?.java?.codigo && (
                                 <CodigoSeleccion archivo={codigo.clases[num]} />
                             )
                         ))
@@ -113,26 +143,40 @@ export default function Unidad() {
                         <>
                             <p className="titulo-unidad">Ejercicios</p>
                             <hr />
-                            {[1, 2, 3].map(num => (
-                                ejercicios[num]?.pregunta && (
-                                    <Ejercicio key={num} ejercicio={ejercicios[num]} />
-                                )
-                            ))}
+                            <div className="contenedor-cambio">
+                                <button className='boton-cambio' onClick={() => (cambiarAnteriorEjercicio())}> Ejercicio anterior</button>
+                                <button className='boton-cambio' onClick={() => (cambiarSiguienteEjercicio())}> Ejercicio siguiente</button>
+                            </div>
+                            {ejercicios[numEjercicio]?.pregunta && (
+                                <div className="conjunto-ejercicios">
+                                    <Ejercicio numero={numEjercicio} ejercicio={ejercicios[numEjercicio]} />
+                                </div>
+                            )}
+
                         </>
                     )}
+
                     {preguntas[1]?.pregunta && (
                         <>
-                            <p className="titulo-unidad">Preguntas del tema </p>
+                            <p className="titulo-unidad">Preguntas del tema</p>
                             <hr />
-                            {[1, 2, 3, 4, 5].map(num => (
-                                preguntas[num]?.pregunta && (
-                                    <Ejercicio key={num} ejercicio={preguntas[num]} />
-                                )
-                            ))}
+                            <div className="contenedor-cambio">
+                                <button className='boton-cambio' onClick={() => (cambiarAnteriorPregunta())}> Pregunta anterior</button>
+                                <button className='boton-cambio' onClick={() => (cambiarSiguientePregunta())}> Pregunta siguiente</button>
+                            </div>
+                            {preguntas[numPregunta]?.pregunta && (
+                                <div className="conjunto-ejercicios">
+                                    <Ejercicio numero={numPregunta} ejercicio={preguntas[numPregunta]} />
+                                </div>
+                            )}
+
                         </>
                     )}
+
+
                     <div className="contenedor-cambio-unidad">
-                        <button className='boton-unidad' onClick={() => (previaUnidad())}>Unidad anterior &lt;</button>
+                        <button className='boton-unidad' onClick={() => (previaUnidad())}> &lt; Unidad anterior </button>
+                        <button className='boton-unidad' onClick={() => (handleRedirect("/programacion"))}>Lista de unidades</button>
                         <button className='boton-unidad' onClick={() => (siguienteUnidad())}>Unidad siguiente &gt;</button>
                     </div>
                 </>

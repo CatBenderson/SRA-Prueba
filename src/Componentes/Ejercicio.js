@@ -1,9 +1,9 @@
 import { renderizarContenido } from '../Utils/Utils';
 import '../Estilos/Ejercicios.css';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Modal from './Modal';
 
-export default function Ejercicio({ ejercicio }) {
+export default function Ejercicio({ numero, ejercicio }) {
     const [respuestaSeleccionada, setRespuestaSeleccionada] = useState('');
     const [retroalimentacion, setRetroalimentacion] = useState('');
     const [modalVisible, setModalVisible] = useState(false);
@@ -33,6 +33,11 @@ export default function Ejercicio({ ejercicio }) {
         }
     };
 
+    useEffect(() => {
+        setRetroalimentacion(false)
+        setRespuestaSeleccionada('')
+    }, [ejercicio]);
+
     return (
         <div className="contenedor-card-ejercicio">
             <div className="contenedor-card-ejercicio-pregunta">
@@ -44,11 +49,12 @@ export default function Ejercicio({ ejercicio }) {
                         onClick={() => handleImageClick(ejercicio.imagen, "")}
                     />
                 )}
+                <div className="numero-card-ejercicio">{numero}</div>
                 <div className="pregunta-card-ejercicio">
                     {renderizarContenido(ejercicio.pregunta)}
                 </div>
             </div>
-            <form onSubmit={manejarSubmit}>
+            <form onSubmit={manejarSubmit} className="formulario-ejercicio">
                 {Object.keys(ejercicio.respuestas).map(key => (
                     <div key={key} className='respuesta-ejercicio'>
                         <input
@@ -62,7 +68,9 @@ export default function Ejercicio({ ejercicio }) {
                         <label htmlFor={ejercicio.id + key}> {`${key}) `} {`${ejercicio.respuestas[key].contenido}`}</label>
                     </div>
                 ))}
-                <button type='submit' className='boton-ejercicio'>Seleccionar</button>
+                <div className="contenedor-boton-ejercicio">
+                    <button type='submit' className='boton-ejercicio'>Seleccionar</button>
+                </div>
                 {retroalimentacion && (
                     <div className={`retroalimentacion-card-ejercicio ${retroalimentacionTrue ? '' : 'retroalimentacion-error'}`}>
                         <p className='titulo-retroalimentacion'><strong>Retroalimentación</strong></p>

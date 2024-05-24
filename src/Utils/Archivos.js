@@ -25,6 +25,7 @@ import xxiv from '../Info/Unidades/24.txt';
 import xxv from '../Info/Unidades/25.txt';
 import xxvi from '../Info/Unidades/26.txt';
 import xxvii from '../Info/Unidades/27.txt';
+import xC from '../Info/Unidades/Codigos/10.txt';
 import xixC from '../Info/Unidades/Codigos/19.txt';
 import xxC from '../Info/Unidades/Codigos/20.txt';
 import xxivC from '../Info/Unidades/Codigos/24.txt';
@@ -61,6 +62,7 @@ export const archivosPorUnidad = {
 };
 
 export const codigoPorUnidad = {
+    10: xC,
     19: xixC,
     20: xxC,
     24: xxivC,

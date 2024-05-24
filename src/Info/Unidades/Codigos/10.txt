@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "import java.text.DecimalFormat;\n\npublic class Circulo {\n\n    public static double calcularArea(double radio) {\n        // Manejo de errores y gestión de excepciones\n        if (radio < 0) {\n            throw new IllegalArgumentException(\"El radio no puede ser negativo\");\n        }\n        return Math.PI * Math.pow(radio, 2);\n    }\n\n    public static void imprimirArea(double radio) {\n        DecimalFormat df = new DecimalFormat(\"#.##\"); // Formato para mostrar solo dos decimales\n\n        try {\n            double area = calcularArea(radio);\n            System.out.println(\"El área del círculo con radio \" + radio + \" es \" + df.format(area));\n        } catch (IllegalArgumentException e) {\n            System.out.println(\"Error: \" + e.getMessage()); // Manejo de errores y gestión de excepciones\n        }\n    }\n\n    public static void main(String[] args) {\n        double[] radios = {3, 5, -1}; // Lista de radios para probar\n\n        for (double radio : radios) {\n            imprimirArea(radio);\n        }\n    }\n}\n",
+                "texto": "Este código contempla los principios vistos con anterioridad de la siguiente manera.\n\n*Indentación *y *formato *consistentes: El código usa una indentación consistente de 4 espacios, lo cual ayuda a mantener una estructura clara y legible.\n\n*Convenciones *de *nombres *descriptivos *y *significativos: Los nombres de métodos como *calcularArea e *imprimirArea y de variables como *radio y *area dan una idea clara de su función.\n\n*Modularización *y *reutilización: El cálculo del área del círculo se realiza en un método separado ( *calcularArea), permitiendo la reutilización de esta lógica en diferentes partes del programa.\n\n*Comentarios *para *claridad: Se incluyen comentarios para explicar el propósito de los métodos y las excepciones que pueden ocurrir.\n\n*Manejo *de *errores *y *gestión *de *excepciones: El método *calcularArea maneja errores lanzando una excepción en caso de que el radio sea negativo."
+            },
+            "python": {
+                "codigo": "# Importamos las bibliotecas necesarias\nimport math\n\ndef calcular_area_circulo(radio):\n    \"\"\"\n    Calcula el área de un círculo dado su radio.\n\n    Args:\n        radio (float): El radio del círculo.\n\n    Returns:\n        float: El área del círculo.\n    \"\"\"\n    if radio < 0:\n        raise ValueError(\"El radio no puede ser negativo\")  # Manejo de errores y gestión de excepciones\n    area = math.pi * radio ** 2\n    return area\n\ndef imprimir_area_circulo(radio):\n    \"\"\"\n    Imprime el área de un círculo dado su radio.\n\n    Args:\n        radio (float): El radio del círculo.\n    \"\"\"\n    try:\n        area = calcular_area_circulo(radio)\n        print(f\"El área del círculo con radio {radio} es {area:.2f}\")\n    except ValueError as e:\n        print(f\"Error: {e}\")  # Manejo de errores y gestión de excepciones\n\n# Ejemplo de uso\nif __name__ == \"__main__\":\n    radios = [3, 5, -1]  # Lista de radios para probar\n\n    for radio in radios:\n        imprimir_area_circulo(radio)\n",
+                "texto": "Este código contempla los principios vistos con anterioridad de la siguiente manera.\n\n*Indentación *y *formato *consistentes: El código usa una indentación consistente de 4 espacios, lo cual ayuda a mantener una estructura clara y legible.\n\n*Convenciones *de *nombres *descriptivos *y *significativos: Las funciones *calcular_area_circulo e *imprimir_area_circulo y las variables como *radio y *area tienen nombres que dan una idea clara de su función.\n\n*Modularización *y *reutilización: El cálculo del área del círculo se realiza en un método separado ( *calcular_area_circulo), permitiendo la reutilización de esta lógica en diferentes partes del programa.\n\n*Comentarios *para *claridad: Se incluyen comentarios para explicar el propósito de los métodos y las excepciones que pueden ocurrir.\n\n*Manejo *de *errores *y *gestión *de *excepciones: El método *calcular_area_circulo maneja errores lanzando una excepción en caso de que el radio sea negativo."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

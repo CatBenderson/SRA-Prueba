@@ -1,15 +1,16 @@
 .contenedor-card-ejercicio {
     max-width: 100%;
-    width: 97%;
+    width: 96%;
     min-width: 280px;
-    min-height: 300px;
+    min-height: 285px;
     border: silver solid thin;
     border-radius: 5px;
-    
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     scroll-behavior: auto;
-    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+    
 }
 
 .contenedor-card-ejercicio-pregunta{
@@ -44,6 +45,18 @@
     vertical-align: text-top;
 }
 
+.numero-card-ejercicio{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: #18529D;
+    min-height: 20px;
+    line-height: 1;
+    vertical-align: text-top;
+}
+
 .respuesta-ejercicio{
     display: block;
     margin-left: 35px;
@@ -51,20 +64,30 @@
     line-height: 1.7;
 }
 
+.formulario-ejercicio {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenedor-boton-ejercicio {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+}
+
 .boton-ejercicio{
     color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
     margin-top: 15px;
-    margin-bottom: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 15px;
     background-color: #18529D;
     border: #18529D ;
     border-radius: 5px;
-    width: 95%;
+    width: 30%;
     height: 30px;
+    margin-bottom: 5px;
 }
 
 .boton-ejercicio:hover{
