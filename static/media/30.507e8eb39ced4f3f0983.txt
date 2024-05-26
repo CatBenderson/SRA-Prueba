@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "import java.util.HashMap;\nimport java.util.Map;\n\npublic class Diccionario {\n\n   public static void main(String[] args) {\n\n       Map<String, String> diccionario = new HashMap<String,String>();\n\n\n       diccionario.put(\"sun\", \"sol\");\n       diccionario.put(\"moon\", \"luna\");\n       diccionario.put(\"star\", \"estrella\");\n       diccionario.put(\"planet\", \"planeta\");\n\n\n       System.out.println(diccionario);\n\n       System.out.println(diccionario.get(\"sun\"));\n\n       System.out.println(\"¿El diccionario contiene la palabra asteroid? \" + diccionario.containsKey(\"asteroid\"));\n\n       System.out.println(diccionario.keySet());\n       System.out.println(diccionario.values());\n\n       System.out.println(diccionario.size());\n\n       diccionario.remove(\"planet\");\n\n       System.out.println(diccionario);\n   }\n\n}",
+                "texto": "En la clase *Diccionario se crea un HashMap que servirá como diccionario, posteriormente, se agregan pares de palabras al diccionario usando *.put(llave, *valor). Algunos otros métodos que se utilizan son:\n\n*.get(llave): Regresa el valor asociado a la llave otorgada\n*.containsKey(llave): Booleano que indica si la llave otorgada existe o no en el diccionario\n*.keySet(): Muestra todo el conjunto de llaves almacenadas en el diccionario sin sus valores\n*.values(): Muestra todo el conjunto de valores almacenados en el diccionario sin sus llaves\n*.size(): Regresa el tamaño del diccionario.\n*.remove(llave): Elimina una llave y su valor asociado del diccionario\n"
+            },
+            "python": {
+                "codigo": "class Diccionario:\n    diccionario = {\n    \"sun\": \"sol\",\n    \"moon\": \"luna\",\n    \"star\": \"estrella\",\n    \"planet\": \"planeta\"\n    }\n\n    print(diccionario)\n\n    print(diccionario.get(\"sun\"))\n\n    print(\"¿El diccionario contiene la palabra asteroid? \", \"asteroid\" in diccionario)\n\n    print(diccionario.keys())\n\n    print(diccionario.values())\n\n\n\n    print(len(diccionario))\n\n    del diccionario[\"planet\"]\n\n    print(diccionario)\n",
+                "texto": "En la clase *Diccionario se define un diccionario llamado diccionario que almacena pares clave-valor. Algunos otros métodos que se utilizan son:\n\n*.get(llave): Regresa el valor asociado a la llave otorgada\n*llave *in *diccionario: Booleano que indica si la llave otorgada existe o no en el diccionario\n*.keys(): Muestra todo el conjunto de llaves almacenadas en el diccionario sin sus valores\n*.values(): Muestra todo el conjunto de valores almacenados en el diccionario sin sus llaves\n*len(diccionario): Regresa el tamaño del diccionario.\n*del *diccionario(llave): Elimina una llave y su valor asociado del diccionario\n"
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

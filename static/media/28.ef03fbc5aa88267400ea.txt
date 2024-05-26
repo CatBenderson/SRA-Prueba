@@ -1,0 +1,234 @@
+{
+    "id": "28",
+    "nombre": "Métodos de ordenamiento: Heap Sort",
+    "contenido": "Se trata de representar un arreglo de objetos como un árbol binario completo o heap, esto significa que cada vértice tiene a los más dos hijos, y que todos sus niveles están completos, excepto (posiblemente) el último, el cual se llena de izquierda a derecha.   Además cada nodo tiene la característica de tener un valor mayor al de sus hijos por lo que la raíz del árbol es siempre el valor mayor. Este método de ordenamiento sigue los siguientes pasos: \n\n        *1. *Construcción *del *heap *con *los *elementos *del *arreglo: Comenzamos con un arreglo de elementos que queremos convertir en un heap. El primer paso es organizar estos elementos de manera que cumplan con la propiedad de heap. Este proceso se puede realizar de varias maneras, pero una forma común es usar el algoritmo \"Heapify\".\n        *2. *Intercambiar *la *raíz *con *el *último *elemento *del *arreglo: Después de organizar los elementos para que cumplan con la propiedad de heap, intercambiamos el primer elemento del arreglo (la raíz del heap) con el último elemento del arreglo. Esto asegura que el elemento más grande esté en la posición correcta para formar parte del heap final.\n        *3. *Disminuir *en *uno *el *tamaño *del *árbol: Una vez que hemos intercambiado la raíz con el último elemento, \"eliminamos\" este último elemento del arreglo, reduciendo así el tamaño del arreglo que estamos considerando para construir el heap. Esto es importante porque el último elemento ya está en su posición final y no necesitamos considerarlo más en los pasos siguientes.\n        *4. *Realizar *el *proceso *de *manera *recursiva *hasta *que *se *obtenga *un *árbol *vacío: Esto se hace aplicando el proceso de \"Heapify\" de manera recursiva en el subárbol que tiene como raíz el nodo que originalmente estaba en la posición del último elemento. Este proceso se repite hasta que el tamaño del arreglo llegue a cero, momento en el que hemos construido el heap completo.\n\nDe la misma manera que el método MergeSort este método de ordenamiento tiene una complejidad de  *O= *(n *⋅ *log *n). Una de las ventajas de heapsort es que es muy eficiente para ordenar grandes cantidades de datos. Por un lado, es un algoritmo «no in-place», lo que significa que requiere un espacio adicional para almacenar los elementos mientras se realiza la ordenación",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "28-1-E",
+            "imagen": "",
+            "pregunta": "Dado un arreglo arr = [19,20,14,3,9] en qué paso el arreglo queda de la manera [9, 3, 14, 19, 20]",
+            "respuestas": {
+                "1": {
+                    "contenido": "Paso 1",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Paso 2",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Paso 3",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Paso 4",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "Dado un arreglo arr = [18,20,17,13,15,1] en qué paso el arreglo queda de la manera [13, 1, 15, 17, 18, 20]",
+            "respuestas": {
+                "1": {
+                    "contenido": "Paso 1",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Paso 2",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Paso 3",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Paso 4",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "28-1-P",
+            "pregunta": "¿Qué caracteriza a un árbol binario completo o heap en el contexto de HeapSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Cada vértice tiene hasta dos hijos y todos los niveles están completos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Cada vértice tiene solo un hijo y todos los niveles están completos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Los vértices pueden tener un número variable de hijos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Solo la raíz tiene hijos, y estos se llenan de izquierda a derecha.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "28-2-P",
+            "pregunta": "¿Cuál es el primer paso del algoritmo de ordenamiento HeapSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Intercambiar la raíz con el último elemento del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Disminuir en uno el tamaño del árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Realizar el proceso de manera recursiva hasta obtener un árbol vacío.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Construcción del heap con los elementos del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "3": {
+            "id": "28-3-P",
+            "pregunta": "¿Qué se hace en el paso de \"Realizar el proceso de manera recursiva hasta que se obtenga un árbol vacío\" en el algoritmo HeapSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Se construye el heap con los elementos del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Se intercambia la raíz del heap con el último elemento del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Se disminuye en uno el tamaño del árbol.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Se aplica el proceso de \"Heapify\" recursivamente hasta que el tamaño del arreglo llegue a cero.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "4": {
+            "id": "28-4-P",
+            "pregunta": "¿Cuál es una característica del algoritmo HeapSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Es un algoritmo in-place que no requiere espacio adicional.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Es muy eficiente para ordenar pequeñas cantidades de datos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Requiere un espacio adicional para almacenar los elementos mientras se realiza la ordenación.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Solo funciona correctamente con arreglos ordenados de forma ascendente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "28-5-P",
+            "pregunta": "¿Cuál es la complejidad temporal promedio del algoritmo HeapSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "O(n)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "O(n * log n)",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "O(n^2)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "O(log n)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

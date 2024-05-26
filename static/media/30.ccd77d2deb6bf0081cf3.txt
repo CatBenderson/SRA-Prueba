@@ -1,0 +1,234 @@
+{
+    "id": "30",
+    "nombre": "Diccionarios",
+    "contenido": "Se trata de estructuras que almacenan un conjunto de parejas de llaves y valores.  La llave es aquel dato que nos da el acceso directo a un valor. Entre sus características se encuentra que deben ser únicas dentro del diccionario así como que no se pueden modificar.  Por otro lado, los valores pueden ser objetos de cualquier tipo y a diferencia de las llaves pueden encontrarse repetidos dentro del diccionario si fuera necesario.\n\n*Características:\n\n*Pares *llave-valor: Cada entrada en un diccionario tiene dos componentes: una llave y un valor. La llave es única y se utiliza para identificar el valor asociado.\n\n*Acceso *rápido: Los diccionarios permiten un acceso rápido a los valores utilizando las llaves. Este acceso directo suele ser muy eficiente, lo que hace a los diccionarios ideales para situaciones en las que se necesita buscar datos rápidamente.\n\n*Mutabilidad: En la mayoría de los lenguajes, los diccionarios son mutables, lo que significa que puedes cambiar sus elementos, agregar nuevos pares clave-valor o eliminar pares existentes después de su creación.\n",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/gAkkMJd.png",
+            "alt": "Estructura de un diccionario"
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "30-1-E",
+            "imagen": "https://i.imgur.com/sh5DvKZ.png",
+            "pregunta": "Dado el diccionario de la imagen indica cual es el resultado tras aplicar .containsKey(\"azul\") o azul in diccionario",
+            "respuestas": {
+                "1": {
+                    "contenido": "000FFF",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "0000FF",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "FFFFFF",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "0000ff",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "30-2-E",
+            "imagen": "https://i.imgur.com/sh5DvKZ.png",
+            "pregunta": "Dado el diccionario de la imagen indica cual es el resultado tras aplicar .keySet() o .keys",
+            "respuestas": {
+                "1": {
+                    "contenido": "[rojo, verde, blanco, azul, morado]",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "[FF0000, 008f39, FFFFFF, 0000ff, 572364]",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "[rojo, FF0000]",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "5",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "30-1-P",
+            "pregunta": "¿Qué característica define a un diccionario en programación?",
+            "respuestas": {
+                "1": {
+                    "contenido": " Almacena solo valores numéricos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Permite solo el acceso secuencial a los datos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Contiene pares de llaves y valores.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "No permite la modificación de sus elementos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "30-2-P",
+            "pregunta": "¿Cuál de las siguientes afirmaciones sobre las llaves de un diccionario es correcta?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Las llaves pueden repetirse dentro del diccionario.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Las llaves son únicas dentro del diccionario.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Las llaves no son necesarias en un diccionario.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Las llaves son siempre numéricas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "30-3-P",
+            "pregunta": "¿Por qué los diccionarios permiten un acceso rápido a los valores?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Porque las llaves son únicas y se utilizan para identificar los valores.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Porque almacenan solo valores numéricos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Porque solo permiten el acceso secuencial a los datos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Porque no permiten la modificación de sus elementos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "30-4-P",
+            "pregunta": "¿Qué significa que los diccionarios son mutables?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Que no se pueden modificar después de su creación.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Que sus elementos no pueden cambiarse.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Que no se pueden agregar nuevos pares clave-valor.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Que se pueden cambiar sus elementos, agregar nuevos pares clave-valor o eliminar pares existentes después de su creación.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "5": {
+            "id": "30-5-P",
+            "pregunta": "¿Cuál es una ventaja principal de utilizar diccionarios en programación?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Ocupan menos espacio en la memoria.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Permiten almacenar solo datos numéricos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Permiten un acceso rápido a los valores utilizando las llaves.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Son inmutables y no pueden modificarse.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}
