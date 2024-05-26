@@ -119,5 +119,21 @@
             "id": "29",
             "nombre": "Métodos de ordenamiento: Quick Sort"
         }
+        ,{
+            "id": "30",
+            "nombre": "Diccionarios"
+        }
+        ,{
+            "id": "31",
+            "nombre": "Funciones de dispersión"
+        }
+        ,{
+            "id": "32",
+            "nombre": "Busqueda en anchura"
+        }
+        ,{
+            "id": "33",
+            "nombre": "Busqueda en profundidad"
+        }
     ]
 }

@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Prueba tu código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Para este caso, no se puede observar que este código se pruebe",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Comentar apropiadamente el código",
-                    "retroalimentacion": "",
+                    "contenido": "Planea antes de programar",
+                    "retroalimentacion": "Para este caso, no se puede observar la planeación previa. ",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Disminuye el copiar y pegar",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Para este caso, no se puede observar que este código se haya desarrollado utilizando copiar y pegar",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Principio DRY",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El código muestra bloques repetitivos que podrían simplificarse usando el principio DRY (Don't Repeat Yourself), reduciendo la duplicación y mejorando la mantenibilidad.",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Comentar apropiadamente el código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien el código cuenta con comentarios, estos no son de ayuda para explicar lo que el código hace por lo que pueden resultar innecesarios y excesivos",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Prueba tu código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Para este caso, no se puede observar que este código se pruebe",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Principio DRY",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Para este caso, no se puede observar que este código sea repetitivo",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Planea antes de programar",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Para este caso, no se puede observar la planeación previa. ",
                     "estado": "false"
                 }
             }
@@ -105,127 +105,127 @@
             "pregunta": "¿Qué implica la técnica de ''Planea antes de programar''?",
             "respuestas": {
                 "1": {
-                    "contenido": "Definir las clases, módulos y funciones de un proyecto. ",
-                    "retroalimentacion": "",
+                    "contenido": "Definir las clases, módulos y funciones de un proyecto.",
+                    "retroalimentacion": "Planear antes de programar implica estructurar el proyecto definiendo sus componentes principales, como clases, módulos y funciones, para tener una guía clara antes de escribir el código.",
                     "estado": "true"
                 },
                 "2": {
-                    "contenido": "Comentar el código ",
-                    "retroalimentacion": "",
+                    "contenido": "Comentar el código",
+                    "retroalimentacion": "Comentar el código es una práctica importante, pero se realiza durante la programación no como parte de la planificación previa.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Probar el código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Probar el código es un paso esencial en el desarrollo de software, pero se realiza después de escribir el código, no como parte de la planificación previa.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Planificar el desarrollo del proyecto.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Planificar el desarrollo del proyecto es una actividad general que puede incluir diversos aspectos, pero no especifica claramente la definición de clases, módulos y funciones, que es un componente clave de la técnica de 'Planea antes de programar'.",
                     "estado": "false"
                 }
             }
         },
         "2": {
             "id": "12-2-P",
-            "pregunta": "¿Cuál es la función principal de los comentarios en el código? ",
+            "pregunta": "¿Cuál es la función principal de los comentarios en el código?",
             "respuestas": {
                 "1": {
-                    "contenido": "Facilitar la copia y pegado. ",
-                    "retroalimentacion": "",
+                    "contenido": "Facilitar la copia y pegado.",
+                    "retroalimentacion": "Los comentarios no se utilizan para facilitar la copia y pegado del código, sino para explicar lo que el código hace.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Explicar qué hace el código. ",
-                    "retroalimentacion": "",
+                    "contenido": "Explicar qué hace el código.",
+                    "retroalimentacion": "La función principal de los comentarios es explicar qué hace el código, ayudando a los desarrolladores que trabajen con el programa a entender su lógica y propósito.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Automatizar el proceso de pruebas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Automatizar el proceso de pruebas es una tarea que corresponde a herramientas y scripts de prueba, no a los comentarios en el código.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Planificar el desarrollo del proyecto.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Planificar el desarrollo del proyecto es una actividad separada que se realiza antes de la codificación.",
                     "estado": "false"
                 }
             }
         },
         "3": {
             "id": "12-3-P",
-            "pregunta": "¿Qué significa el principio DRY en programación? ",
+            "pregunta": "¿Qué significa el principio DRY en programación?",
             "respuestas": {
                 "1": {
                     "contenido": "Don't Really Yield.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "'Don't Really Yield' no es un principio reconocido en programación.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Do Repeat Yourself.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": " 'Do Repeat Yourself' no es un principio reconocido en programación.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Don't Run Yet.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "'Don't Run Yet' no es un principio reconocido en programación.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Don't Repeat Yourself.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Don't Repeat Yourself promueve la reducción de duplicación en el código, lo que facilita su mantenimiento y reduce errores.",
                     "estado": "true"
                 }
             }
         },
         "4": {
             "id": "12-4-P",
-            "pregunta": "¿Por qué es recomendable realizar pruebas al código? ",
+            "pregunta": "¿Por qué es recomendable realizar pruebas al código?",
             "respuestas": {
                 "1": {
-                    "contenido": "Para aumentar la complejidad del código. ",
-                    "retroalimentacion": "",
+                    "contenido": "Para aumentar la complejidad del código.",
+                    "retroalimentacion": "Realizar pruebas no tiene como objetivo aumentar la complejidad del código, sino asegurar que el código funciona correctamente.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Para encontrar errores y problemas a tiempo. ",
-                    "retroalimentacion": "",
+                    "contenido": "Para encontrar errores y problemas a tiempo.",
+                    "retroalimentacion": "La realización de pruebas permite identificar errores y problemas en el código de manera temprana, lo que facilita su corrección y mejora la calidad del software.",
                     "estado": "true"
                 },
                 "3": {
-                    "contenido": "Para evitar el uso de funciones e instancias. ",
-                    "retroalimentacion": "",
+                    "contenido": "Para evitar el uso de funciones e instancias.",
+                    "retroalimentacion": "Las pruebas no tienen como objetivo evitar el uso de funciones e instancias, sino asegurar que todas las partes del código, incluidas las funciones e instancias, funcionan correctamente.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Para planificar el desarrollo del proyecto.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Planificar el desarrollo del proyecto es una actividad separada que no se relaciona directamente con la realización de pruebas al código.",
                     "estado": "false"
                 }
             }
         },
         "5": {
             "id": "12-5-P",
-            "pregunta": "¿Qué se sugiere respecto al copiar y pegar código de internet o proyectos anteriores? ",
+            "pregunta": "¿Qué se sugiere respecto al copiar y pegar código de internet o proyectos anteriores?",
             "respuestas": {
                 "1": {
-                    "contenido": "Evitar completamente el uso de código externo. ",
-                    "retroalimentacion": "",
+                    "contenido": "Evitar completamente el uso de código externo.",
+                    "retroalimentacion": "Evitar completamente el uso de código externo no es práctico ni recomendable, ya que puede ser útil reutilizar soluciones existentes.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Repetir el código exacto sin cambios. ",
-                    "retroalimentacion": "",
+                    "contenido": "Repetir el código exacto sin cambios.",
+                    "retroalimentacion": "Repetir el código exacto sin cambios puede llevar a problemas de mantenimiento y errores, ya que es importante adaptar y entender el código que se reutiliza.",
                     "estado": "false"
                 },
                 "3": {
-                    "contenido": "Utilizarlo como inspiración y escribir nuestro propio código. ",
-                    "retroalimentacion": "",
+                    "contenido": "Utilizarlo como inspiración y escribir nuestro propio código.",
+                    "retroalimentacion": "Es recomendable usar el código de internet o proyectos anteriores como inspiración para aprender y luego escribir nuestro propio código, adaptándolo a las necesidades específicas del nuevo proyecto.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Agregar comentarios para clarificar el código copiado.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Agregar comentarios es útil, pero no se relacion con cómo se debe manejar el código copiado. La clave es entender y adaptar el código, no solo comentarlo.",
                     "estado": "false"
                 }
             }

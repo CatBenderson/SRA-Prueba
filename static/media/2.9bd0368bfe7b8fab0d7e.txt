@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Estado B, se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El estado B no es el estado final además de que la cadena no llega a este punto",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Estado A, no se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena no llega a este punto",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Estado D, se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena si llega al estado D, sin embargo este no es el estado final.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Estado D, no se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena llega al estado D y se reconoce que el estado final no es D sino E.",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Estado E, se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena si llega al estado E y este si es el estado final",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Estado C, se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena no llega al estado C además este no es el estado final.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Estado C, no se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien el estado C no es el estado final, la caena no llega a este punto.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Estado E, no se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena si llega al estado E, sin embargo a diferencia de la afirmación este si es el estado final.",
                     "estado": "false"
                 }
             }
@@ -78,22 +78,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Estado B, se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena llega al estado B pero el estado final no es B sino E.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Estado B, no se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cadena llega al estado B y se reconoce que el estado final no es B sino E.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Estado F, no se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El estado F no es final pero la cadena no termina aquí",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Estado D, se llega al estado final",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El estado D no es final y la cadena no termina aquí",
                     "estado": "false"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Las transiciones entre estados.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las transiciones son importantes para entender cómo un sistema se mueve de un estado a otro pero no son la representación de un estado",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Los resultados finales del procesamiento.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los resultados finales del procesamiento son importantes en el contexto general de un sistema pero no son la representación de un estado",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Las condiciones o situaciones del sistema.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los estados en una MEF representan las condiciones o situaciones del sistema, determinando su comportamiento en cada momento.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Las acciones asociadas a las transiciones.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las acciones asociadas a las transiciones son importantes para entender cómo el sistema se comporta en respuesta a ciertos eventos pero no son la representación de un estado",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Indicar el inicio del procesamiento.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El inicio del procesamiento generalmente se representa mediante un estado inicial, no de los estados finales.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Representar condiciones de error.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las condiciones de error generalmente se manejan dentro de la lógica de la MEF mediante la definición de estados específicos, los cuales no son los estados finales",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Indicar el punto donde se obtiene un resultado deseable.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un estado final en una MEF indica el punto donde se obtiene un resultado deseable, terminando el procesamiento con éxito.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Modelar un estado transitorio.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los estados transitorios en una máquina de estados finitos (MEF) son aquellos estados que el sistema atraviesa temporalmente durante su funcionamiento normal antes de alcanzar un estado final.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Transiciones deterministas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las transiciones deterministas en una MEF no permiten que un estado pase al mismo estado, sino que siempre conducen a un estado específico.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Transiciones no deterministas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las transiciones no deterministas en una MEF permiten múltiples transiciones entre estados diferentes, no al mismo estado.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Transiciones nulas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las transiciones nulas en una MEF no permiten que un estado pase al mismo estado, sino que no causan un cambio de estado.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Transiciones de loop.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las transiciones de loop en una MEF permiten que un estado pase al mismo estado, lo que puede ser útil para ciertos comportamientos repetitivos.",
                     "estado": "true"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Compiladores y Analizadores Sintácticos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los compiladores y analizadores sintácticos están más relacionados con el procesamiento de lenguajes de programación y la verificación de la estructura gramatical de los programas.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Automatización de Circuitos Digitales.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las MEF se utilizan para modelar circuitos digitales secuenciales en la automatización de procesos.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Programación de autómatas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La programación de autómatas se refiere más al diseño y desarrollo de autómatas en general.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Modelado de Protocolos de Comunicación en Telecomunicaciones.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El modelado de protocolos de comunicación se centra en la especificación y diseño de protocolos de comunicación.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Cada estado tiene una única transición posible para una entrada dada.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta característica describe las transiciones deterministas, no las no deterministas.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Pueden existir múltiples transiciones para un estado y entrada específicos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las transiciones no deterministas en una MEF pueden tener múltiples transiciones para un estado y entrada específicos, lo que proporciona flexibilidad en el comportamiento del sistema.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "No requieren de una entrada específica.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta característica no es específica de las transiciones no deterministas, ya que pueden requerir o no una entrada específica, al igual que las transiciones deterministas.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Permiten transiciones entre estados diferentes.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta característica no es única de las transiciones no deterministas, ya que también pueden ocurrir en las transiciones deterministas.",
                     "estado": "false"
                 }
             }

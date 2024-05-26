@@ -22,11 +22,11 @@
         },
         "3": {
             "java": {
-                "codigo": "public class Main {\n    \n    public static void main(String[] args) {\n        Arbol arbol = new Arbol();\n\n        arbol.insertar(arbol.raiz, \"Mango\", 14);\n        arbol.insertar(arbol.raiz, \"Pera\", 18);\n        arbol.insertar(arbol.raiz, \"Fresa\", 12);\n        arbol.insertar(arbol.raiz, \"Naranja\", 6);\n        arbol.insertar(arbol.raiz, \"Manzana\", 3);\n        arbol.insertar(arbol.raiz, \"Sandia\", 1);\n\n        arbol.mostrarAcostado(0, arbol.raiz);\n    }\n}",
+                "codigo": "public class Main {\n    \n    public static void main(String[] args) {\n        Arbol arbol = new Arbol();\n\n        arbol.insertar( \"Mango\", 14);\n        arbol.insertar( \"Pera\", 18);\n        arbol.insertar( \"Fresa\", 12);\n        arbol.insertar( \"Naranja\", 6);\n        arbol.insertar( \"Manzana\", 3);\n        arbol.insertar( \"Sandia\", 1);\n\n        arbol.mostrarAcostado(0, arbol.raiz);\n    }\n}",
                 "texto": "La clase *Main se encarga de crear una instancia de arbol, insertar una serie de datos y finalmente mostrarlos de manera ordenada"
             },
             "python": {
-                "codigo": "from Arbol import Arbol\n\nclass Main : \n    arbol = Arbol()\n    arbol.insertar(arbol.raiz, \"Mango\", 14);\n    arbol.insertar(arbol.raiz, \"Pera\", 18);\n    arbol.insertar(arbol.raiz, \"Fresa\", 12);\n    arbol.insertar(arbol.raiz, \"Naranja\", 6);\n    arbol.insertar(arbol.raiz, \"Manzana\", 3);\n    arbol.insertar(arbol.raiz, \"Sandia\", 1);\n    \narbol.mostrar_acostado(0, arbol.raiz)",
+                "codigo": "from Arbol import Arbol\n\nclass Main : \n    arbol = Arbol()\n    arbol.insertar( \"Mango\", 14);\n    arbol.insertar( \"Pera\", 18);\n    arbol.insertar( \"Fresa\", 12);\n    arbol.insertar( \"Naranja\", 6);\n    arbol.insertar( \"Manzana\", 3);\n    arbol.insertar( \"Sandia\", 1);\n    \narbol.mostrar_acostado(0, arbol.raiz)",
                 "texto": "La clase *Main se encarga de crear una instancia de arbol, insertar una serie de datos y finalmente mostrarlos de manera ordenada"
             }
         },
