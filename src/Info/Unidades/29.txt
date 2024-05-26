@@ -1,0 +1,234 @@
+{
+    "id": "29",
+    "nombre": "Métodos de ordenamiento: Quick Sort",
+    "contenido": "Es un método de ordenamiento que consiste en dividir el problema en dos subproblemas que se resuelven de manera individual e independiente. A diferencia del método de ordenamiento Merge Sort donde el combinar era la parte más importante del algoritmo, en este caso es la división quien toma mayor importancia. Su algoritmo consiste en aplicar de manera recursiva los siguientes pasos. \n\n      1. Elegir un elemento de la lista de elementos que se desea ordenar, este elemento se conoce como pivot.  Dependiendo del planteamiento de la solución puede ser el elemento de la lista ubicado en el primer, último o intermedio lugar.\n      2. Dividir la lista en dos sublistas, una con los elementos de mayor valor que el pivot y otra con los elementos menores al pivot.\n      3. Ordenar recursivamente ambas sublistas\n      4. Armar la lista resultado combinando la lista menor ordenada, el pivot y la lista mayor ordenada, específicamente en dicho orden.\n\nEs importante mencionar que la eficacia de este algoritmo depende fuertemente del elemento que se seleccione como pivot. En situaciones \"promedio\" su complejidad de representa como *O= *(n⋅log(n)) sin embargo en los casos de que el pivot termine siendo el valor menor o mayor (impidiendo que en cada caso se genere ya sea la sublista de menores o de mayores) de  cada sublista, esta complejidad pasa a ser *O *= *n^2",
+    "imagenes": {
+        "1": {
+            "url": "https://i.imgur.com/rjWjmxh.png",
+            "alt": "Representación gráfica del método Quick Sort"
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "29-1-E",
+            "imagen": "",
+            "pregunta": "Para el arreglo arr = [7,8,6,5,3,4,2,1] en qué paso el arreglo se encuentra de la manera [2, 1, 6, 5, 3, 4, 7, 8] ",
+            "respuestas": {
+                "1": {
+                    "contenido": "Paso 1",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Paso 2",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Paso 3",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Paso 4",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "29-1-P",
+            "pregunta": "¿Cuál es el objetivo principal del algoritmo QuickSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Dividir el arreglo en dos sublistas y luego combinarlas en orden ascendente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Seleccionar un elemento pivot y dividir el arreglo en dos sublistas, una con elementos mayores y otra con elementos menores al pivot.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Ordenar los elementos del arreglo de manera recursiva utilizando un árbol binario completo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": " Comparar todos los elementos del arreglo entre sí para determinar su orden.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "29-2-P",
+            "pregunta": "¿Qué representa el elemento pivot en el algoritmo QuickSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "El elemento más pequeño del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "El elemento más grande del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "El elemento que se elige como punto de referencia para dividir el arreglo en sublistas.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "El elemento que se coloca en el centro del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "29-3-P",
+            "pregunta": "¿Cuál es uno de los pasos importantes en el algoritmo QuickSort?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Ordenar las sublistas de manera independiente.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Elegir el pivot como el último elemento del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Combinar las sublistas en orden ascendente.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Seleccionar un elemento aleatorio como pivot en cada iteración.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "29-4-P",
+            "pregunta": "¿Qué complejidad temporal tiene el algoritmo QuickSort en el peor de los casos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "O(n)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "O(n log n)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "O(n^2)",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "O(log n)",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "29-5-P",
+            "pregunta": "¿En qué situación la complejidad temporal del algoritmo QuickSort puede llegar a ser O(n^2)?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Cuando se elige un pivot aleatorio en cada iteración.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Cuando el pivot es siempre el primer elemento del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Cuando el pivot es siempre el elemento más pequeño del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Cuando el pivot termina siendo el valor menor o mayor en cada partición del arreglo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        }
+    }
+}

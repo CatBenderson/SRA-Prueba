@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Diseño de algoritmos de juegos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El diseño de algoritmos de juegos es una aplicación del pensamiento computacional, pero no es específico de las redes sociales.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Gestión de relaciones interpersonales.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque las redes sociales facilitan la gestión de relaciones interpersonales, no están directamente relacionadas con el pensamiento computacional.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Procesamiento con grandes volúmenes de datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las redes sociales implican el manejo masivo de datos generados por los usuarios, lo que requiere habilidades de pensamiento computacional para procesarlos eficientemente.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Planificación de eventos sociales.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La planificación de eventos sociales puede ser una función de las redes sociales, pero no está directamente relacionada con el pensamiento computacional.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Analizar grandes volúmenes de datos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien los algoritmos de recomendación pueden implicar el análisis de datos, su propósito principal en las redes sociales va más allá de simplemente analizar datos.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Optimizar la distribución de contenido y anuncios",
-                    "retroalimentacion": "",
+                    "contenido": "Controlar el clima político en la plataforma",
+                    "retroalimentacion": "Los algoritmos de recomendación no están diseñados para influir en opiniones políticas específicas ni para controlar el discurso político en las redes sociales.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Personalizar la experiencia del usuario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los algoritmos de recomendación en las redes sociales se utilizan precisamente para personalizar la experiencia del usuario, no solo para analizar datos.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Organizar eventos locales.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La organización de eventos locales puede ser una característica de algunas redes sociales, pero no es uno de los usos principales de los algoritmos de recomendación.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Optimizar la experiencia de navegación del usuario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La gestión de interfaz de usuario en las redes sociales implica mejorar la experiencia de navegación del usuario para hacer la plataforma más intuitiva y fácil de usar.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Mantener a los usuarios insatisfechos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La gestión de interfaz de usuario no implica mantener a los usuarios insatisfechos, sino todo lo contrario: se trata de identificar las necesidades y preferencias de los usuarios y desarrollar una interfaz que satisfaga esas necesidades de manera efectiva.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Mejorar la calidad de las imágenes compartidas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien la calidad de las imágenes puede ser parte de la gestión de la interfaz de usuario, esta tarea abarca un conjunto más amplio de actividades.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Planificar campañas publicitarias.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Lla planificación de campañas publicitarias se refiere a estrategias de marketing externas que utilizan la plataforma como medio para llegar a los usuarios.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Aumentar la popularidad de la plataforma.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La optimización de contenido y publicidad en las redes sociales no necesariamente aumenta la popularidad de la plataforma en sí misma.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Incrementar el número de seguidores de los usuarios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien la optimización de contenido y publicidad puede contribuir a aumentar el número de seguidores de los usuarios, no es el objetivo principal.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Mejorar la satisfacción del cliente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La satisfacción del cliente puede ser un resultado indirecto de la optimización de contenido y publicidad, pero no es el objetivo principal",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Influenciar en los ingresos y la retención de usuarios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "a optimización de contenido y publicidad en las redes sociales busca influir directamente en los ingresos y la retención de usuarios mediante la entrega de contenido y anuncios relevantes y atractivos.",
                     "estado": "true"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Porque aumenta la complejidad del sistema",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien el procesamiento de grandes volúmenes de datos puede aumentar la complejidad del sistema, el diseño de algoritmos es esencial precisamente para manejar esta complejidad y extraer información útil de los datos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Porque aumenta la cantidad de información disponible para los usuarios",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien es cierto que el procesamiento de grandes volúmenes de datos aumenta la cantidad de información disponible, el diseño de algoritmos es esencial para gestionar y analizar eficientemente esta información en las redes sociales.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Para almacenar y analizar la gran cantidad de información generada por millones de usuarios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El diseño de algoritmos es esencial para procesar eficientemente la gran cantidad de información generada por los usuarios en las redes sociales, permitiendo su almacenamiento, análisis y extracción de conocimientos relevantes.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Para incrementar el número de seguidores de los usuarios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El diseño de algoritmos para el procesamiento de grandes volúmenes de datos no está directamente relacionado con el incremento del número de seguidores de los usuarios en las redes sociales.",
                     "estado": "false"
                 }
             }

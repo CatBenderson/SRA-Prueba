@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "class QuickSort {\n    int partition(int arr[], int primero, int ultimo) {\n        int pivot = arr[primero]; // Define el primer elemento como pivot\n        int i = ultimo + 1; // Indice del mayor elemento\n\n        for (int j = ultimo; j > primero; j--) {\n            // Si el elemento actual es mayor que el pivot\n            if (arr[j] > pivot) {\n                i--;\n\n                // Intercambia arr[i] and arr[j]\n                int temp = arr[i];\n                arr[i] = arr[j];\n                arr[j] = temp;\n            }\n        }\n\n        // Intercambia arr[i-1] y arr[primero] (o pivot)\n        int temp = arr[i - 1];\n        arr[i - 1] = arr[primero];\n        arr[primero] = temp;\n\n        return i - 1;\n    }\n\n    void sort(int arr[], int primero, int ultimo) {\n        if (primero < ultimo) {\n            int pi = partition(arr, primero, ultimo);\n\n            printArray(arr);\n            // Acomoda los elementos de manera recursiva\n            sort(arr, primero, pi - 1);\n            sort(arr, pi + 1, ultimo);\n        }\n    }\n\n    void printArray(int arr[]) {\n        int n = arr.length;\n        for (int i = 0; i < n; ++i)\n            System.out.print(arr[i] + \" \");\n        System.out.println();\n    }\n\n}\n",
+                "texto": "*partition(int *arr[], *int *primero, *int *ultimo): Divide el arreglo en dos partes alrededor de un pivote y coloca el pivote en su posición correcta en el arreglo ordenado.\n*sort(int *arr[], *int *primero, *int *ultimo): Ordena el arreglo recursivamente, utilizando el método partition para dividir el arreglo en subarreglos más pequeños hasta que todos los subarreglos estén ordenados.\n*printArray(int *arr[]): Imprime el arreglo después de cada partición para visualizar el proceso de ordenamiento."
+            },
+            "python": {
+                "codigo": "class QuickSort:\n    def partition(self, arr, primero, ultimo):\n        pivot = arr[primero]  # Define el primer elemento como pivot\n        i = ultimo + 1  # Indice del mayor elemento\n\n        for j in range(ultimo, primero, -1):\n            # Si el elemento actual es mayor que el pivot\n            if arr[j] > pivot:\n                i -= 1\n\n                # Intercambia arr[i] y arr[j]\n                arr[i], arr[j] = arr[j], arr[i]\n\n        # Intercambia arr[i-1] y arr[primero] (o pivot)\n        arr[i - 1], arr[primero] = arr[primero], arr[i - 1]\n\n        return i - 1\n\n    def sort(self, arr, primero, ultimo):\n        if primero < ultimo:\n            # pi es el índice de partición, arr[pi] está\n            # ahora en el lugar correcto\n            pi = self.partition(arr, primero, ultimo)\n\n            # Acomoda los elementos de manera recursiva\n            print(\"Paso:\", arr)\n            self.sort(arr, primero, pi - 1)\n            self.sort(arr, pi + 1, ultimo)\n\n",
+                "texto": "*partition(self, *arr, *primero, *ultimo): Divide el arreglo en dos partes alrededor de un pivote y coloca el pivote en su posición correcta en el arreglo ordenado.\n*sort(self, *arr, *primero, *ultimo): Ordena el arreglo recursivamente, utilizando el método partition para dividir el arreglo en subarreglos más pequeños hasta que todos los subarreglos estén ordenados.\n*printArray(int *arr[]): Imprime el arreglo después de cada partición para visualizar el proceso de ordenamiento."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "public class Main {\n    public static void main(String args[]) {\n        QuickSort ob = new QuickSort();\n        int arr[] = { 6, 11, 5, 13, 9, 4 };\n        int n = arr.length;\n        System.out.print(\"Arreglo inicial: \");\n        ob.printArray(arr);\n        System.out.println();\n\n        ob.sort(arr, 0, n - 1);\n\n        System.out.print(\"Arreglo ordenado: \");\n        ob.printArray(arr);\n    }\n}\n",
+                "texto": "La clase *Main utiliza el algoritmo ordenar un arreglo. Inicialmente, el arreglo se imprime en su estado desordenado. Luego, se llama al método sort para ordenar el arreglo y finalmente se imprime el arreglo ordenado. El método *printArray de la clase *QuickSort se usa para mostrar el arreglo en cada estado."
+            },
+            "python": {
+                "codigo": "from QuickSort import QuickSort\n\n\nclass Main:\n    ob = QuickSort()\n    arr = [6, 11, 5, 13, 9, 4]\n    n = len(arr)\n    print(\"Arreglo inicial:\", arr)\n    print()\n\n    ob.sort(arr, 0, n - 1)\n\n    print(\"Arreglo ordenado:\", arr)   ",
+                "texto": "La clase *Main utiliza el algoritmo ordenar un arreglo. Inicialmente, el arreglo se imprime en su estado desordenado. Luego, se llama al método sort para ordenar el arreglo y finalmente se imprime el arreglo ordenado. "
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

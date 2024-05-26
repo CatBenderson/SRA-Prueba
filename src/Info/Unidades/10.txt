@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Porque disminuye la complejidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Mantener una correcta indentación no necesariamente disminuye la complejidad del código. La indentación sirve para mantener una mejor organización visual y estructura",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Porque reduce la legibilidad y coherencia del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La correcta indentación en realidad mejora la legibilidad y coherencia del código. Reducir estas cualidades no es una buena razón para mantener una correcta indentación.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Porque facilita la identificación de diferentes bloques y mejora la legibilidad",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La correcta indentación ayuda a los programadores a identificar rápidamente los diferentes bloques de código, lo cual mejora la legibilidad y la comprensión del flujo del programa.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Porque ayuda a evitar errores de sintaxis",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una correcta indentación no es una garantía para evitar errores de sintaxis, ya que estos están más relacionados con el uso correcto del lenguaje de programación.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Utilizar nombres cortos e incomprensibles",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Nombres cortos e incomprensibles dificultan la comprensión del código ya que no describen adecuadamente la función o propósito de una variable, función o clase",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Utilizar nombres que no estén relacionados con lo que representan",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nombres que no están relacionados con lo que representan pueden confundir a los programadores y dificultar la comprensión del código.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Utilizar nombres que estén estrechamente relacionados con lo que representan",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nombres descriptivos y significativos deben reflejar claramente el propósito o la función de la variable, función o clase, facilitando la comprensión y mantenimiento del código.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Utilizar nombres que no confundan a los programadores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta respuesta es incompleta. El uso de nombres descriptivos y significativos va más allá de simplemente evitar la confusión. Los nombres sirven paraproporcionar un entendimiento claro del propósito del código.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Aumenta la complejidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La modularización y reutilización de código generalmente se utilizan para reducir la complejidad del código al dividirlo en partes manejables y reutilizables.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Mejora la estabilidad, reutilización y mantenibilidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La modularización permite crear componentes independientes y reutilizables, lo cual mejora la estabilidad del sistema, facilita la reutilización en otros proyectos y simplifica el mantenimiento.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Reduce la legibilidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Al implementar de manera correcta la modularización se mejora la legibilidad del código al dividirlo en partes bien definidas y fáciles de entender, no se reduce.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Incrementa el tamaño del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La modularización no necesariamente se relaciona con un incremento en el tamaño del código.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Cuando el nombrado apropiado no es suficiente para describir la funcionalidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque un buen nombrado puede ayudar mucho, hay situaciones complejas donde los comentarios son necesarios para explicar la lógica o propósito del código de manera más detallada.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Cuando se desea aumentar la complejidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El propósito de los comentarios no es aumentar la complejidad del código, sino aclarar y explicar partes del código que puedan ser difíciles de entender.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Cuando no se quiere ocultar información sobre el funcionamiento interno del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los comentarios deben usarse para clarificar el código, no para decidir cuánto detalle del funcionamiento interno se revela.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Cuando el código es suficientemente claro y autodescriptivo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si el código ya es claro y autodescriptivo, los comentarios pueden no ser necesarios. En este caso, añadir comentarios puede incluso considerarse redundante o innecesario.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Porque asegura que no haya errores en el código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El manejo de errores y la gestión de excepciones no aseguran que no haya errores en el código. En cambio, permiten que el programa responda adecuadamente cuando ocurren errores.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Porque aumenta la probabilidad de que ocurran errores en el código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El propósito del manejo de errores y la gestión de excepciones es precisamente lo contrario: minimizar el impacto de los errores cuando ocurren, no aumentar su probabilidad.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Porque prepara al programa para manejar errores de manera adecuada y proporcionar mensajes claros y útiles al usuario",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El manejo adecuado de errores y excepciones permite que el programa responda a fallos de manera controlada y proporcione información útil al usuario para entender y posiblemente corregir el problema.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Porque hace que el código sea más difícil de depurar",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El manejo de errores bien implementado facilita la depuración al proporcionar información clara y específica sobre los errores cuando ocurren, en lugar de dificultar el proceso de depuración.",
                     "estado": "false"
                 }
             }
