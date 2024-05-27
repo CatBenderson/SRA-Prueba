@@ -143,16 +143,16 @@ export default function Unidad() {
                         <>
                             <p className="titulo-unidad">Ejercicios</p>
                             <hr />
-                            <div className="contenedor-cambio">
-                                <button className='boton-cambio' onClick={() => (cambiarAnteriorEjercicio())}> Ejercicio anterior</button>
-                                <button className='boton-cambio' onClick={() => (cambiarSiguienteEjercicio())}> Ejercicio siguiente</button>
-                            </div>
                             {ejercicios[numEjercicio]?.pregunta && (
                                 <div className="conjunto-ejercicios">
                                     <Ejercicio numero={numEjercicio} ejercicio={ejercicios[numEjercicio]} />
                                 </div>
                             )}
 
+                            <div className="contenedor-cambio">
+                                <button className='boton-cambio' onClick={() => (cambiarAnteriorEjercicio())}> Ejercicio anterior</button>
+                                <button className='boton-cambio' onClick={() => (cambiarSiguienteEjercicio())}> Ejercicio siguiente</button>
+                            </div>
                         </>
                     )}
 
@@ -160,16 +160,16 @@ export default function Unidad() {
                         <>
                             <p className="titulo-unidad">Preguntas del tema</p>
                             <hr />
-                            <div className="contenedor-cambio">
-                                <button className='boton-cambio' onClick={() => (cambiarAnteriorPregunta())}> Pregunta anterior</button>
-                                <button className='boton-cambio' onClick={() => (cambiarSiguientePregunta())}> Pregunta siguiente</button>
-                            </div>
                             {preguntas[numPregunta]?.pregunta && (
                                 <div className="conjunto-ejercicios">
                                     <Ejercicio numero={numPregunta} ejercicio={preguntas[numPregunta]} />
                                 </div>
                             )}
 
+                            <div className="contenedor-cambio">
+                                <button className='boton-cambio' onClick={() => (cambiarAnteriorPregunta())}> Pregunta anterior</button>
+                                <button className='boton-cambio' onClick={() => (cambiarSiguientePregunta())}> Pregunta siguiente</button>
+                            </div>
                         </>
                     )}
 
