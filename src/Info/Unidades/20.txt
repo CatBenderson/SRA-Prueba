@@ -20,26 +20,26 @@
         "1": {
             "id": "20-1-E",
             "imagen": "",
-            "pregunta": "En un árbol de búsqueda que almacena los datos de empleados de una empresa, donde cada empleado tiene años de servicio y un nombre. ¿Cual es el orden final tras aplicar el recorrido preorden de los siguientes elementos? \n Años de servicio: 14, Nombre: Alejandro\n\nAños de servicio: 18, Nombre: Laura\n\nAños de servicio: 12, Nombre: Carlos\n\nAños de servicio: 1, Nombre: Martin\n\nAños de servicio: 3, Nombre: Sofía\n\nAños de servicio: 6, Nombre: Ana",
+            "pregunta": "En un árbol de búsqueda que almacena los datos de empleados de una empresa, donde cada empleado tiene años de servicio y un nombre. ¿Cuál es el orden final tras aplicar el recorrido preorden de los siguientes elementos? \nAños de servicio: 14, Nombre: Alejandro\n\nAños de servicio: 18, Nombre: Laura\n\nAños de servicio: 12, Nombre: Carlos\n\nAños de servicio: 1, Nombre: Martin\n\nAños de servicio: 3, Nombre: Sofía\n\nAños de servicio: 6, Nombre: Ana",
             "respuestas": {
                 "1": {
                     "contenido": "14, 13, 12, 1, 6, 18",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El valor 13 no aparece en los datos originales. El recorrido preorden visita primero el nodo raíz , luego el subárbol izquierdo y finalmente el subárbol derecho.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "18, 14, 12, 1, 3, 6",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido preorden, se visita primero el nodo raíz que en este caso no es 18.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "14, 12, 1, 3, 6, 18",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido preorden, se visita primero el nodo raíz (14), luego el subárbol izquierdo (12, 1, 3, 6) y finalmente el subárbol derecho (18).",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "14, 12, 1, 3, 6",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Faltan nodos en el recorrido completo. En el recorrido preorden se debe incluir el nodo 18 del subárbol derecho.",
                     "estado": "false"
                 }
             }
@@ -47,26 +47,26 @@
         "2": {
             "id": "20-2-E",
             "imagen": "",
-            "pregunta": "Utilizando los mismos datos del ejercicio anterior ¿Cual es el orden final tras aplicar el recorrido inorden de los elementos?",
+            "pregunta": "Utilizando los mismos datos del ejercicio anterior ¿Cuál es el orden final tras aplicar el recorrido inorden de los elementos?",
             "respuestas": {
                 "1": {
                     "contenido": "1, 3, 6, 12, 14, 18",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido inorden, se visita primero el subárbol izquierdo en orden, luego el nodo raíz y finalmente el subárbol derecho en orden.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "14, 1, 3, 6, 12, 18",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nodo raíz no se visita primero en el recorrido inorden, sino que se visita después de los nodos del subárbol izquierdo.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "1, 3, 6, 12, 14, 18, 14",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este recorrido incluye un valor duplicado (14).",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "1, 2, 3, 6, 14, 18",
-                    "retroalimentacion": "false",
+                    "retroalimentacion": "El valor 2 no aparece en los datos originales. En el recorrido inorden se visita primero el subárbol izquierdo en orden, luego el nodo raíz y finalmente el subárbol derecho en orden.",
                     "estado": "false"
                 }
             }
@@ -74,26 +74,26 @@
         "3": {
             "id": "20-3-E",
             "imagen": "",
-            "pregunta": "Utilizando los mismos datos del primer ejercicio ¿Cual es el orden final tras aplicar el recorrido postorden de los elementos?",
+            "pregunta": "Utilizando los mismos datos del primer ejercicio ¿Cuál es el orden final tras aplicar el recorrido posorden de los elementos?",
             "respuestas": {
                 "1": {
                     "contenido": "7, 3, 1, 12, 18, 14",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El valor 7 no aparece en los datos originales. En el recorrido posorden se visita primero el subárbol izquierdo, luego el subárbol derecho y finalmente el nodo raíz.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "6, 3, 1, 12, 14, 18",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, el nodo raíz se visita al final, no en el medio.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "6, 3, 1, 12, 18",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Faltan nodos en el recorrido completo. En el recorrido posorden se visita primero el subárbol izquierdo, luego el subárbol derecho y finalmente el nodo raíz.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "6, 3, 1, 12, 18, 14",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, se visita primero el subárbol izquierdo (6, 3, 1, 12), luego el subárbol derecho (18) y finalmente el nodo raíz (14).",
                     "estado": "true"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Después del subárbol derecho",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido preorden, el nodo raíz se visita antes que los subárboles izquierdo y derecho, no después del subárbol derecho.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Después del subárbol izquierdo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido preorden, el nodo raíz se visita primero, antes de los subárboles izquierdo y derecho, no después del subárbol izquierdo.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Antes de cualquier otro nodo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido preorden, el nodo raíz se visita primero, seguido por los nodos en los subárboles izquierdo y derecho.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Después de visitar todos los nodos del árbol",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido preorden, el nodo raíz se visita primero, no después de todos los otros nodos.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Recorrido preorden",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido preorden, el nodo actual se visita antes que los nodos en los subárboles izquierdo y derecho.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Recorrido inorden",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido inorden, se visita primero el nodo izquierdo, luego el nodo actual y finalmente el nodo derecho.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Recorrido posorden",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, los nodos izquierdo y derecho se visitan antes que el nodo actual.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Ninguna de las anteriores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si existe un recorrido que sigue este patrón.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Nodo actual, nodo izquierdo, nodo derecho",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este es el orden de un recorrido preorden, no inorden.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Nodo derecho, nodo izquierdo, nodo actual",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este orden no corresponde a ningún recorrido estándar de árboles binarios.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Nodo izquierdo, nodo actual, nodo derecho",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido inorden, se visita primero el nodo izquierdo, luego el nodo actual y finalmente el nodo derecho.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "No hay un orden específico",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El recorrido inorden si sigue un orden específico.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Nodo raíz",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, el nodo raíz se visita al final, después de los nodos izquierdo y derecho.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Nodo izquierdo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, el nodo izquierdo se visita primero, seguido por el nodo derecho y luego el nodo actual.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Nodo derecho",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, el nodo derecho se visita después del nodo izquierdo.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "No se visita ningún nodo primero",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, al igual que en otros recorridos debe haber un nodo por el que se inicie.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Nodo actual, nodo izquierdo, nodo derecho",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este es el orden de un recorrido preorden, no posorden.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Nodo izquierdo, nodo derecho, nodo actual",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido posorden, se visita primero el nodo izquierdo, luego el nodo derecho y finalmente el nodo actual.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Nodo derecho, nodo izquierdo, nodo actual",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este orden no corresponde al recorrido posorden, donde el nodo izquierdo se visita antes que el nodo derecho.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "No hay un orden específico",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El recorrido posorden si sigue un orden específico.",
                     "estado": "false"
                 }
             }

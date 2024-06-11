@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "public void busquedaAnchura(int cantidad) {\n        if (raiz == null) {\n            return;\n        }\n\n        Queue<Nodo> cola = new LinkedList<>();\n        cola.add(raiz);\n\n        while (!cola.isEmpty()) {\n            Nodo actual = cola.poll();\n\n            System.out.println(\"Cantidad: \" + actual.cantidad + \", Fruta: \" + actual.nombre);\n            \n            if (actual.cantidad == cantidad) {\n                break;\n            }\n\n            if (actual.izquierda != null) {\n                cola.add(actual.izquierda);\n            }\n            if (actual.derecha != null) {\n                cola.add(actual.derecha);\n            }\n        }\n    }",
+                "texto": "Esta función se implementa tomando como base la clase árbol utilizada en la unidad 19 \" *Árboles *binarios *de *búsqueda: *Implementación\".\n*busquedaAnchura(int *cantidad) implementa un algoritmo de búsqueda en anchura en un árbol binario. Utiliza una cola para recorrer el árbol nivel por nivel, comenzando desde la raíz. En cada nivel, verifica si el nodo actual tiene la cantidad deseada. Si la encuentra, termina la búsqueda. Si no, agrega los hijos del nodo actual a la cola para continuar la exploración."
+            },
+            "python": {
+                "codigo": "def busquedaAnchura(self, cantidad):\n        if self.raiz is None:\n            return\n\n        cola = deque([self.raiz])\n\n        while cola:\n            actual = cola.popleft()\n\n            print(f\"Cantidad: {actual.cantidad}, Fruta: {actual.nombre}\")\n\n            if actual.cantidad == cantidad:\n                break\n\n            if actual.izquierda is not None:\n                cola.append(actual.izquierda)\n            if actual.derecha is not None:\n                cola.append(actual.derecha)",
+                "texto": "Esta función se implementa tomando como base la clase árbol utilizada en la unidad 19 \" *Árboles *binarios *de *búsqueda: *Implementación\".\n*busquedaAnchura(self, *cantidad) implementa un algoritmo de búsqueda en anchura en un árbol binario. Utiliza una cola para recorrer el árbol nivel por nivel, comenzando desde la raíz. En cada nivel, verifica si el nodo actual tiene la cantidad deseada. Si la encuentra, termina la búsqueda. Si no, agrega los hijos del nodo actual a la cola para continuar la exploración."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

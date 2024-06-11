@@ -1,0 +1,234 @@
+{
+    "id": "33",
+    "nombre": "Búsqueda en profundidad",
+    "contenido": "Al igual que el algoritmo visto en la unidad anterior, la búsqueda en profundidad se trata de un algoritmo de búsqueda de grafos. Tiene como objetivo buscar lo más profundamente posible, conectando los nodos del grafo y creando las ramas necesarias. Esto lo hace al expandir primero uno de sus nodos hasta su nivel más profundo y sólo cuando llega a un nodo sin hijos, regresa a niveles menos profundos que tengan alternativas no exploradas.\n\nEl orden en que se eligen las ramas en un recorrido DFS está determinado por el tipo de recorrido de procesamiento de árbol que se haya elegido, estos pueden ser:\n*Pre-orden: Se procesa primero la raíz, luego la rama izquierda y luego las ramas siguientes hasta llegar a la que se encuentra más a la derecha.\n*Post-orden: Se procesa el árbol desde las ramas izquierdas hasta la que se encuentra más a la derecha. Finalmente se procesa el nodo raíz\n*Simétrico *o *in-orden: Se procesa la rama de la izquierda, luego el nodo raíz y luego la rama derecha.\n\nDe la misma manera, a la hora de llevar a cabo la implementación, lo más habitual es hacer uso de la recursión en lugar de seguir usando las colas que la búsqueda en anchura plantea. Otra comparación con la búsqueda en anchura es que suele ser más rápido pues es muy probable encontrar una solución después de explorar una parte del árbol. Por otro lado, debido a su naturaleza de ir al punto más profundo, no es completo ni óptimo por lo que debe evitarse en árboles de búsqueda de profundidad muy grande o infinita.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "33-1-E",
+            "imagen": "",
+            "pregunta": "Con base en los siguientes datos de estudiantes y su número de lista\n- Omar, 16\n- Luis, 18\n- Jorge, 14\n- Jose, 13\n- Gabriel, 12\n- Alvaro, 10\n- Daniel, 17\n  ¿Cuál es el orden que sigue el algoritmo antes de encontrar el asociado a Gabriel?",
+            "respuestas": {
+                "1": {
+                    "contenido": "10, 12",
+                    "retroalimentacion": "Esta secuencia solo numera de manera ascendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "18, 17, 16, 14, 13, 12",
+                    "retroalimentacion": "Esta secuencia solo numera de manera descendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "16, 14, 18, 13, 17, 12",
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue BFS para llegar al 12.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "16, 14, 13, 12",
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue DFS para llegar al 12.",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "33-1-P",
+            "pregunta": "¿Qué tipo de algoritmo es la búsqueda en profundidad (DFS)?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Algoritmo de búsqueda de amplitud.",
+                    "retroalimentacion": "La búsqueda en amplitud (BFS) es diferente de la búsqueda en profundidad (DFS). BFS explora los niveles del grafo uno a uno, mientras que DFS explora tan profundamente como sea posible en una rama antes de retroceder.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Algoritmo de búsqueda de árboles binarios.",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) es un algoritmo de búsqueda que se aplica a otras estructuras además de árboles binarios.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Algoritmo de búsqueda heurística.",
+                    "retroalimentacion": "Un algoritmo de búsqueda heurística utiliza información adicional para dirigir la búsqueda, mientras que DFS no usa heurísticas, sino que sigue una ruta hasta el final antes de retroceder.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Algoritmo de búsqueda de grafos.",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) es un algoritmo de búsqueda de grafos que explora profundamente cada rama antes de retroceder.",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "33-2-P",
+            "pregunta": "¿Cuál es el objetivo principal de la búsqueda en profundidad?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Explorar todas las ramas del árbol simultáneamente.",
+                    "retroalimentacion": "DFS no explora todas las ramas del árbol simultáneamente. En lugar de eso, sigue un camino tanto como sea posible antes de retroceder y explorar otras ramas.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Encontrar la solución óptima de manera rápida.",
+                    "retroalimentacion": "DFS no garantiza encontrar la solución óptima y puede no ser rápido en todos los casos.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Buscar lo más profundamente posible en el grafo.",
+                    "retroalimentacion": "El objetivo principal de la búsqueda en profundidad (DFS) es explorar tan profundamente como sea posible en una rama del grafo antes de retroceder y explorar otras ramas.",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Minimizar el tiempo de ejecución del algoritmo.",
+                    "retroalimentacion": "DFS no está diseñado específicamente para minimizar el tiempo de ejecución del algoritmo.",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "33-3-P",
+            "pregunta": "¿En qué orden se procesan los nodos en el recorrido de pre-orden en DFS?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Raíz, rama derecha, rama izquierda.",
+                    "retroalimentacion": "En el recorrido en pre-orden, los nodos se procesan en el orden raíz, rama izquierda, rama derecha.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Rama izquierda, raíz, rama derecha.",
+                    "retroalimentacion": "Este orden corresponde al recorrido en in-orden, no al pre-orden.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Raíz, rama izquierda, rama derecha.",
+                    "retroalimentacion": "En el recorrido en pre-orden de DFS, los nodos se procesan en el orden de raíz primero, luego la rama izquierda, y finalmente la rama derecha.",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Rama derecha, rama izquierda, raíz.",
+                    "retroalimentacion": "Este orden no corresponde al recorrido en pre-orden, sino más bien a un tipo de post-orden.",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "33-4-P",
+            "pregunta": "¿Cuál es una ventaja de la búsqueda en profundidad sobre la búsqueda en amplitud?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Es más rápido en la mayoría de los casos.",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) puede ser más rápida que la búsqueda en amplitud (BFS) en muchos casos porque explora un camino completo hasta el final antes de retroceder, evitando la expansión de todos los vecinos en cada nivel.",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Garantiza encontrar la solución óptima.",
+                    "retroalimentacion": "DFS no garantiza encontrar la solución óptima, especialmente en grafos donde los caminos tienen diferentes costos.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Explora todas las ramas del árbol simultáneamente.",
+                    "retroalimentacion": "DFS no explora todas las ramas del árbol simultáneamente. En lugar de eso, sigue una rama tan profundamente como sea posible antes de retroceder.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Tiende a consumir menos memoria.",
+                    "retroalimentacion": "Aunque DFS puede usar menos memoria que BFS en algunos casos, esta no es siempre una ventaja garantizada. DFS puede requerir mucha memoria en caminos muy profundos.",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "33-5-P",
+            "pregunta": "¿Por qué la búsqueda en profundidad no es completa ni óptima?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Porque siempre encuentra la solución más óptima.",
+                    "retroalimentacion": "DFS no siempre encuentra la solución más óptima, especialmente si se queda atrapado en caminos largos o en ciclos infinitos.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Porque explora todas las ramas del árbol simultáneamente.",
+                    "retroalimentacion": "DFS no explora todas las ramas del árbol simultáneamente. Explora tan profundamente como sea posible en una rama antes de retroceder.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Porque puede quedar atrapada en ciclos infinitos.",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) no es completa ni óptima porque puede quedar atrapada en ciclos infinitos, lo que impide encontrar una solución, y no garantiza encontrar la solución más corta.",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Porque solo procesa nodos en pre-orden.",
+                    "retroalimentacion": "El hecho de que DFS procese nodos en pre-orden no afecta su completitud o optimalidad.",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

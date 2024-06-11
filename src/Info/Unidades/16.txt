@@ -24,23 +24,23 @@
             "respuestas": {
                 "1": {
                     "contenido": "No completo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nodos de este árbol tienen cero o dos hijos. Además, el último nivel está lleno desde la izquierda hacia la derecha.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Lleno",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Todos los nodos tienen cero o dos hijos, lo cual encaja con la definición de lenos.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "No lleno",
-                    "retroalimentacion": "",
-                    "estado": "true"
+                    "retroalimentacion": "Los árboles no llenos son aquellos que incluyen nodos con un hijo. Este árbol no tiene nodos con un solo hijo.",
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "Degenerado",
-                    "retroalimentacion": "",
-                    "estado": "true"
+                    "retroalimentacion": "Los árboles degenerados tienen nodos con un solo hijo. En este árbol hay nodos con cero o 2 hijos.",
+                    "estado": "false"
                 }
             }
         },
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Completo ",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un árbol binario completo, todos los niveles, excepto posiblemente el último, están completamente llenos, y en el último nivel, los nodos están llenos desde la izquierda hacia la derecha.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Lleno",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol lleno es aquel en el que cada nodo interno tiene exactamente dos hijos. En este árbol, el nodo con valor 17 solo tiene un hijo, por lo que no es un árbol lleno.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "No degenerado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol no degenerado es aquel en el que cada nodo interno tiene exactamente dos hijos. Este árbol tiene varios nodos internos con solo un hijo.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Degenerado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol degenerado es un árbol en el que cada nodo tiene como máximo un hijo. Este árbol no cumple con esta definición ya que la raíz tiene 2 hijos.",
                     "estado": "false"
                 }
             }
@@ -78,22 +78,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Lleno",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol lleno es aquel en el que cada nodo interno tiene exactamente dos hijos. Este árbol sus nodos tienen solo un hijo",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Completo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un árbol completo cada nivel tiene un conjunto lleno de nodos y todos los nodos hoja ocupan las posiciones más a la izquierda del árbol. Este no es el caso.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "No degenerado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol no degenerado es aquel en el que cada nodo interno tiene exactamente dos hijos. Ningun nodo de este árbol tiene 2 hijos",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Degenerado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol degenerado es un árbol en el que cada nodo tiene como máximo un hijo. Este árbol cumple con esta definición.",
                     "estado": "true"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Los árboles multicamino tienen un máximo de 2 hijos por nodo  y los árboles binarios tienen más de 2 hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles multicamino pueden tener más de 2 hijos por nodo, lo que los distingue de los árboles binarios. Los árboles binarios tienen como máximo 2 hijos por nodo.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Los árboles binarios y multicamino pueden tener más de 2 hijos por nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles binarios se limitan a tener como máximo 2 hijos por nodo, mientras que los árboles multicamino pueden tener más de 2 hijos por nodo.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Los árboles multicamino pueden tener más de 2 hijos y los árboles binarios tienen un máximo de 2 hijos por nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles multicamino pueden tener más de 2 hijos por nodo, lo que los diferencia de los árboles binarios que tienen como máximo 2 hijos por nodo.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Los árboles multicamino tienen una estructura más simple que los árboles binarios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La estructura de los árboles multicamino puede ser más compleja debido a que pueden tener más de 2 hijos por nodo, lo que no necesariamente los hace más simples que los árboles binarios.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Distintos, Similares, Equivalentes",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles binarios se clasifican en distintos, similares y equivalentes según su similitud con otros árboles.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": " Unicos, Similares, Idénticos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las opciones no describen adecuadamente las clasificaciones de los árboles binarios según su similitud con otros árboles.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Diferentes, Similares, Equivalentes",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las opciones no describen adecuadamente las clasificaciones de los árboles binarios según su similitud con otros árboles.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Únicos, Comunes, Duplicados",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Ninguna de estas opciones describe adecuadamente las clasificaciones de los árboles binarios según su similitud con otros árboles.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Completos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol en el que cada nivel tiene un conjunto lleno de nodos y todas las hojas ocupan las posiciones más a la izquierda se denomina árbol completo.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Llenos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": " Los árboles llenos no necesariamente tienen todas las hojas ocupando las posiciones más a la izquierda en cada nivel.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Degenerados",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles degenerados no tienen necesariamente todas las hojas ocupando las posiciones más a la izquierda en cada nivel.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Incompletos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles incompletos no necesariamente tienen todas las hojas ocupando las posiciones más a la izquierda en cada nivel.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Completos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles completos pueden tener nodos con uno solo hijo.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Llenos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol en el que todos los nodos tienen cero o dos hijos se llama árbol lleno.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Degenerados",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles degenerados pueden tener nodos con más de dos hijos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Similares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles similares no son un término utilizado para describir este tipo de árboles.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Cada nodo tiene exactamente un hijo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los árboles con la característica descrita se llaman árboles unarios, no degenerados.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Existe solo un nodo hoja en el árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La presencia de un solo nodo hoja no define un árbol degenerado.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Para cada nodo hoja existe un solo nodo hijo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un árbol degenerado, para cada nodo hoja existe un solo nodo hijo.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Todos los nodos tienen más de dos hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta característica no describe un árbol degenerado, sino más bien uno con nodos internos que tienen más de dos hijos.",
                     "estado": "false"
                 }
             }

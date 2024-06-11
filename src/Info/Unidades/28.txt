@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Paso 1",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [19, 9, 14, 3, 20]",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Paso 2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [14, 9, 3, 19, 20]",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Paso 3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [9, 3, 14, 19, 20]",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Paso 4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [3, 9, 14, 19, 20]",
                     "estado": "false"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Paso 1",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [18, 15, 17, 13, 1, 20]",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Paso 2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [17, 15, 1, 13, 18, 20]",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Paso 3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [15, 13, 1, 17, 18, 20]",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Paso 4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [13, 1, 15, 17, 18, 20]",
                     "estado": "true"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Cada vértice tiene hasta dos hijos y todos los niveles están completos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un árbol binario completo o heap, cada vértice tiene hasta dos hijos y todos los niveles, excepto posiblemente el último, están completamente llenos.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Cada vértice tiene solo un hijo y todos los niveles están completos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un árbol binario completo, los vértices pueden tener más de un hijo, no solo uno.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Los vértices pueden tener un número variable de hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un árbol binario completo o heap, cada vértice tiene una cantidad definida de hijos, no un número variable.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Solo la raíz tiene hijos, y estos se llenan de izquierda a derecha.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un árbol binario completo o heap, todos los niveles están completamente llenos, excepto posiblemente el último, no solo la raíz tiene hijos.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Intercambiar la raíz con el último elemento del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este no es el primer paso; existe un paso previo.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Disminuir en uno el tamaño del árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Disminuir el tamaño del árbol ocurre después de intercambiar la raíz con el último elemento.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Realizar el proceso de manera recursiva hasta obtener un árbol vacío.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este es un paso subsecuente en el algoritmo, no el primer paso.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Construcción del heap con los elementos del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El primer paso del algoritmo HeapSort es construir el heap a partir de los elementos del arreglo.",
                     "estado": "true"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Se construye el heap con los elementos del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La construcción del heap es el primer paso, no el paso de realizar el proceso de manera recursiva.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Se intercambia la raíz del heap con el último elemento del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este es uno de los pasos del proceso, pero no describe completamente la recursividad.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Se disminuye en uno el tamaño del árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Disminuir el tamaño del árbol es parte del proceso, pero no describe completamente la recursividad.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Se aplica el proceso de \"Heapify\" recursivamente hasta que el tamaño del arreglo llegue a cero.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso, se aplica el proceso de \"Heapify\" de forma recursiva hasta que el tamaño del arreglo llegue a cero.",
                     "estado": "true"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Es un algoritmo in-place que no requiere espacio adicional.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "HeapSort es un algoritmo no in-place y requiere espacio adicional.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Es muy eficiente para ordenar pequeñas cantidades de datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "HeapSort es eficiente para grandes conjuntos de datos, no necesariamente para pequeñas cantidades de datos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Requiere un espacio adicional para almacenar los elementos mientras se realiza la ordenación.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "HeapSort requiere un espacio adicional para almacenar los elementos durante la ordenación, especialmente cuando se construye el heap.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Solo funciona correctamente con arreglos ordenados de forma ascendente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "HeapSort no depende del orden inicial de los elementos en el arreglo.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "O(n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(n) es incorrecto, ya que no refleja adecuadamente las operaciones necesarias para construir el heap y realizar los intercambios.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "O(n * log n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad temporal promedio de HeapSort es O(n * log n) debido a la construcción del heap y los intercambios subsecuentes.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "O(n^2)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(n^2) es incorrecto, ya que HeapSort es más eficiente y no tiene una complejidad cuadrática.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "O(log n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(log n) es incorrecto, ya que no refleja adecuadamente las operaciones necesarias para construir el heap y realizar los intercambios.",
                     "estado": "false"
                 }
             }

@@ -1,0 +1,234 @@
+{
+    "id": "32",
+    "nombre": "Búsqueda en anchura",
+    "contenido": "La búsqueda en anchura se trata de uno de los algoritmo de búsqueda más sencillos para recorrer grafos. Se basa en la idea de realizar un recorrido por niveles.  Este algoritmo se describe de la siguiente manera: \n\nDado un grafo G y un vértice inicial s, una búsqueda en anchura procede explorando las aristas en el grafo para encontrar todos los vértices en G para los cuales hay una ruta a partir de s. Lo notable de una búsqueda en anchura es que encuentra todos los vértices que estén a una distancia k de s antes de encontrar cualesquiera vértices que estén una distancia k+1.\n\nDe la misma manera a la hora de implementar este algoritmo, es común implementar el uso de una cola. En esta cola, se almacenarán momentáneamente los vértices que estén a una distancia k, tras haber visitado y procesado dichos vértices, se agregan a la cola los que están a una distancia k+1.\n\nEste algoritmo, al expandir los nodos de manera uniforme garantiza encontrar la mejor solución de un problema de costro uniforme antes que otros. Sin embargo en grafos muy extensos, su alto orden de complejidad computacional puede consumir demasiada memoria al tener que guardar la red completa que se explora. \n",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "32-1-E",
+            "imagen": "",
+            "pregunta": "Con base en los siguientes datos de estudiantes y su número de lista\n- Omar, 16\n- Luis, 18\n- Jorge, 14\n- Jose, 13\n- Gabriel, 12\n- Alvaro, 10\n- Daniel, 17\n  ¿Cuál es el orden que sigue el algoritmo antes de encontrar el asociado a Gabriel?",
+            "respuestas": {
+                "1": {
+                    "contenido": "10, 12",
+                    "retroalimentacion": "Esta secuencia solo numera de manera ascendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "18, 17, 16, 14, 13, 12",
+                    "retroalimentacion": "Esta secuencia solo numera de manera descendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "16, 14, 18, 13, 17, 12",
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue BFS para llegar al 12.",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "16, 14, 13, 12",
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue DFS para llegar al 12.",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "32-1-P",
+            "pregunta": "¿Cuál es la idea principal detrás del algoritmo de búsqueda en anchura (BFS)?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Recorrer el grafo de manera aleatoria.",
+                    "retroalimentacion": "La búsqueda en anchura (BFS) no recorre el grafo de manera aleatoria, sino que sigue un orden específico comenzando desde el vértice inicial y explorando todos sus vecinos antes de proceder a los vértices de niveles siguientes.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Recorrer el grafo comenzando desde el vértice con mayor grado.",
+                    "retroalimentacion": "El algoritmo BFS no se basa en el grado del vértice para iniciar el recorrido, sino que comienza desde un vértice inicial específico y explora los niveles uniformemente.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Realizar un recorrido por niveles.",
+                    "retroalimentacion": "El algoritmo de búsqueda en anchura (BFS) realiza un recorrido por niveles, explorando todos los vecinos de un vértice antes de pasar a los vértices en el siguiente nivel.",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Buscar solo en grafos completos.",
+                    "retroalimentacion": "El BFS puede aplicarse a cualquier tipo de grafo, no solo a grafos completos. Su metodología se basa en la exploración por niveles.",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id": "32-2-P",
+            "pregunta": "¿Qué estructura de datos es comúnmente utilizada para implementar el algoritmo de búsqueda en anchura?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Pila.",
+                    "retroalimentacion": "La pila es una estructura de datos utilizada en el algoritmo de búsqueda en profundidad (DFS), no en BFS.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Cola",
+                    "retroalimentacion": "Una cola es la estructura de datos comúnmente utilizada para implementar el algoritmo de búsqueda en anchura (BFS), ya que permite procesar los vértices en el orden en que son descubiertos.",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Lista enlazada",
+                    "retroalimentacion": "Una lista enlazada no es adecuada para manejar el orden de procesamiento necesario en BFS.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Árbol binario",
+                    "retroalimentacion": "Un árbol binario no es utilizado en la implementación del algoritmo BFS.",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id": "32-3-P",
+            "pregunta": "¿Qué garantiza la búsqueda en anchura al expandir los nodos de manera uniforme?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Encontrar la solución más costosa primero.",
+                    "retroalimentacion": "BFS busca encontrar la solución óptima en términos de niveles, no la más costosa. Prioriza soluciones que se encuentran a menor distancia del nodo inicial.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Encontrar todos los vértices sin importar la distancia.",
+                    "retroalimentacion": "BFS encuentra todos los vértices, pero lo hace por niveles, priorizando la menor distancia desde el nodo inicial.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Encontrar la mejor solución de un problema de costo uniforme antes que otros.",
+                    "retroalimentacion": "BFS garantiza encontrar la solución óptima en problemas donde el costo de cada movimiento es el mismo, ya que expande los nodos uniformemente por niveles.",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Encontrar la solución más rápida sin importar la memoria.",
+                    "retroalimentacion": "BFS no se enfoca en encontrar la solución más rápida sin considerar la memoria. De hecho, puede consumir mucha memoria en grafos grandes.",
+                    "estado": "false"
+                }
+            }
+        },
+        "4": {
+            "id": "32-4-P",
+            "pregunta": "¿Cuál es una desventaja importante del algoritmo de búsqueda en anchura en grafos muy extensos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "No puede encontrar todos los vértices.",
+                    "retroalimentacion": "BFS puede encontrar todos los vértices en un grafo conectado, pero puede ser ineficiente en grafos muy grandes.",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "No puede encontrar la mejor solución.",
+                    "retroalimentacion": "BFS garantiza encontrar la solución óptima en términos de niveles, especialmente en problemas de costo uniforme.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Puede consumir demasiada memoria.",
+                    "retroalimentacion": "Una desventaja importante del BFS en grafos muy extensos es que puede consumir mucha memoria, ya que mantiene todos los nodos del nivel actual y los del siguiente nivel en la cola.",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Solo funciona con grafos dirigidos.",
+                    "retroalimentacion": "BFS funciona tanto con grafos dirigidos como no dirigidos. Su desventaja no está relacionada con el tipo de grafo.",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id": "32-5-P",
+            "pregunta": "¿Cómo procesa este algoritmo los vértices en un grafo G a partir de un vértice inicial s?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Encuentra todos los vértices a una distancia k de s antes que los de distancia k+1.",
+                    "retroalimentacion": "BFS procesa los vértices en niveles, asegurando que todos los vértices a una distancia k del vértice inicial s se encuentren antes que los vértices a una distancia k+1.",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Encuentra vértices a una distancia k+1 antes que a una distancia k.",
+                    "retroalimentacion": "BFS no encuentra vértices a una distancia k+1 antes que los de distancia k. Siempre procesa los vértices en orden de distancia desde el vértice inicial.",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Encuentra todos los vértices de manera aleatoria.",
+                    "retroalimentacion": "BFS no encuentra vértices de manera aleatoria; sigue un orden específico basado en niveles desde el vértice inicial.",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Encuentra vértices a una distancia k-1 después de los de distancia k",
+                    "retroalimentacion": "BFS no procesa vértices a una distancia k-1 después de los de distancia k. Siempre procesa vértices en orden ascendente de distancia.",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

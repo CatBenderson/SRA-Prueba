@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Mediante una lista enlazada de nodos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta es una forma de representar un grafo mediante listas de adyacencia, no mediante una matriz de adyacencia.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Mediante una matriz rectangular donde se utiliza 0 para indicar la presencia de aristas y 1 para indicar su ausencia.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La representación de grafos debe ser en una matriz de adyacencia cuadrada.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Mediante una lista enlazada donde cada nodo tiene un valor numérico.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta es una descripción general de una lista enlazada, pero no es específica para la representación de grafos mediante una matriz de adyacencia.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Mediante una matriz cuadrada donde se utiliza 0 para indicar la ausencia de aristas y 1 para indicar su presencia.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una matriz de adyacencia es una matriz cuadrada en la que cada elemento (i, j) es 1 si existe una arista entre los vértices i y j, y 0 en caso contrario.",
                     "estado": "true"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Representan los vértices del grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En una matriz de adyacencia, las filas y columnas representan los vértices del grafo.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Representan las aristas del grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En una matriz de adyacencia, las aristas están representadas por los valores en las celdas, no por las filas y columnas.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Representan los pesos de las aristas del grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los pesos de las aristas pueden estar representados en las celdas de la matriz si es un grafo ponderado.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Representan las relaciones de adyacencia entre los vértices del grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las relaciones de adyacencia se representan mediante los valores en las celdas de la matriz, no por las filas y columnas en sí.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Mediante una matriz cuadrada donde se utiliza 0 para indicar la ausencia de aristas y 1 para indicar su presencia.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta es una descripción de una matriz de adyacencia, no de una lista de adyacencia.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Mediante una lista enlazada donde cada nodo tiene un valor numérico.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta es una descripción general de una lista enlazada, pero no específica para listas de adyacencia.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Mediante una lista enlazada donde cada nodo representa un vértice y contiene apuntadores a los vértices adyacentes.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En una lista de adyacencia, cada nodo en la lista principal representa un vértice y contiene una sublista de nodos que son adyacentes a él.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Mediante una matriz rectangular donde las filas representan vértices y las columnas aristas",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta no es una forma común de representar grafos y no corresponde a la definición de listas de adyacencia.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Un conjunto de pares ordenados.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un conjunto de pares ordenados puede representar aristas, pero no incluye la información del peso necesaria para un grafo ponderado.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Un valor booleano que indica la existencia de una arista.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un valor booleano solo indicaría la existencia de una arista, no su peso, que es necesario en un grafo ponderado.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Un valor que indica el peso de la arista.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un grafo ponderado, cada arista en la lista de adyacencia debe tener un valor adicional que indique su peso.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Una matriz cuadrada.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una matriz cuadrada es una forma de representar un grafo mediante una matriz de adyacencia, no es necesaria para listas de adyacencia.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Matriz bidimensional.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una matriz bidimensional se utiliza para la representación de grafos mediante una matriz de adyacencia, no mediante listas de adyacencia.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Árbol binario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol binario no se usa comúnmente para representar listas de adyacencia.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Lista enlazada.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las listas enlazadas se utilizan a menudo para implementar listas de adyacencia, donde cada lista enlazada representa los vecinos de un vértice.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Pila.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una pila no se utiliza para representar listas de adyacencia, ya que las pilas siguen una estructura LIFO (Last In, First Out) que no es adecuada para esta tarea.",
                     "estado": "false"
                 }
             }

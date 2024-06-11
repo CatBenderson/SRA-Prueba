@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Requisitos cambiantes.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los requisitos cambiantes son comunes en el desarrollo de software debido a la evolución de las necesidades del cliente o del mercado, lo que puede llevar a cambios en el proyecto.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Problemas de infraestructura.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los problemas de infraestructura pueden afectar el desarrollo del software, pero no son un factor común que genere cambios en los requisitos del proyecto.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Nuevas tecnologías de desarrollo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La incorporación de nuevas tecnologías puede influir en el desarrollo del software, pero no es un factor común que cause cambios continuos en el proyecto.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Mejoras en la eficiencia del equipo de desarrollo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las mejoras en la eficiencia del equipo de desarrollo pueden optimizar el proceso, pero no son una causa común de cambios en los requisitos del software.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Incorporar dependencias de forma constante.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Incorporar dependencias de forma constante puede aumentar el riesgo de conflictos y problemas de compatibilidad, complicando el mantenimiento del proyecto.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Controlar las dependencias mediante ''cortafuegos''.",
-                    "retroalimentacion": "",
+                    "contenido": "Controlar las dependencias mediante 'cortafuegos'.",
+                    "retroalimentacion": "Controlar las dependencias mediante 'cortafuegos' permite aislar y gestionar mejor las dependencias, reduciendo el riesgo de problemas de compatibilidad y asegurando un entorno más estable.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Limitar el uso de librerías y dependencias.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Limitar el uso de librerías y dependencias puede reducir la funcionalidad del software y no es una solución práctica para la mayoría de los proyectos modernos que dependen de múltiples bibliotecas.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Dejar que las dependencias se propaguen libremente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Permitir que las dependencias se propaguen libremente puede causar conflictos y problemas de integración, dificultando el mantenimiento y la estabilidad del software.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Cambios en la interfaz de usuario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque los cambios en la interfaz de usuario pueden influir en la experiencia del usuario, no suelen tener un impacto directo en los asuntos empresariales.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Crisis económicas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las crisis económicas pueden afectar significativamente los asuntos empresariales al limitar los presupuestos, cambiar prioridades y afectar la viabilidad de los proyectos de desarrollo de software.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Mejoras en el rendimiento del código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las mejoras en el rendimiento del código son técnicas y no afectan directamente los asuntos empresariales.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Cambios en los requisitos del cliente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los cambios en los requisitos del cliente afectan principalmente al alcance y la planificación del proyecto.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Metodologías estáticas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las metodologías estáticas no son adecuadas para manejar cambios frecuentes en el desarrollo de software, ya que suelen ser rígidas y menos adaptables.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Metodologías híbridas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las metodologías híbridas combinan elementos de metodologías ágiles y tradicionales, pero no son mencionadas específicamente como las más útiles para gestionar cambios en el desarrollo de software.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Metodologías ágiles.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las metodologías ágiles son conocidas por su flexibilidad y capacidad de adaptarse rápidamente a los cambios, lo que las hace especialmente útiles en el desarrollo de software.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Metodologías tradicionales.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las metodologías tradicionales suelen ser menos flexibles y no se adaptan bien a los cambios rápidos, lo que las hace menos adecuadas para el desarrollo de software en entornos dinámicos.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Desarrollo rápido sin especificación previa.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El desarrollo rápido sin especificación previa puede llevar a resultados inconsistentes y problemas de calidad, y no es una práctica recomendada en las metodologías ágiles.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Implementación de tecnologías obsoletas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El uso de tecnologías obsoletas va en contra de los principios de las metodologías ágiles, que buscan la eficiencia y la actualización constante.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Control estricto de cambios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las metodologías ágiles buscan adaptarse a los cambios de manera flexible, no mediante un control estricto, lo que permite responder rápidamente a las nuevas necesidades del proyecto.",
                     "estado": "false"
                 },
                 "4": {
-                    "contenido": " Especificación de líneas base.",
-                    "retroalimentacion": "",
+                    "contenido": "Especificación de líneas base.",
+                    "retroalimentacion": "La especificación de líneas base es crucial en las metodologías ágiles para establecer una referencia clara del proyecto, permitiendo una gestión eficiente de los cambios y ajustes necesarios.",
                     "estado": "true"
                 }
             }

@@ -28,6 +28,10 @@ import xxvii from '../Info/Unidades/27.txt';
 import xxviii from '../Info/Unidades/28.txt';
 import xxix from '../Info/Unidades/29.txt';
 import xxx from '../Info/Unidades/30.txt';
+import xxxi from '../Info/Unidades/31.txt';
+import xxxii from '../Info/Unidades/32.txt';
+import xxxiii from '../Info/Unidades/33.txt';
+
 import xC from '../Info/Unidades/Codigos/10.txt';
 import xixC from '../Info/Unidades/Codigos/19.txt';
 import xxC from '../Info/Unidades/Codigos/20.txt';
@@ -36,6 +40,9 @@ import xxviiC from '../Info/Unidades/Codigos/27.txt';
 import xxviiiC from '../Info/Unidades/Codigos/28.txt';
 import xxixC from '../Info/Unidades/Codigos/29.txt';
 import xxxC from '../Info/Unidades/Codigos/30.txt';
+import xxxiC from '../Info/Unidades/Codigos/31.txt';
+import xxxiiC from '../Info/Unidades/Codigos/32.txt';
+import xxxiiiC from '../Info/Unidades/Codigos/33.txt';
 
 export const archivosPorUnidad = {
     1: i,
@@ -68,6 +75,9 @@ export const archivosPorUnidad = {
     28: xxviii,
     29: xxix,
     30: xxx,
+    31: xxxi,
+    32: xxxii,
+    33: xxxiii,
 };
 
 export const codigoPorUnidad = {
@@ -79,5 +89,8 @@ export const codigoPorUnidad = {
     28: xxviiiC,
     29: xxixC,
     30: xxxC,
+    31: xxxiC,
+    32: xxxiiC,
+    33: xxxiiiC,
 };
  

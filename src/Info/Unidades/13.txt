@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Mal manejo de parámetros",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No hay manipulación de parámetros adicionales en el método main, por lo que no hay errores en el manejo de parámetros.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Indicar qué es lo que hace la función",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No hay problemas en indicar lo que hace la función porque es fácilmente comprensible.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "No establecer estándares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "De la manera en la que se muestra, el código sigue convenciones comunes y es fácil de entender",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Uso de nombres vagos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nombre \"Cliente\" para la clase y \"n\" para el nombre del cliente son bastante vagos y podrían ser más descriptivos.",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Mal manejo de parámetros",
-                    "retroalimentacion": "",
+                    "retroalimentacion": " La función mostrarMapa espera que los parámetros latitud y longitud sean cadenas que representen números decimales, sin embargo, no se realiza ningún tipo de validación para asegurar que estos valores sean números válidos antes de intentar convertirlos.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Uso de nombres vagos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nombres latitud y longitud son bastante descriptivos y reflejan claramente su propósito.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "No indicar qué es lo que hace la función",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No hay problema en no indicar explícitamente qué hace la función ya que su nombre y su implementación son lo suficientemente descriptivos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "No establecer estándares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el caso de esta código no hay un problema significativo en no establecer estándares.",
                     "estado": "false"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Disminuir la complejidad",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Utilizar antónimos en los nombres de rutinas no está directamente relacionado con disminuir la complejidad del código, sino más bien con hacer que las relaciones entre las rutinas sean claras y comprensibles.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Mejorar la consistencia y simetría",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Utilizar antónimos en los nombres de rutinas ayuda a mejorar la consistencia y simetría del código, haciendo que sea más fácil entender las relaciones y funciones opuestas entre las rutinas.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Reducir la legibilidad",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El uso de antónimos en los nombres de rutinas no está destinado a reducir la legibilidad, sino a mejorarla al hacer claras las funciones opuestas y las relaciones entre diferentes partes del código.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Evitar el uso de nombres específicos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El objetivo de usar antónimos no es evitar nombres específicos, sino más bien usar nombres que reflejen claramente las funciones opuestas para mejorar la comprensión del código.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Utilizar diferentes convenciones para operaciones similares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Usar diferentes convenciones para operaciones similares puede causar confusión y falta de consistencia en el código, dificultando su mantenimiento y comprensión.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Establecer estándares solo para operaciones únicas",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Establecer estándares solo para operaciones únicas no ayuda a crear una consistencia en el código. Es importante tener convenciones para todas las operaciones comunes para mantener la claridad y coherencia.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "No seguir ninguna convención",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No seguir ninguna convención puede llevar a un código desorganizado y difícil de mantener, ya que la falta de consistencia en los nombres puede confundir a los desarrolladores.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Utilizar una misma convención para acciones similares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Utilizar una misma convención para acciones similares ayuda a mantener la coherencia y claridad en el código, facilitando su mantenimiento y comprensión por parte de los desarrolladores.",
                     "estado": "true"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Cuantas más líneas, mejor",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aumentar la cantidad de líneas en una rutina no necesariamente mejora su calidad. Rutinas más largas pueden ser más difíciles de entender y mantener.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Mientras más compleja, mejor",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad en una rutina no es un objetivo deseable, ya que puede hacer que el código sea más difícil de entender y mantener.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Rutinas pequeñas son preferibles",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las rutinas pequeñas tienden a ser más fáciles de entender, probar y mantener. Promueven la reutilización y la separación de responsabilidades en el código.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "La longitud no importa",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La longitud de una rutina sí importa. Rutinas más cortas y bien definidas suelen ser más fáciles de manejar y entender, mientras que las más largas pueden ser complejas y difíciles de seguir.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "No es importante",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nombrado adecuado de rutinas es crucial para la comprensión del código. Ignorar esto puede llevar a dificultades en el mantenimiento y entendimiento del mismo por parte de otros desarrolladores.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Facilita la lectura y comprensión del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un buen nombrado de rutinas facilita la lectura y comprensión del código, haciendo más fácil para los desarrolladores entender y mantener el sistema.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Solo es relevante para funciones pequeñas",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nombrado adecuado es importante para todas las funciones, no solo para las pequeñas. Esto asegura que el código sea comprensible y manejable sin importar el tamaño de la función.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Hace que las rutinas sean menos complejas",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien un buen nombrado puede ayudar a entender mejor el propósito de una rutina, no reduce la complejidad inherente del código. La claridad y la comprensión son los beneficios principales.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Para hacer el código menos abstracto",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Evitar nombres vagos no necesariamente hace que el código sea menos abstracto. La claridad en los nombres es para asegurar que el propósito y las operaciones de las rutinas sean fáciles de entender.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Para reducir líneas utilizando nombres más cortos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El objetivo no es reducir la cantidad de líneas mediante nombres más cortos. Nombres claros y descriptivos son más importantes que la longitud del nombre.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Para proporcionar información clara sobre las operaciones de la rutina",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nombres claros y específicos ayudan a entender exactamente qué operaciones realiza una rutina, mejorando la legibilidad y el mantenimiento del código.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Para confundir a otros programadores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El objetivo de nombrar rutinas no es confundir a otros programadores, sino todo lo contrario.",
                     "estado": "false"
                 }
             }

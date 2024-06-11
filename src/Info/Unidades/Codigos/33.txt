@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "public boolean busquedaProfundidadRecursiva(Nodo nodo, int cantidad, boolean encontrado) {\n        if (nodo == null || encontrado) {\n            return encontrado;\n        }\n\n        System.out.println(\"Cantidad: \" + nodo.cantidad + \", Fruta: \" + nodo.nombre);\n\n        if (nodo.cantidad == cantidad) {\n            encontrado = true;\n            return true;\n        }\n\n        encontrado = busquedaProfundidadRecursiva(nodo.izquierda, cantidad, encontrado);\n        encontrado = busquedaProfundidadRecursiva(nodo.derecha, cantidad, encontrado);\n\n        return encontrado;\n    }\n\npublic void busquedaProfundidad(int cantidad) {\n        busquedaProfundidadRecursiva(raiz, cantidad, false);\n    }",
+                "texto": "Esta función se implementa tomando como base la clase árbol utilizada en la unidad 19 \" *Árboles *binarios *de *búsqueda: *Implementación\".\n*busquedaProfundidadRecursiva(Nodo *nodo, *int *cantidad, *boolean *encontrado): Esta función realiza la búsqueda en profundidad de manera recursiva. Recibe un nodo, la cantidad deseada y un booleano que indica si se ha *encontrado el nodo deseado. Si el nodo es nulo o ya se ha encontrado el nodo deseado, la función retorna el valor de *encontrado. De lo contrario, imprime la cantidad y el nombre del nodo actual. Si la cantidad del nodo actual es igual a la cantidad deseada, establece *encontrado en *true y retorna *true. Luego, realiza la búsqueda en profundidad recursiva en los nodos hijo izquierdo y derecho, actualizando *encontrado en cada llamada recursiva. Finalmente, retorna el valor de *encontrado.\n\n*busquedaProfundidad(int *cantidad): Esta función simplemente llama a *busquedaProfundidadRecursiva() con el nodo raíz y el valor inicial de encontrado como false."
+            },
+            "python": {
+                "codigo": "def busquedaProfundidadRecursiva(self, nodo, cantidad, encontrado):\n        if nodo is None or encontrado[0]:\n            return encontrado[0]\n\n        print(f\"Cantidad: {nodo.cantidad}, Fruta: {nodo.nombre}\")\n\n        if nodo.cantidad == cantidad:\n            encontrado[0] = True\n            return True\n\n        encontrado[0] = self.busquedaProfundidadRecursiva(nodo.izquierda, cantidad, encontrado)\n        encontrado[0] = self.busquedaProfundidadRecursiva(nodo.derecha, cantidad, encontrado)\n\n        return encontrado[0]\n\ndef busquedaProfundidad(self, cantidad):\n        encontrado = [False]\n        self.busquedaProfundidadRecursiva(self.raiz, cantidad, encontrado)",
+                "texto": "Esta función se implementa tomando como base la clase árbol utilizada en la unidad 19 \" *Árboles *binarios *de *búsqueda: *Implementación\".\n*busquedaProfundidadRecursiva(self, *nodo, *cantidad, *encontrado): Esta función realiza la búsqueda en profundidad de manera recursiva. Recibe un nodo, la cantidad deseada y un booleano que indica si se ha *encontrado el nodo deseado. Si el nodo es nulo o ya se ha encontrado el nodo deseado, la función retorna el valor de *encontrado. De lo contrario, imprime la cantidad y el nombre del nodo actual. Si la cantidad del nodo actual es igual a la cantidad deseada, establece *encontrado en *true y retorna *true. Luego, realiza la búsqueda en profundidad recursiva en los nodos hijo izquierdo y derecho, actualizando *encontrado en cada llamada recursiva. Finalmente, retorna el valor de *encontrado.\n\n*busquedaProfundidad(self, *cantidad): Esta función simplemente llama a *busquedaProfundidadRecursiva() con el nodo raíz y el valor inicial de encontrado como false."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

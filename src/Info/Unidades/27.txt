@@ -20,54 +20,54 @@
         "1": {
             "id": "27-1-E",
             "imagen": "",
-            "pregunta": "Dado un arreglo arr = [7,10,3,4,2,8] al ejecutar el algoritmo ¿En qué paso el arreglo se encuentra como [3, 2, 4, 7, 8, 10]?",
+            "pregunta": "Dado un arreglo arr = [7,10,3,4,2,8] al ejecutar el algoritmo ¿En qué paso el arreglo se encuentra como [3, 7, 10, 4, 2, 8]?",
             "respuestas": {
                 "1": {
                     "contenido": "Paso 1",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [7, 10, 3, 4, 2, 8]",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Paso 2",
-                    "retroalimentacion": "",
-                    "estado": "false"
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [3, 7, 10, 4, 2, 8]",
+                    "estado": "true"
                 },
                 "3": {
                     "contenido": "Paso 3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [3, 7, 10, 2, 4, 8]",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Paso 4",
-                    "retroalimentacion": "",
-                    "estado": "true"
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [3, 7, 10, 2, 4, 8]",
+                    "estado": "false"   
                 }
             }
         },
         "2": {
             "id": "27-2-E",
             "imagen": "",
-            "pregunta": "Dado un arreglo arr = [6,11,9,1,13] al ejecutar el algoritmo ¿En qué paso el arreglo se encuentra como [11, 6, 9, 1, 13]?",
+            "pregunta": "Dado un arreglo arr = [6,11,9,1,13] al ejecutar el algoritmo ¿En qué paso el arreglo se encuentra como [1, 6, 9, 11, 13]?",
             "respuestas": {
                 "1": {
                     "contenido": "Paso 1",
-                    "retroalimentacion": "",
-                    "estado": "true"
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [6, 11, 9, 1, 13]",
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Paso 2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [6, 9, 11, 1, 13]",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Paso 3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [6, 9, 11, 1, 13]",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Paso 4",
-                    "retroalimentacion": "",
-                    "estado": "false"
+                    "retroalimentacion": "Es el estado ordenado del arreglo [1, 6, 9, 11, 13]",
+                    "estado": "true"
                 }
             }
         },
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Dividir el array en partes más pequeñas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El primer paso del algoritmo MergeSort es dividir el array en partes más pequeñas hasta que cada parte tenga un solo elemento o esté vacía.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Mezclar las dos mitades del array.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El paso de mezclar viene después de que las partes hayan sido divididas y ordenadas por separado.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Verificar si el array está vacío.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Verificar si el array está vacío no es el primer paso en el algoritmo MergeSort.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Contar la longitud del array.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Contar la longitud del array no es el primer paso en el algoritmo MergeSort.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Ordenar las mitades del array.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El paso de mezclar no consiste en ordenar las mitades, sino en combinarlas de manera ordenada.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Dividir el array en partes más pequeñas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Dividir el array en partes más pequeñas es el primer paso, no el de mezclar.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Fusionar las dos mitades ordenadas del array en una secuencia ordenada.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El paso de mezclar en el algoritmo MergeSort consiste en fusionar las dos mitades ordenadas del array en una secuencia ordenada.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Contar la longitud del array.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Contar la longitud del array no es parte del paso de mezclar en el algoritmo MergeSort.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "O(n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad temporal O(n) es incorrecta, ya que no considera el proceso de dividir y mezclar los elementos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "O(log n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(log n) es incorrecta, ya que esta complejidad no refleja adecuadamente el trabajo realizado al dividir y mezclar.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "O(n^2)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(n^2) es incorrecta, ya que es la complejidad de algoritmos menos eficientes como BubbleSort.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "O(n⋅log(n))",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad temporal de MergeSort es O(n⋅log(n)) debido a la división repetida del array y la posterior fusión de los subarrays.",
                     "estado": "true"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "No afecta al rendimiento.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El rendimiento de MergeSort es independiente del estado inicial del array, ya que siempre realiza el mismo número de operaciones independientemente del orden de los elementos.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Afecta negativamente si el array está ordenado de forma descendente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "MergeSort realiza el mismo número de operaciones independientemente del orden de los elementos, por lo que el rendimiento no se ve afectado por un array ordenado de forma descendente.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Afecta positivamente si el array está ordenado de forma ascendente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "MergeSort realiza el mismo número de operaciones independientemente del orden de los elementos, por lo que el rendimiento no se ve afectado por un array ordenado de forma ascendente.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Afecta negativamente si el array está ordenado de forma aleatoria.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "MergeSort realiza el mismo número de operaciones independientemente del orden de los elementos, por lo que el rendimiento no se ve afectado por un array ordenado de forma aleatoria.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Si la longitud del array es menor o igual a 1.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La recursión en MergeSort se detiene cuando la longitud del array es menor o igual a 1, ya que un array de esa longitud ya está ordenado.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Si la longitud del array es igual a 2.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La recursión en MergeSort no se detiene específicamente en arrays de longitud 2.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Si la longitud del array es mayor que 1.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La recursión en MergeSort continúa mientras la longitud del array sea mayor que 1.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Si la longitud del array es igual a 0.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La recursión en MergeSort se detiene no solo cuando la longitud es 0, existe otra condición que lo puede detener.",
                     "estado": "false"
                 }
             }

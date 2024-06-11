@@ -74,7 +74,7 @@ export default function Ejercicio({ numero, ejercicio }) {
                 {retroalimentacion && (
                     <div className={`retroalimentacion-card-ejercicio ${retroalimentacionTrue ? '' : 'retroalimentacion-error'}`}>
                         <p className='titulo-retroalimentacion'><strong>Retroalimentación</strong></p>
-                        {retroalimentacion}
+                        {renderizarContenido(retroalimentacion)}
                     </div>
                 )}
 
