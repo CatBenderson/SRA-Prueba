@@ -106,23 +106,23 @@
             "respuestas": {
                 "1": {
                     "contenido": "Para mejorar la seguridad de la red social.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Representar a los usuarios mediante grafos no está directamente relacionado con la mejora de la seguridad, sino más con la estructura y análisis de la red.",
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Para simplificar la estructura de la red social.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Aunque los grafos ayudan a visualizar la estructura de la red, su objetivo principal no es simplificar la estructura, sino modelar las relaciones entre los usuarios.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Para abordar estrategias comerciales y mejorar los sistemas y aplicaciones.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Representar a los usuarios mediante grafos permite analizar las relaciones y patrones en la red social, lo cual es útil para estrategias comerciales y mejoras en sistemas y aplicaciones.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Para aumentar la velocidad de conexión en la red social.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "La representación mediante grafos no tiene un impacto directo en la velocidad de conexión en la red social.",
+                    "estado": "false"
                 }
             }
         },
@@ -132,23 +132,23 @@
             "respuestas": {
                 "1": {
                     "contenido": "En identificar usuarios inactivos en la red social.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "La detección de comunidades se centra en identificar grupos de usuarios con características similares, no en la actividad de los usuarios.",
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "En encontrar usuarios con intereses similares en la red social.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Aunque relacionado, la detección de comunidades es más amplia y se enfoca en identificar grupos de usuarios que tienen relaciones estrechas, más allá de solo intereses similares.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "En identificar grupos de usuarios que comparten atributos en la red social.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los algoritmos de detección de comunidades identifican grupos de usuarios que tienen relaciones estrechas o comparten atributos dentro de la red social.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "En mejorar la velocidad de conexión entre usuarios en la red social.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "La detección de comunidades no está enfocada en la velocidad de conexión, sino en la identificación de grupos de usuarios dentro de la red.",
+                    "estado": "false"
                 }
             }
         },
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Por medio de listas de adyacencia.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Las listas de adyacencia son útiles para la representación de grafos en memoria, pero no son una herramienta efectiva para la visualización.",
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Por medio de matrices de adyacencia.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Las matrices de adyacencia son útiles para la representación de grafos en memoria, pero no son una herramienta efectiva para la visualización.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Por medio de árboles de búsqueda binaria.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Los árboles de búsqueda binaria no se utilizan para la visualización de infraestructuras de red.",
+                    "estado": "false"
                 },
                 "4": {
-                    "contenido": "Por medio de grafos ",
-                    "retroalimentacion": "",
+                    "contenido": "Por medio de grafos.",
+                    "retroalimentacion": "Los grafos son una herramienta efectiva para visualizar las infraestructuras de red, ya que pueden mostrar claramente las relaciones y conexiones entre diferentes nodos.",
                     "estado": "true"
                 }
             }
@@ -184,23 +184,23 @@
             "respuestas": {
                 "1": {
                     "contenido": "Flujos de trabajo y rutas de suministro.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los grafos pueden modelar flujos de trabajo y rutas de suministro, ayudando a identificar eficiencias y optimizar procesos.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Estructura de bases de datos.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Aunque los grafos se pueden utilizar para representar bases de datos, en la gestión de procesos y logística se enfocan más en flujos y rutas.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Modelos de inteligencia artificial.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Los modelos de inteligencia artificial no se modelan directamente con grafos en el contexto de gestión de procesos y logística.",
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "Algoritmos de compresión de datos.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Los grafos no se utilizan para modelar algoritmos de compresión de datos en la gestión de procesos y logística empresarial.",
+                    "estado": "false"
                 }
             }
         },
@@ -210,23 +210,23 @@
             "respuestas": {
                 "1": {
                     "contenido": "Encontrar las rutas más largas.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Encontrar las rutas más largas no es generalmente el objetivo en la gestión de procesos y logística, donde se busca eficiencia.",
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Minimizar la asignación de recursos.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Los algoritmos de grafos pueden ayudar a optimizar la asignación de recursos, pero no se enfocan en minimizarlos necesariamente.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Optimizar la asignación de recursos y encontrar las rutas más cortas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los algoritmos de grafos pueden ayudar a optimizar la asignación de recursos y encontrar las rutas más cortas, mejorando la eficiencia en la gestión de procesos y logística.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Maximizar los costos operativos.",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "El objetivo de la gestión eficiente es minimizar, no maximizar, los costos operativos.",
+                    "estado": "false"
                 }
             }
         }

@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Aumento del riesgo al utilizar código previamente probado.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El uso de código previamente probado tiende a disminuir el riesgo, ya que dicho código ya ha sido validado en otros contextos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Mayor complejidad en el desarrollo de soluciones.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La reutilización de código generalmente reduce la complejidad, permitiendo construir sobre soluciones ya existentes en lugar de desarrollarlas desde cero.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Reducción de horas de trabajo y ahorro de tiempo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Uno de los principales beneficios de reutilizar código es la significativa reducción en las horas de trabajo y el ahorro de tiempo, ya que no es necesario desarrollar desde cero.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Mayor costo en el desarrollo y mantenimiento de software.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Reutilizar código tiende a reducir los costos en el desarrollo y mantenimiento del software, ya que se aprovechan componentes ya existentes.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "No se requiere realizar pruebas de calidad.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aun cuando se reutiliza código, las pruebas de calidad siguen siendo esenciales para asegurar que el código funcione adecuadamente en el nuevo contexto.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": " El código ha sido revisado por expertos antes de su uso.",
-                    "retroalimentacion": "",
+                    "contenido": "El código ha sido revisado por expertos antes de su uso.",
+                    "retroalimentacion": "El menor riesgo al reutilizar código se debe a que dicho código ya ha sido revisado y probado por expertos en su contexto original.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Se garantiza que no habrá problemas de compatibilidad.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque el código reutilizado ha sido probado, no siempre se puede garantizar que no habrá problemas de compatibilidad en el nuevo contexto.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Se asume que el código siempre funcionará sin errores.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque se espera que el código reutilizado funcione bien, siempre existe la posibilidad de errores al integrarlo en un nuevo proyecto, por lo que se deben realizar pruebas.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Un conjunto de instrucciones para realizar una tarea específica que puede ser llamado varias veces.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En la reutilización de código, una función es un conjunto de instrucciones diseñadas para realizar una tarea específica y que puede ser llamada múltiples veces dentro del programa.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Un conjunto de bibliotecas predefinidas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las bibliotecas predefinidas pueden contener funciones, pero una función no es un conjunto de bibliotecas.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Una estructura de código basada en herencia y polimorfismo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las estructuras de código basadas en herencia y polimorfismo son características de la programación orientada a objetos, no definiciones de una función.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Una colección de clases y objetos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una colección de clases y objetos puede incluir funciones, pero no define qué es una función.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Conjuntos de funciones que se pueden llamar varias veces.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los frameworks pueden incluir funciones reutilizables, pero su alcance es más amplio que simplemente ser conjuntos de funciones.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Conjuntos de bibliotecas diseñadas para facilitar la creación rápida de proyectos",
-                    "retroalimentacion": "",
+                    "contenido": "Conjuntos de bibliotecas diseñadas para facilitar la creación rápida de proyectos.",
+                    "retroalimentacion": "Un framework es un conjunto de bibliotecas y herramientas diseñadas para facilitar la creación rápida y estructurada de proyectos de software.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Estructuras de código basadas en herencia y polimorfismo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque los frameworks pueden utilizar herencia y polimorfismo, su definición es más amplia y no se limitan a estas características.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Un conjunto de variables y métodos encapsulados en una clase.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un framework puede contener clases con variables y métodos, pero su definición va más allá de ser un conjunto de clases.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Utilizar funciones predefinidas para realizar tareas específicas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las funciones predefinidas son una parte del código reutilizable, pero la reutilización de clases implica algo más que solo funciones.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Incorporar bibliotecas de terceros en el código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Incorporar bibliotecas de terceros es una forma de reutilización de código, pero la reutilización de clases se refiere específicamente a la reutilización de la estructura y funcionalidad de clases definidas.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Crear objetos con atributos y comportamientos compartidos pero ligeramente diferenciados entre sí.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La reutilización de clases permite crear objetos que comparten atributos y comportamientos definidos en la clase base, facilitando la extensibilidad y mantenimiento del código.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Utilizar un conjunto predefinido de herramientas para el desarrollo de software.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Utilizar un conjunto predefinido de herramientas es un beneficio de los frameworks, no específicamente de la reutilización de clases.",
                     "estado": "false"
                 }
             }

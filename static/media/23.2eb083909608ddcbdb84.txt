@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Conexo y acíclico",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los grafos conexos son aquellos grafos en los que cada par de vértices se encuentra unido por un camino, en este caso no hay un camino que conecte el grafo v = {1,2,3} y v= {4,5}" ,
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Conexo y ponderado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los grafos conexos son aquellos grafos en los que cada par de vértices se encuentra unido por un camino, en este caso no hay un camino que conecte el grafo v = {1,2,3} y v= {4,5}",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Cíclico y ponderado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este grafo no tiene peso en sus aristas por lo que no es ponderado.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "No conexo y cíclico",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este grafo tiene 2 subgrafos que no se conectan entre si y uno de ellos forma un ciclo.",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Roja",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si se elimina esta arista terminaríamos con 2 subgrafos separados por lo que no sería conexo.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Azul",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Al eliminar esta arista ya no se intersecaría con la roja y se mantiene conexo",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Verde",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si se elimina esta arista las aristas rojas y azules seguirían intersecandose lo cual no daría un grafo con planaridad.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Naranja",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si se elimina esta arista las aristas rojas y azules seguirían intersecandose lo cual no daría un grafo con planaridad.",
                     "estado": "false"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "La relación entre dos vértices conectados por medio de una arista.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un grafo, dos vértices son adyacentes si están conectados directamente por una arista.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "La cantidad de aristas en el grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cantidad de aristas en un grafo se refiere al tamaño del grafo, no a la adyacencia.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "La longitud del camino más corto entre dos vértices.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La longitud del camino más corto entre dos vértices se refiere a la distancia, no a la adyacencia.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "La relación entre dos aristas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La adyacencia no se refiere a la relación entre aristas.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "La cualidad de un grafo que puede ser representado sin que dos aristas se intersequen.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cualidad de un grafo que puede ser representado sin que dos aristas se intersequen se refiere a un grafo planar, no a la ponderación.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "El número de vértices en el grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El número de vértices en un grafo se refiere al orden del grafo, no a la ponderación.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "El valor asignado a las aristas de un grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La ponderación en un grafo se refiere a los valores o pesos asignados a sus aristas.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "La cualidad de un grafo en el que cada par de vértices se encuentra unido por un camino.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cualidad de un grafo en el que cada par de vértices se encuentra unido por un camino se refiere a un grafo conexo, no a la ponderación.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Grafo conexo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un grafo conexo es aquel en el que hay un camino entre cualquier par de vértices, no necesariamente relacionado con la representación de las aristas sin intersección.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Grafo ponderado.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un grafo ponderado tiene valores asignados a sus aristas, no necesariamente relacionado con la representación de las aristas sin intersección.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Grafo planar.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un grafo planar es aquel que puede ser dibujado en el plano sin que sus aristas se intersequen.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Grafo cíclico.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un grafo cíclico contiene al menos un ciclo, pero esto no implica que sus aristas no se intersequen.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Los grafos conexos tienen aristas sin dirección, mientras que los no conexos tienen aristas dirigidas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La diferencia entre grafos conexos y no conexos no se relaciona con la dirección de las aristas sino con la existencia de caminos entre todos los pares de vértices.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Los grafos conexos no tienen ciclos, mientras que los no conexos pueden tener ciclos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La presencia de ciclos no determina si un grafo es conexo o no conexo. Los grafos conexos pueden tener ciclos.",
                     "estado": "false"
                 },
                 "3": {
-                "contenido": "Los grafos conexos tienen cada par de vértices unidos por un camino, mientras que los no conexos no tienen relación entre algunos de sus vértices.",
-                    "retroalimentacion": "",
+                    "contenido": "Los grafos conexos tienen cada par de vértices unidos por un camino, mientras que los no conexos no tienen relación entre algunos de sus vértices.",
+                    "retroalimentacion": "En un grafo conexo, existe al menos un camino entre cada par de vértices, mientras que en un grafo no conexo, algunos vértices no están conectados por ningún camino.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Los grafos conexos tienen una ponderación asignada a sus aristas, mientras que los no conexos no tienen ponderación.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La ponderación de las aristas no es lo que distingue a los grafos conexos de los no conexos.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "No incluye ningún ciclo dentro de su estructura.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un grafo cíclico, por definición, contiene al menos un ciclo dentro de su estructura.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Contiene al menos un ciclo dentro de su estructura",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un grafo cíclico es aquel que contiene al menos un ciclo, es decir, una secuencia de aristas que comienza y termina en el mismo vértice.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Cada par de vértices se encuentra unido por un camino.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La conexión de cada par de vértices por un camino se refiere a un grafo conexo, no necesariamente cíclico.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Puede ser representado sin que dos aristas se intersequen.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La capacidad de ser representado sin que dos aristas se intersequen se refiere a un grafo planar, no a un grafo cíclico.",
                     "estado": "false"
                 }
             }

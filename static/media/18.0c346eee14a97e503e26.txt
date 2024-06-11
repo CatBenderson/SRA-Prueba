@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Inserción y actualización",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La actualización no es una operación básica en los árboles binarios de búsqueda. Las operaciones básicas se enfocan en la inserción y manejo de nodos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Inserción y eliminación",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las dos operaciones básicas de los árboles binarios de búsqueda son la inserción de nuevos nodos y la eliminación de nodos existentes.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Inserción y búsqueda",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque la búsqueda es una operación común en los árboles binarios de búsqueda, no es una de las operaciones básicas para el manejo de los nodos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Actualización y eliminación",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La actualización no es una operación básica en los árboles binarios de búsqueda. Las operaciones básicas se enfocan en la inserción y manejo de nodos.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Se elige al azar entre los nodos existentes",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La posición de inserción no se elige al azar. Esto daría como resultado un árbol desordenado.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Se compara de manera recursiva con los valores existentes",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La posición de inserción se determina comparando recursivamente el valor del nuevo nodo con los valores de los nodos existentes hasta encontrar su posición adecuada.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Se coloca siempre como hijo derecho del nodo raíz",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nuevo nodo no se coloca siempre como hijo derecho del nodo raíz. Su posición se determina por comparaciones de valores.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Se compara de manera recursiva con los valores por insertar",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La comparación no se realiza con los valores por insertar.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Se coloca como hijo derecho del nodo actual",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el lado derecho se almacenan los valores mayores a comparación con la raíz.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Se busca en el próximo nodo derecho",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el lado derecho se almacenan los valores mayores a comparación con la raíz.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Se coloca como hijo izquierdo del nodo actual",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si el valor es menor que el de la raíz, se coloca como hijo izquierdo del nodo actual.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Se busca en el próximo nodo izquierdo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque es cierto que se busca en el próximo nodo izquierdo, la posición que sugiere la respuesta no es precisa.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Se elimina el nodo sin cambios adicionales en el árbol",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si el nodo a eliminar no tiene hijos, se elimina directamente sin afectar otros nodos en el árbol.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Se elimina el nodo y se traslada su hijo al padre del nodo eliminado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si el nodo no tiene hijos, no hay ningún hijo que trasladar al padre del nodo eliminado.",
                     "estado": "false"
                 },
                 "3": {
-                    "contenido": " Se sustituye el nodo por el nodo de mayor valor en el subárbol izquierdo",
-                    "retroalimentacion": "",
+                    "contenido": "Se sustituye el nodo por el nodo de mayor valor en el subárbol izquierdo",
+                    "retroalimentacion": "Esta operación se realiza cuando el nodo tiene hijos, no cuando el nodo a eliminar no tiene hijos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Se remplaza por la raíz",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No se reemplaza por la raíz. Si el nodo no tiene hijos, simplemente se elimina.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "El mayor valor en el subárbol izquierdo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta es una opción válida, pero no es la única posible.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "El menor valor en el subárbol derecho",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta es una opción válida, pero no es la única posible.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Cualquiera de los anteriores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Tanto el mayor valor en el subárbol izquierdo como el menor valor en el subárbol derecho pueden reemplazar a un nodo eliminado que tiene dos hijos.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "El nodo raíz",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nodo raíz no necesariamente reemplaza a un nodo eliminado con dos hijos. El reemplazo depende de los subárboles del nodo eliminado.",
                     "estado": "false"
                 }
             }

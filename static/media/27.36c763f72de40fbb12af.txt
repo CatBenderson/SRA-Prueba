@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "class MergeSort {\n    int paso = 1;\n\n    void merge(int arr[], int izq, int medio, int der) {\n        int tamaño1 = medio - izq + 1;\n        int tamaño2 = der - medio;\n\n        int arrIzq[] = new int[tamaño1];\n        int arrDer[] = new int[tamaño2];\n\n        for (int i = 0; i < tamaño1; ++i)\n            arrIzq[i] = arr[izq + i];\n        for (int j = 0; j < tamaño2; ++j)\n            arrDer[j] = arr[medio + 1 + j];\n\n\n        int i = 0, j = 0;\n\n        int k = izq;\n        while (i < tamaño1 && j < tamaño2) {\n            if (arrIzq[i] <= arrDer[j]) {\n                arr[k] = arrIzq[i];\n                i++;\n            } else {\n                arr[k] = arrDer[j];\n                j++;\n            }\n            k++;\n        }\n\n        while (i < tamaño1) {\n            arr[k] = arrIzq[i];\n            i++;\n            k++;\n        }\n\n        while (j < tamaño2) {\n            arr[k] = arrDer[j];\n            j++;\n            k++;\n        }\n    }\n\n    void sort(int arr[], int izq, int der) {\n        if (izq < der) {\n            int medio = izq + (der - izq) / 2;\n\n            sort(arr, izq, medio);\n            sort(arr, medio + 1, der);\n\n            merge(arr, izq, medio, der);\n            System.out.print(\"Paso \" + paso + \": \");\n            paso++;\n            printArray(arr);\n        }\n    }\n\n    void printArray(int arr[]) {\n        int n = arr.length;\n        for (int i = 0; i < n; ++i)\n            System.out.print(arr[i] + \" \");\n        System.out.println();\n    }\n}",
+                "texto": "*void *merge(int *arr[], *int *izq, *int *medio, *int *der): Fusiona dos subarreglos ordenados en un solo subarreglo ordenado. Siguiendo los siguientes pasos: Primero divide el arreglo en dos subarreglos basados en los índices proporcionados. Posteriormente copia los datos en subarreglos temporales. Después fusiona los subarreglos temporales de vuelta en el arreglo original, manteniendo el orden. Finalmente maneja cualquier elemento restante en los subarreglos temporales.\n\n*void *sort(int *arr[], *int *izq, *int *der):  Divide el arreglo en mitades recursivamente y luego llama al método merge para fusionar los subarreglos ordenados. Comienza verificando si hay más de un elemento en el subarreglo. Posteriomente calcula el punto medio del subarreglo. Después llama recursivamente a sí mismo para ordenar las mitades izquierda y derecha. Trasn terminar llama al método merge para fusionar las mitades ordenadas. Por último imprime el estado actual del arreglo y aumenta el contador de pasos.\n\n*void *printArray(int *arr[]): Imprime el arreglo actual en la consola.\n\n\n"
+            },
+            "python": {
+                "codigo": "class MergeSort:\n    def __init__(self):\n        self.paso = 1\n\n    def merge(self, arr, izq, medio, der):\n        tamaño1 = medio - izq + 1\n        tamaño2 = der - medio\n\n        arrIzq = [0] * tamaño1\n        arrDer = [0] * tamaño2\n\n        for i in range(tamaño1):\n            arrIzq[i] = arr[izq + i]\n        for j in range(tamaño2):\n            arrDer[j] = arr[medio + 1 + j]\n\n        i = 0\n        j = 0\n        k = izq\n\n        while i < tamaño1 and j < tamaño2:\n            if arrIzq[i] <= arrDer[j]:\n                arr[k] = arrIzq[i]\n                i += 1\n            else:\n                arr[k] = arrDer[j]\n                j += 1\n            k += 1\n\n        while i < tamaño1:\n            arr[k] = arrIzq[i]\n            i += 1\n            k += 1\n\n        while j < tamaño2:\n            arr[k] = arrDer[j]\n            j += 1\n            k += 1\n\n    def sort(self, arr, izq, der):\n        if izq < der:\n            medio = izq + (der - izq) // 2\n\n            self.sort(arr, izq, medio)\n            self.sort(arr, medio + 1, der)\n\n            self.merge(arr, izq, medio, der)\n            print(\"Paso\", self.paso, \":\", arr)\n            self.paso += 1\n",
+                "texto": "*def *merge(self, *arr, *izq, *medio, *der): Fusiona dos subarreglos ordenados en un solo subarreglo ordenado. Siguiendo los siguientes pasos: Primero divide el arreglo en dos subarreglos basados en los índices proporcionados. Posteriormente copia los datos en subarreglos temporales. Después fusiona los subarreglos temporales de vuelta en el arreglo original, manteniendo el orden. Finalmente maneja cualquier elemento restante en los subarreglos temporales.\n\n*def *sort(self, *arr, *izq, *der): Divide el arreglo en mitades recursivamente y luego llama al método merge para fusionar los subarreglos ordenados. Comienza verificando si hay más de un elemento en el subarreglo. Posteriomente calcula el punto medio del subarreglo. Después llama recursivamente a sí mismo para ordenar las mitades izquierda y derecha. Trasn terminar llama al método merge para fusionar las mitades ordenadas. Por último imprime el estado actual del arreglo y aumenta el contador de pasos."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "class Main{\n    public static void main(String args[]) {\n        MergeSort ob = new MergeSort();\n        int arr[] = { 14, 11, 13, 10, 9, 4 };\n\n        System.out.print(\"Arreglo inicial: \");\n        ob.printArray(arr);\n\n        ob.sort(arr, 0, arr.length - 1);\n\n        System.out.print(\"Arreglo ordenado: \");\n        ob.printArray(arr);\n    }\n}",
+                "texto": "En la clase *Main se crea una instancia de la clase *MergeSort, inicializa un arreglo de enteros y luego imprime el arreglo inicial, ordena el arreglo utilizando el algoritmo de ordenamiento MergeSort, e imprime el arreglo ordenado."
+            },
+            "python": {
+                "codigo": "from MergeSort import MergeSort\n\n\nclass Main:\n    ob = MergeSort()\n    arr = [14, 11, 13, 10, 9, 4]\n\n    print(\"Arreglo inicial:\", arr)\n\n    ob.sort(arr, 0, len(arr) - 1)\n\n    print(\"Arreglo ordenado:\", arr)\n",
+                "texto": "En la clase *Main se crea una instancia de la clase *MergeSort, inicializa un arreglo de enteros y luego imprime el arreglo inicial, ordena el arreglo utilizando el algoritmo de ordenamiento MergeSort, e imprime el arreglo ordenado."
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

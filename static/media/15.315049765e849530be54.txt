@@ -1,7 +1,7 @@
 {
     "id": "15",
     "nombre": "Árboles: Fundamentos teóricos",
-    "contenido": "Los árboles son estructuras de datos no lineales y dinámicos conformados por  nodos u hojas que se encuentran conectados por medio de aristas también llamadas ramas. \n\nEn el área de la computación, los nodos suelen representar entidades y objetos mientras que las aristas representan la manera en la que los nodos se relacionan.  A continuación revisaremos algunos de los términos más comunes a la hora de trabajar con árboles.\n\n*Camino: Se refiere a la secuencia de nodos conectados dentro de un árbol\n\n*Raíz: Es el nodo que se encuentra en el punto más alto del árbol, solo puede existir un nodo raíz y sólo un camino existente desde el nodo raíz a cualquier otro nodo, de no cumplirse esta regla no estamos tratando con un árbol.\n\n*Padre: Es cualquier nodo (sin contar la raíz) que tiene al menos un nodo que desciende de él \n\n*Hijo: Es cualquier nodo que desciende de otro nodo. \n\n*Hoja: Se trata de nodos que no tienen hijos\n\n*Subárbol: Es un grupo o sección de nodos que se encuentra dentro del árbol, relacionados por medio de un padre, este a su vez se convierte en la raíz del nuevo subárbol.\n\n*Nivel: Se refiere a las generaciones que hay desde el nodo raíz hasta el nodo en cuestión. La raíz es de nivel cero, los hijos de la raíz serían nivel uno y así sucesivamente.\n\n*Altura: Es el nivel máximo del que consiste un árbol.",
+    "contenido": "Los árboles son estructuras de datos no lineales y dinámicos conformados por  nodos u hojas que se encuentran conectados por medio de aristas también llamadas ramas. \n\nEn el área de la computación, los nodos suelen representar entidades y objetos mientras que las aristas representan la manera en la que los nodos se relacionan.  A continuación revisaremos algunos de los términos más comunes a la hora de trabajar con árboles.\n\n*Camino: Se refiere a la secuencia de nodos conectados dentro de un árbol\n\n*Raíz: Es el nodo que se encuentra en el punto más alto del árbol, solo puede existir un nodo raíz y sólo un camino existente desde el nodo raíz a cualquier otro nodo, de no cumplirse esta regla no estamos tratando con un árbol.\n\n*Padre: Es cualquier nodo (sin contar la raíz) que tiene al menos un nodo que desciende de él \n\n*Hijo: Es cualquier nodo que desciende de otro nodo. \n\n*Hoja: Se trata de nodos que no tienen hijos\n\n*Subárbol: Es un grupo o sección de nodos que se encuentra dentro del árbol, relacionados por medio de un padre, este a su vez se convierte en la raíz del nuevo subárbol.\n\n*Nivel: Se refiere a las generaciones que hay desde el nodo raíz hasta el nodo en cuestión. La raíz es de nivel cero, los hijos de la raíz serían nivel uno y así sucesivamente.\n\n*Altura: Es el nivel máximo del que consiste un árbol .",
     "imagenes": {
         "1": {
             "url": "",
@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "D, J, H, I",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Todos estos nodos son nodos hoja",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "A, D, H, I",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nodo A es un nodo raíz por lo que no puede ser nodo hoja.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "A, B, C, D",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nodo A es un nodo raíz por lo que no puede ser nodo hoja. Los nodos B y C tienen hijos por lo que no pueden ser nodos hoja.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "C, E, G, I",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nodos C,E y G tienen hijos por lo que no pueden ser nodos hoja.",
                     "estado": "false"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nodos G, H e I se encuentran en el nivel 3 por lo que no es la altura del árbol",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nodo J se encuentra en el nivel 4 y ya no tiene hijos por lo que este nivel es la altura total del árbol.",
                     "estado": "true"
                 },
                 "3": {
-                    "contenido": "1",
-                    "retroalimentacion": "",
+                    "contenido": "5",
+                    "retroalimentacion": "El nivel de la raíz comienza en 0, aumentando en uno por cada generación",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nodos D,E y F se encuentran en el nivel 2 por lo que no es la altura del árbol",
                     "estado": "false"
                 }
             }
@@ -78,22 +78,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el nivel 3 se encuentran los nodos G, H e I. El nodo E no está en este nivel.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "4",
-                    "retroalimentacion": "",
+                    "contenido": "0",
+                    "retroalimentacion": "El nivel 0 es el nodo raíz y el nodo E no es la raíz.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "1",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el nivel 1 se encuentran los nodos B y C. El nodo E no está en este nivel.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nodo E si está en este nivel.",
                     "estado": "true"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "La relación entre nodos y hojas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La relación entre nodos y hojas no define un camino.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "La secuencia de nodos conectados dentro del árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un camino en un árbol se define como una secuencia de nodos conectados por aristas desde un nodo inicial hasta un nodo final.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "El nivel de un nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nivel de un nodo no define un camino, sino que indica la profundidad o altura del nodo dentro del árbol.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "La cantidad de hijos de un nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La cantidad de hijos de un nodo no define un camino.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Un nodo que no tiene hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una hoja en un árbol es un nodo que no tiene hijos. Es un nodo terminal sin descendientes.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Un nodo que tiene al menos un nodo descendiente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo que tiene al menos un nodo descendiente no es una hoja, sino un nodo interno con hijos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Un nodo que está en el nivel cero.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo que está en el nivel cero es típicamente la raíz del árbol, no una hoja.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Un nodo que se encuentra en la raíz.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo que se encuentra en la raíz es la raíz misma, no una hoja.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Un nodo que no tiene hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo que no tiene hijos es una hoja, no un subárbol.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Un grupo de nodos relacionados por medio de un padre.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un subárbol se define como un nodo y todos sus nodos descendientes, formando una estructura de árbol completa dentro del árbol mayor.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Un nodo que se encuentra en el nivel máximo del árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo en el nivel máximo del árbol es simplemente una hoja o un nodo en ese nivel, no un subárbol.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Una raíz que no tiene hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una raíz sin hijos es simplemente una raíz sin descendientes, no un subárbol.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "El nodo que no tiene hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo que no tiene hijos es una hoja, no una raíz.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "El nodo más bajo del árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nodo más bajo del árbol es una hoja o un nodo en el nivel más bajo, no la raíz.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "El nodo que se encuentra en el punto más alto del árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La raíz es el nodo que se encuentra en el punto más alto del árbol, de donde se derivan todos los otros nodos.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "El nodo que tiene más hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo que tiene más hijos puede ser cualquier nodo interno, no necesariamente la raíz.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Padre.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un nodo que tiene al menos un nodo descendiente se llama padre. Este término se utiliza para describir la relación entre nodos en un árbol.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Raíz.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La raíz es el nodo superior del árbol y puede o no tener descendientes. Sin embargo, la raíz no es cualquier nodo con descendientes ",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Hoja.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una hoja es un nodo que no tiene descendientes.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Camino.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un camino se refiere a una secuencia de nodos conectados, no a un nodo con descendientes.",
                     "estado": "false"
                 }
             }

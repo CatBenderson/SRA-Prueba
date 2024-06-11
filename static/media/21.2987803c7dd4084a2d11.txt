@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Es un árbol binario incompleto.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un montículo binario es un árbol binario completo, lo que significa que todos los niveles del árbol están completamente llenos excepto posiblemente el último, que está lleno de izquierda a derecha.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "La raíz siempre es menor o igual que los valores de sus hijos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esto es cierto solo para un montículo mínimo, pero un montículo binario también puede ser un montículo máximo donde la raíz es mayor o igual que los valores de sus hijos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Permite obtener el mínimo elemento de un conjunto en tiempo constante.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una de las características clave de un montículo mínimo binario es que permite obtener el mínimo elemento en tiempo constante, ya que el mínimo siempre está en la raíz.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "No se utiliza en situaciones que requieren priorización.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los montículos binarios se utilizan precisamente en situaciones que requieren priorización, como en colas de prioridad y algoritmos de optimización.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Lista enlazada.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una lista enlazada no proporciona un mecanismo eficiente para verificar la integridad de los datos, ya que no permite la comparación rápida de subgrupos de datos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Montículo binario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un montículo binario se utiliza para estructuras de datos como colas de prioridad, pero no es adecuado para verificar la integridad de los datos en criptografía y blockchain.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Árbol de Merkle.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un árbol de Merkle permite verificar eficientemente la integridad de los datos en sistemas de criptografía y blockchain mediante la comparación de hashes.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque los grafos se utilizan en diversas aplicaciones, no son específicos para la verificación de integridad de datos en criptografía y blockchain.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Se descarta el último bloque.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Descartar el último bloque significaría perder información. En un árbol de Merkle, todos los bloques deben estar representados.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Se duplica el último bloque para conseguir paridad.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si el número de bloques es impar, se duplica el último bloque para asegurar que cada nivel del árbol de Merkle tenga un número par de bloques.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Se crea un nuevo bloque combinando los bloques restantes.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No se crea un nuevo bloque combinando bloques restantes, ya que esto alteraría la integridad de los datos originales.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Se continua con la construcción del árbol sin cambios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Continuar sin cambios no es una opción válida ya que el árbol de Merkle requiere pares de nodos para construir los niveles superiores correctamente.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Aplicaciones de reconocimiento facial.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El reconocimiento facial no se beneficia específicamente del uso de montículos binarios. Estas aplicaciones generalmente utilizan técnicas de procesamiento de imágenes y aprendizaje automático.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Sistemas de navegación GPS.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los sistemas de navegación GPS no utilizan montículos binarios de manera específica. Están más relacionados con algoritmos de ruta y datos geoespaciales.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Sistemas de cola de prioridad.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los montículos binarios son fundamentales en la implementación de colas de prioridad, donde es importante acceder rápidamente al elemento con la máxima o mínima prioridad.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Protección de criptomonedas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La protección de criptomonedas generalmente utiliza técnicas de criptografía y blockchain, no montículos binarios.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Un nuevo conjunto de datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El proceso de emparejamiento y hash en un árbol de Merkle no genera un nuevo conjunto de datos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Un hash que resume todo el conjunto de datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El resultado final del proceso de emparejamiento y hash en un árbol de Merkle es un hash único que resume todo el conjunto de datos, lo que permite verificar su integridad de manera eficiente.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Una lista ordenada de bloques.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El resultado final no es una lista ordenada de bloques, sino un objeto único que representa la integridad de los datos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "La eliminación de la raíz del árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La raíz del árbol de Merkle no se elimina; de hecho, el hash de la raíz es el resultado final que se utiliza para verificar la integridad de los datos.",
                     "estado": "false"
                 }
             }

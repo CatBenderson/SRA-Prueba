@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Primera imagen",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien esta imagen incluye todos los datos y sigue las reglas de los árboles binarios (datos mayores a la derecha y menores a la izquierda), al insertar los datos en el orden proporcionado no se obtiene este árbol.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Segunda imagen",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien esta imagen incluye todos los datos y sigue las reglas de los árboles binarios (datos mayores a la derecha y menores a la izquierda), al insertar los datos en el orden proporcionado no se obtiene este árbol.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Tercer imagen",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien esta imagen incluye todos los datos, no sigue las reglas de los árboles binarios. El valor 4 es mayor que el 8 por lo que debería estar al lado izquierdo.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Cuarta imagen",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta imagen incluye todos los datos y sigue las reglas de los árboles binarios (datos mayores a la derecha y menores a la izquierda).Además al insertar los datos en el orden proporcionado si se obtiene este árbol.",
                     "estado": "true"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Objetos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque los árboles binarios pueden ser implementados utilizando objetos, el término no especifica los elementos estructurales esenciales del árbol binario de búsqueda.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Datos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los datos son el contenido almacenado en los nodos, pero no son los elementos estructurales que conforman el árbol en sí.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Apuntadores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los apuntadores o referencias son esenciales para la estructura del árbol binario de búsqueda ya que indican las conexiones entre nodos.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Nodos hijo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nodos hijo son parte de la estructura, pero no son el elemento clave que la conforma.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Controlar la inserción de nuevos nodos en el árbol",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La inserción de nuevos nodos es manejada por la estructura del árbol en su conjunto, no por la clase Nodo individualmente.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Almacenar información asociada a cada nodo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La función principal de la clase Nodo es almacenar la información y las referencias a otros nodos.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Realizar operaciones de búsqueda en el árbol",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las operaciones de búsqueda son realizadas por métodos específicos en la clase del árbol binario, no por la clase Nodo directamente.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Determinar la altura del árbol",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La altura del árbol se determina a nivel de la estructura del árbol, no es una función principal de la clase Nodo.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Almacenar la cantidad y el nombre de cada fruta.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta función no está relacionada con la implementación general de un nodo en árboles binarios.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Representar un nodo en la estructura del árbol, con referencias a su nodo padre, hijo derecho e hijo izquierdo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La clase Nodo en un árbol binario se encarga de representar un nodo, almacenando su valor y referencias a su nodo padre, hijo derecho e hijo izquierdo.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Realizar operaciones de inserción, eliminación y recorrido en el árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las operaciones de inserción, eliminación y recorrido se gestionan a nivel de la estructura del árbol binario, no en la clase Nodo en sí.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Mostrar los nodos del árbol en formato acostado",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta no es una función principal de la clase Nodo. La clase Nodo no se enfoca en la visualización del árbol.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Inserta un nuevo nodo en el árbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtener_menor_valor no está relacionado con la inserción de nuevos nodos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Elimina un nodo con el valor más pequeño en un subárbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtener_menor_valor no se enfoca en encontrar el nodo con el valor más pequeño para eliminarlo.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Muestra los nodos del árbol en un orden específico.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtener_menor_valor no está diseñado para mostrar nodos en un orden específico.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Encuentra el nodo con el valor más pequeño en un subárbol.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtener_menor_valor recorre el subárbol para encontrar y devolver el nodo con el valor más pequeño.",
                     "estado": "true"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "eliminarNodo()",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtenerMenorValor apoya a la función eliminarNodo() al encontrar el nodo con el menor valor que puede reemplazar al nodo eliminado.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "insertar()",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtenerMenorValor no se utiliza para la inserción de nodos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "mostrarAcostado()",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtenerMenorValor no está relacionado con la visualización del árbol en formato acostado.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "ordenar()",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El método obtenerMenorValor no se utiliza para ordenar el árbol.",
                     "estado": "false"
                 }
             }

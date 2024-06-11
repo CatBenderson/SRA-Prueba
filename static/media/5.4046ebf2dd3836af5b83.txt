@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "1c, 2b, 2f, 3e, 3g, 4a, 4h, 5d",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La pérdida de la cuenta por ataques se relaciona más adecuadamente con la manera en la que se aseguran los datos dentro del sistema mientras que el consumo elevado de la batería es un problema relacionado con la eficiencia en el uso de los recursos del dispositivo ",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "1d, 2b, 2f, 3e, 3g, 4a, 4h, 5c",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La pérdida de la cuenta por ataques se relaciona más adecuadamente con la manera en la que se aseguran los datos dentro del sistema mientras que el consumo elevado de la batería es un problema relacionado con la eficiencia en el uso de los recursos del dispositivo. Por último, la seguridad se enfoca en proteger el sistema contra amenazas y vulnerabilidades, y por lo general no afecta en la velocidad de la aplicación",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "1c, 2f, 2d, 3e, 3g, 4a, 4h, 5b",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "*Complejidad *Algorítmica\nLentitud de la aplicación: La lentitud puede ser causada por algoritmos ineficientes que tienen tiempos de ejecución elevados.\n\n*Complejidad *Estructural\nFalta de notificaciones en ciertos dispositivos: Si la estructura no está bien diseñada para soportar diferentes tipos de dispositivos, pueden surgir problemas en la entrega de notificaciones.\n\nConsumo elevado de la batería: Este problema puede deberse a un diseño ineficiente de la arquitectura que no optimiza el uso de recursos del dispositivo. \n\n*Complejidad *de *Datos\nPérdida de tareas registradas en el sistema: La pérdida de datos puede ser consecuencia de una gestión deficiente de la base de datos o estructuras de datos mal diseñadas.\n\nInconsistencias en la visualización: Esto puede ser resultado de problemas en la sincronización de datos o en la representación de estos en la interfaz de usuario.\n\n*Complejidad *Funcional\nDificultad para hallar funcionalidades:  Una interfaz complicada o una navegación confusa puede hacer que las funcionalidades sean difíciles de encontrar.\n\nMala percepción general de la interfaz: Las funciones no están bien diseñadas o implementadas desde la perspectiva del usuario.\n\n*Complejidad *de *Seguridad\nPérdida de la cuenta por ataques: La seguridad se relaciona con cómo el software protege los datos y las cuentas de los usuarios frente a posibles amenazas.\n",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "1e, 2f, 2b, 3c, 3a, 4g, 4h, 5d",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La pérdida de datos suele deberse a problemas en la gestión de datos, como la persistencia y la integridad de los datos almacenados. Aunque el manejo ineficiente de datos puede contribuir a la lentitud, no es de las razones principales. La organización y accesibilidad de las funcionalidades dentro de la aplicación no está incluido dentro de la complejidad de datos.Las inconsistencias de visualización pueden surgir de una mala sincronización o manejo de los datos que se muestran en la interfaz de usuario. El consumo elevado de la batería no está relacionado con los problemas de seguridad.",
                     "estado": "false"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Complejidad estructural",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad estructural se refiere a cómo están organizadas las partes internas del software, lo que puede afectar el desarrollo y mantenimiento, pero no está directamente relacionado con la experiencia del usuario final.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Complejidad de seguridad",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad de seguridad trata sobre las medidas y protocolos para proteger el software y los datos. Aunque es crucial, no afecta directamente la experiencia del usuario si se maneja correctamente.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Complejidad de datos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad de datos implica la gestión y procesamiento de grandes volúmenes de información. Si bien es importante, no afecta directamente la usabilidad y la experiencia del usuario.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Complejidad funcional",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad funcional se refiere a las características y funcionalidades del software. Si no se maneja adecuadamente, puede hacer que el software sea difícil de usar y entender, afectando negativamente la experiencia del usuario.",
                     "estado": "true"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Problemas relacionados con la eficiencia de los algoritmos utilizados.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad algorítmica se refiere a la eficiencia con la que los algoritmos procesan datos, afectando el rendimiento y la velocidad del software.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Dificultad en la comprensión y el mantenimiento del código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque la complejidad algorítmica puede influir en la legibilidad del código, no se centra principalmente en la la comprensión o el mantenimiento del código.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Gestión inadecuada de las estructuras de datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad algorítmica puede estar relacionada con la gestión de las estructuras de datos, pero no es su principal implicación.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Falta de medidas de seguridad adecuadas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad algorítmica no está relacionada con la seguridad del software.",
                     "estado": "false"
                 }
             }
@@ -158,48 +158,48 @@
             "respuestas": {
                 "1": {
                     "contenido": "Desarrollo en base a pruebas",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El desarrollo basado en pruebas (TDD) ayuda a asegurar la calidad del software, pero no se enfoca directamente en reducir la complejidad estructural del código.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Uso de estándares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El uso de estándares permite mantener una estructura consistente y clara en el código, facilitando su comprensión y mantenimiento, lo que ayuda a evitar la complejidad estructural.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Debugging",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El debugging es el proceso de encontrar y corregir errores, pero no previene la complejidad estructural en el diseño del código.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Programación defensiva",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La programación defensiva mejora la robustez del código ante errores, pero no se centra en reducir la complejidad estructural.",
                     "estado": "false"
                 }
             }
         },
         "4": {
             "id": "5-4-P",
-            "pregunta": "Qué implica el diseño modular en el desarrollo de software?",
+            "pregunta": "¿Qué implica el diseño modular en el desarrollo de software?",
             "respuestas": {
                 "1": {
                     "contenido": "Dividir un sistema de software en módulos independientes",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El diseño modular consiste en dividir un sistema en módulos o componentes independientes, lo que facilita su desarrollo, mantenimiento y escalabilidad.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Realizar pruebas unitarias para asegurar la calidad del código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las pruebas unitarias son importantes para asegurar la calidad del código, pero no son un componente del diseño modular.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Identificar y corregir errores en el código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La identificación y corrección de errores son parte del proceso de depuración, no del diseño modular.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Implementar medidas de seguridad para proteger el sistema.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las medidas de seguridad son cruciales para proteger el sistema, pero no forman parte del concepto de diseño modular.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Inspecciones",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las inspecciones ayudan a detectar defectos en el código, pero no son una técnica utilizada específicamente durante la construcción del software.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Pruebas unitarias",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las pruebas unitarias se utilizan para verificar que cada unidad o componente del software funcione correctamente, asegurando la calidad del código durante su desarrollo.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Análisis de estadísticas",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El análisis de estadísticas puede proporcionar información sobre el rendimiento y otros aspectos del software, pero no asegura directamente la calidad del código durante su construcción.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Desarrollo en base a pruebas",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El desarrollo basado en pruebas (TDD) es una metodología de desarrollo que mejora la calidad del software, pero no asegura directamente la calidad del código durante su construcción.",
                     "estado": "false"
                 }
             }

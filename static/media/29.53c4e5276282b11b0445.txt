@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Paso 1",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [7,8,6,5,3,4,2,1]",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Paso 2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [1, 2, 6, 5, 3, 4, 7, 8]",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Paso 3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [1, 2, 4, 5, 3, 6, 7, 8]",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Paso 4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En este paso el arreglo se encuentra como [1, 2, 3, 4, 5, 6, 7, 8]",
                     "estado": "false"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Dividir el arreglo en dos sublistas y luego combinarlas en orden ascendente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta respuesta describe el comportamiento de otros algoritmos de ordenamiento, como MergeSort, pero no refleja correctamente el funcionamiento de QuickSort.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Seleccionar un elemento pivot y dividir el arreglo en dos sublistas, una con elementos mayores y otra con elementos menores al pivot.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El objetivo principal de QuickSort es seleccionar un elemento pivot y dividir el arreglo en dos sublistas: una con elementos mayores y otra con elementos menores al pivot.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Ordenar los elementos del arreglo de manera recursiva utilizando un árbol binario completo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta descripción no se aplica a QuickSort. QuickSort no utiliza un árbol binario completo para ordenar los elementos.",
                     "estado": "false"
                 },
                 "4": {
-                    "contenido": " Comparar todos los elementos del arreglo entre sí para determinar su orden.",
-                    "retroalimentacion": "",
+                    "contenido": "Comparar todos los elementos del arreglo entre sí para determinar su orden.",
+                    "retroalimentacion": "QuickSort no compara todos los elementos entre sí.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "El elemento más pequeño del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El pivot no necesariamente es el elemento más pequeño del arreglo.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "El elemento más grande del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El pivot no necesariamente es el elemento más grande del arreglo.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "El elemento que se elige como punto de referencia para dividir el arreglo en sublistas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El pivot es el elemento que se elige como punto de referencia para dividir el arreglo en sublistas durante el proceso de QuickSort.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "El elemento que se coloca en el centro del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El pivot no necesariamente se coloca en el centro del arreglo; su posición depende de la estrategia de selección utilizada.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Ordenar las sublistas de manera independiente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Uno de los pasos importantes en QuickSort es ordenar las sublistas de manera independiente una vez que se han dividido utilizando el pivot.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Elegir el pivot como el último elemento del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Elegir el pivot como el último elemento es una estrategia específica, no un paso general del algoritmo.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Combinar las sublistas en orden ascendente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Combinar las sublistas en orden ascendente se asocia con algoritmos como MergeSort, no QuickSort.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Seleccionar un elemento aleatorio como pivot en cada iteración.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Seleccionar un elemento aleatorio como pivot es una estrategia específica, no un paso general del algoritmo.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "O(n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(n) es incorrecto; QuickSort no puede ordenar en tiempo lineal en el peor de los casos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "O(n log n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(n log n) es la complejidad temporal promedio de QuickSort, no la del peor de los casos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "O(n^2)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad temporal de QuickSort en el peor de los casos es O(n^2), que ocurre cuando las particiones son desbalanceadas.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "O(log n)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "O(log n) es incorrecto; QuickSort no puede ordenar en tiempo logarítmico en el peor de los casos.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Cuando se elige un pivot aleatorio en cada iteración.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Elegir un pivot aleatorio en cada iteración generalmente ayuda a evitar el peor de los casos, no a causarlo.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Cuando el pivot es siempre el primer elemento del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Elegir el pivot como el primer elemento puede llevar al peor de los casos solo si el arreglo está ordenado o casi ordenado.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Cuando el pivot es siempre el elemento más pequeño del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Elegir el pivot como el elemento más pequeño no es una práctica común y no se ajusta a la causa general del peor de los casos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Cuando el pivot termina siendo el valor menor o mayor en cada partición del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La complejidad temporal de QuickSort puede llegar a ser O(n^2) cuando el pivot elegido resulta en particiones extremadamente desbalanceadas, como cuando el pivot es siempre el menor o mayor valor.",
                     "estado": "true"
                 }
             }

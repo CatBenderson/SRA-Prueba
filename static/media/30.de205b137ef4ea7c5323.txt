@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "000FFF",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor no se relaciona con alguna llave registrada en el diccionario.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "0000FF",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor no se relaciona con alguna llave registrada en el diccionario.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "FFFFFF",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor está relacionado con la llave \"Blanco\".",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "0000ff",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor se relaciona con la llave \"azul\".",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "[rojo, verde, blanco, azul, morado]",
-                    "retroalimentacion": "",
-                    "estado": "false"
+                    "retroalimentacion": "Este conjunto es el conjunto de las llaves en el diccionario.",
+                    "estado": "true"
                 },
                 "2": {
                     "contenido": "[FF0000, 008f39, FFFFFF, 0000ff, 572364]",
-                    "retroalimentacion": "",
-                    "estado": "true"
+                    "retroalimentacion": "Este conjunto es el conjunto de los valores en el diccionario.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "[rojo, FF0000]",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este conjunto solo muestra un par llave-valor que se encuentra contenida en el diccionario.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "5",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta información no se encuentra contenida en el diccionario.",
                     "estado": "false"
                 }
             }
@@ -105,23 +105,23 @@
             "pregunta": "¿Qué característica define a un diccionario en programación?",
             "respuestas": {
                 "1": {
-                    "contenido": " Almacena solo valores numéricos.",
-                    "retroalimentacion": "",
+                    "contenido": "Almacena solo valores numéricos.",
+                    "retroalimentacion": "Un diccionario puede almacenar cualquier tipo de datos como valores, no solo valores numéricos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Permite solo el acceso secuencial a los datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un diccionario permite el acceso a los datos mediante llaves, no solo de manera secuencial.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Contiene pares de llaves y valores.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La característica principal de un diccionario es que almacena datos en pares de llaves y valores.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "No permite la modificación de sus elementos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un diccionario es mutable, lo que significa que sí permite la modificación de sus elementos.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Las llaves pueden repetirse dentro del diccionario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un diccionario, cada llave debe ser única; no pueden repetirse.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Las llaves son únicas dentro del diccionario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las llaves en un diccionario son únicas, lo que permite un acceso rápido y eficiente a los valores asociados.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Las llaves no son necesarias en un diccionario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las llaves son esenciales en un diccionario para acceder a los valores correspondientes.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Las llaves son siempre numéricas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las llaves pueden ser de cualquier tipo de datos inmutable, como cadenas, números o tuplas.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Porque las llaves son únicas y se utilizan para identificar los valores.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los diccionarios permiten un acceso rápido a los valores porque las llaves únicas actúan como índices directos.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Porque almacenan solo valores numéricos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El tipo de valores almacenados no afecta la rapidez de acceso en un diccionario.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Porque solo permiten el acceso secuencial a los datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El acceso secuencial no es una característica de los diccionarios; se accede a los datos mediante llaves.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Porque no permiten la modificación de sus elementos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los diccionarios son mutables y sí permiten la modificación de sus elementos.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Que no se pueden modificar después de su creación.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los diccionarios sí se pueden modificar después de su creación; eso es lo que significa ser mutable.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Que sus elementos no pueden cambiarse.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Ser mutable significa que los elementos del diccionario sí pueden cambiarse.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Que no se pueden agregar nuevos pares clave-valor.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La mutabilidad permite agregar, modificar y eliminar pares clave-valor.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Que se pueden cambiar sus elementos, agregar nuevos pares clave-valor o eliminar pares existentes después de su creación.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Ser mutable significa que los diccionarios pueden cambiar sus elementos, agregar nuevos pares clave-valor o eliminar pares existentes después de su creación.",
                     "estado": "true"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Ocupan menos espacio en la memoria.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los diccionarios no están diseñados específicamente para ocupar menos espacio en la memoria.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Permiten almacenar solo datos numéricos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los diccionarios pueden almacenar datos de cualquier tipo, no solo numéricos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Permiten un acceso rápido a los valores utilizando las llaves.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una de las principales ventajas de los diccionarios es que permiten un acceso rápido a los valores mediante el uso de llaves únicas.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Son inmutables y no pueden modificarse.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los diccionarios son mutables, lo que significa que sus elementos pueden modificarse.",
                     "estado": "false"
                 }
             }

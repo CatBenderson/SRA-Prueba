@@ -1,0 +1,54 @@
+{
+    "clases": {
+        "1": {
+            "java": {
+                "codigo": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class HashTable {\n    private List<List<String>> conjuntoHash;\n\n    public HashTable() {\n        conjuntoHash = new ArrayList<>();\n        for (int i = 0; i < 10; i++) {\n            conjuntoHash.add(new ArrayList<>());\n        }\n    }\n\n    public int funcionHash(String valor) {\n        int suma = 0;\n        for (int i = 0; i < valor.length(); i++) {\n            suma += (int) valor.charAt(i);\n        }\n        return suma % 10;\n    }\n\n    public void añadir(String valor) {\n        int indice = funcionHash(valor);\n        List<String> balde = conjuntoHash.get(indice);\n        System.out.println(valor + \" se agregará en la posición \"+ indice);\n        if (!balde.contains(valor)) {\n            balde.add(valor);\n        }\n    }\n\n    public boolean contiene(String valor) {\n        int indice = funcionHash(valor);\n        List<String> balde = conjuntoHash.get(indice);\n        return balde.contains(valor);\n    }\n\n    public static void main(String[] args) {\n        HashTable tablaHash = new HashTable();\n        tablaHash.añadir(\"Rojo\");\n        tablaHash.añadir(\"Amarillo\");\n        tablaHash.añadir(\"Azul\");\n        tablaHash.añadir(\"Verde\");\n\n        System.out.println(tablaHash.conjuntoHash);\n        System.out.println(\"Contiene Azul: \" + tablaHash.contiene(\"Azul\"));\n    }\n}\n",
+                "texto": "*Constructor *HashTable(): Inicializa la tabla hash como una lista de listas de cadenas vacías. Se crea un total de 10 \"baldes\" o listas internas para manejar posibles colisiones.\n\n*funcionHash(String *valor): Esta función calcula el índice en el que se debe agregar un valor en la tabla hash. Utiliza una técnica simple de suma de los valores ASCII de los caracteres en la cadena *valor, luego aplica el operador módulo para obtener un índice dentro del rango de 0 a 9.\n\n*añadir(String *valor): Agrega un valor a la tabla hash. Calcula el índice utilizando *funcionHash(valor), obtiene la lista correspondiente en *conjuntoHash y luego agrega el valor a esa lista, siempre y cuando no esté ya presente en ella.\n\n*contiene(String *valor): Verifica si un valor dado está presente en la tabla hash. Calcula el índice usando *funcionHash(valor), obtiene la lista correspondiente en *conjuntoHash y luego verifica si el valor está contenido en esa lista.\n\n*main(String[] *args): Aquí se crean instancias de la clase *HashTable y se realizan algunas operaciones de prueba. Se agregan varios valores a la tabla hash utilizando el método *añadir(), luego imprime el contenido de la tabla hash y verifica si un valor específico está presente en ella utilizando el método *contiene()."
+            },
+            "python": {
+                "codigo": "class HashTable:\n    def __init__(self):\n        self.conjunto_hash = [\n            [],\n            [],\n            [],\n            [],\n            [],\n            [],\n            [],\n            [],\n            [],\n            [],\n        ]\n\n    def funcion_hash(self, valor):\n        return sum(ord(char) for char in valor) % 10\n\n    def añadir(self, valor):\n        indice = self.funcion_hash(valor)\n        print(valor + \" se agregará en la posición \"+ str(indice))\n        balde = self.conjunto_hash[indice]\n        if valor not in balde:\n            balde.append(valor)\n\n    def contiene(self, valor):\n        indice = self.funcion_hash(valor)\n        balde = self.conjunto_hash[indice]\n        return valor in balde\n\ntabla_hash = HashTable()\ntabla_hash.añadir(\"Rojo\")\ntabla_hash.añadir(\"Amarillo\")\ntabla_hash.añadir(\"Azul\")\ntabla_hash.añadir(\"Verde\")\n\nprint(tabla_hash.conjunto_hash)\n\nprint(\"Contiene Azul:\", tabla_hash.contiene(\"Azul\"))\n",
+                "texto": "*__init__(self): Constructor que inicializa la tabla hash como una lista de listas vacías. Se crean 10 \"baldes\" o listas internas dentro de *conjunto_hash para manejar posibles colisiones.\n\n*funcion_hash(self, *valor): Calcula el índice en el que se debe agregar un valor en la tabla hash. Utiliza una técnica simple de suma de los valores ASCII de los caracteres en la cadena valor, luego aplica el operador módulo para obtener un índice dentro del rango de 0 a 9.\n\n*añadir(self, *valor): Agrega un valor a la tabla hash. Calcula el índice utilizando *funcion_hash(valor), obtiene la lista correspondiente en *conjunto_hash y luego agrega el valor a esa lista si no está ya presente en ella. \n\n*contiene(self, *valor): Verifica si un valor dado está presente en la tabla hash. Calcula el índice usando *funcion_hash(valor), obtiene la lista correspondiente en *conjunto_hash y luego verifica si el valor está contenido en esa lista.\n\nFinalmente se crea una instancia de la clase *HashTable y realiza algunas operaciones de prueba. Se agregan varios valores a la tabla hash utilizando el método *añadir(), luego imprime el contenido de la tabla hash y verifica si un valor específico está presente en ella utilizando el método *contiene()."
+            }
+        },
+        "2": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "3": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "4": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        },
+        "5": {
+            "java": {
+                "codigo": "",
+                "texto": ""
+            },
+            "python": {
+                "codigo": "",
+                "texto": ""
+            }
+        }
+    }
+}

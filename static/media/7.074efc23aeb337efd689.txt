@@ -102,26 +102,26 @@
     "preguntas": {
         "1": {
             "id": "7-1-P",
-            "pregunta": "Cuál es el propósito principal de las técnicas de validación y verificación en la construcción de software?",
+            "pregunta": "¿Cuál es el propósito principal de las técnicas de validación y verificación en la construcción de software?",
             "respuestas": {
                 "1": {
                     "contenido": "Optimizar el rendimiento del software.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Optimizar el rendimiento del software es un objetivo importante, pero no es el propósito principal de las técnicas de validación y verificación.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Detectar errores durante las pruebas y ejecuciones rutinarias.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El propósito principal de las técnicas de validación y verificación es identificar y corregir errores durante las pruebas y ejecuciones rutinarias, asegurando que el software cumpla con los requisitos establecidos.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Mejorar la estética del código fuente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque un código bien estructurado es importante, la estética del código no es el objetivo principal de las técnicas de validación y verificación.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Garantizar la seguridad del software.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Garantizar la seguridad del software es un aspecto crucial, pero no es el propósito principal de las técnicas de validación y verificación.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Evalúan la consistencia del modelo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Evaluar la consistencia del modelo es una función que puede estar relacionada con otros tipos de pruebas, pero no es el objetivo principal de las pruebas unitarias.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Verifican el cumplimiento de las especificaciones del usuario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Verificar el cumplimiento de las especificaciones del usuario es un objetivo más amplio y típicamente cubierto por pruebas de aceptación, no por pruebas unitarias.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Comprueban el comportamiento de unidades individuales de código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las pruebas unitarias se centran en comprobar el comportamiento de unidades individuales de código, asegurando que cada componente funcione correctamente por separado.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Automatizan la ejecución de pruebas manuales.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Automatizar la ejecución de pruebas manuales es una ventaja de las pruebas automatizadas en general, no específicamente de las pruebas unitarias.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Las pruebas unitarias se ejecutan automáticamente, mientras que las pruebas automatizadas son manuales.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta afirmación es incorrecta ya que tanto las pruebas unitarias como las pruebas automatizadas pueden ser ejecutadas automáticamente.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Las pruebas automatizadas incluyen pruebas de aceptación, mientras que las pruebas unitarias no.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las pruebas automatizadas pueden incluir diversos tipos de pruebas, incluidas las de aceptación, pero esta no es una diferencia fundamental respecto a las pruebas unitarias.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Las pruebas automatizadas verifican el software en todos los niveles y escenarios posibles, mientras que las pruebas unitarias se centran en unidades individuales de código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta es la diferencia principal: las pruebas unitarias se enfocan en componentes específicos del código, mientras que las pruebas automatizadas pueden abarcar un rango más amplio de pruebas a distintos niveles.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Las pruebas unitarias son más amplias en alcance que las pruebas automatizadas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las pruebas unitarias son específicas y se centran en pequeñas partes del código, mientras que las pruebas automatizadas pueden ser de mayor alcance e incluir pruebas a nivel de sistema.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Para aumentar la complejidad del código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aumentar la complejidad del código es contraproducente y va en contra de las mejores prácticas de desarrollo de software.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Para mejorar la estética del código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Mantener reglas de nombrado, indentación o nomenclatura mejora la estética del código, haciéndolo más legible y fácil de entender para otros desarrolladores.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Para dificultar la comprensión del código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El objetivo de estas reglas es precisamente lo contrario: facilitar la comprensión del código, no dificultarla.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Para evitar la detección de errores durante las pruebas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Estas reglas no están diseñadas para evitar la detección de errores, sino para mejorar la legibilidad y mantenimiento del código.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Utilizar estructuras de código complejas siempre que sea posible.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta recomendación es contraria a las mejores prácticas, ya que las estructuras de código complejas son más difíciles de entender y mantener.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Apostar por la simplicidad y la claridad del código.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La técnica de empleo restringido de estructuras complejas recomienda la simplicidad y claridad en el código para facilitar su mantenimiento y comprensión.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Incrementar la complejidad del código para hacerlo más robusto.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Incrementar la complejidad no necesariamente hace que el código sea más robusto; puede llevar a más errores y dificultades en el mantenimiento.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Evitar la realización de pruebas unitarias y automatizadas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Evitar las pruebas unitarias y automatizadas es una mala práctica, ya que estas pruebas son cruciales para asegurar la calidad del software.",
                     "estado": "false"
                 }
             }

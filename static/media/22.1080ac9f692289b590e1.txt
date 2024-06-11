@@ -15,7 +15,7 @@
             "url": "https://i.imgur.com/Q4eiNoF.png",
             "alt": "Ejemplo de grafo no dirigido"
         }
-    }, 
+    },
     "ejercicios": {
         "1": {
             "id": "22-1-E",
@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "v= {1, 2, 3, 4, 5, 6} A= {(1, 2), (1, 4), (2, 6), (4, 5), (5, 6)}",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No existe vértice 3 por lo que no debería estar en el conjunto v",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "v= {1, 2, 4, 5, 6} A= {(1, 2), (1, 4), (2, 6), (4, 5), (5, 6)}",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Todos los vértices listados así como las aristas, están presentes en el grafo.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "v= {1, 2, 4, 5, 6} A= {(1, 2), (1, 5), (2, 6), (4, 6), (5, 6)}",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No existen las aristas (1,5) ni (4,6)",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "v= {1, 2, 3, 4, 5, 6} A= {(1, 2), (2, 4), (2, 6), (4, 3), (5, 6)}",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No existe vértice 3 por lo que no debería estar en el conjunto v. Tampoco   existen las aristas (2,4) ni (4,3)",
                     "estado": "false"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Orden: 11,  Grado de nodo: 4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Tanto el orden como el grado de nodo son correctos, con 11 nodos en total en el grafo y 4 aristas incidentes en el nodo rojo.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Orden: 10,  Grado de nodo: 10",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El orden no es 10 ya que hay una mayor cantidad de nodos. El grado tampoco es correcto pues la cantidad de aristas relacionadas con el nodo rojo es menor a 10.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Orden: 10,  Grado de nodo: 4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El orden no es 10 ya que hay una mayor cantidad de nodos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Orden: 8,  Grado de nodo: 2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El orden no es 10 ya que hay una mayor cantidad de nodos. El grado tampoco es correcto pues la cantidad de aristas relacionadas con el nodo rojo es mayor a 2.",
                     "estado": "false"
                 }
             }
@@ -77,23 +77,23 @@
             "pregunta": "Indica cual es un camino correcto para llegar del vértice verde al vértice rojo y cuál es la longitud del camino",
             "respuestas": {
                 "1": {
-                    "contenido": "P = (0, 1, 2, 3, 4, 5),  Longitud= 12",
-                    "retroalimentacion": "",
+                    "contenido": "P = (0, 1, 2, 3, 4, 5),  Longitud= 11",
+                    "retroalimentacion": "El camino propuesto puede seguirse pero la longitud no es la correcta",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "P = (8, 9, 10, 6, 7, 5),  Longitud= 10",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El camino propuesto no inicia en el vértice verde.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "P = (0, 1, 2, 3, 7, 6),  Longitud= 10",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El camino propuesto no tiene como final el vértice rojo.",
                     "estado": "false"
                 },
                 "4": {
-                    "contenido": "P = (0, 8, 4, 3, 7, 5),  Longitud= 12",
-                    "retroalimentacion": "",
+                    "contenido": "P = (0, 8, 4, 3, 7, 5),  Longitud= 11",
+                    "retroalimentacion": "El camino propuesto tiene como final el vértice rojo y la longitud mencionada de 11.",
                     "estado": "true"
                 }
             }
@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "G = (E, V)",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La notación correcta es primero el conjunto de vértices y luego el conjunto de aristas, no al revés.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "G = {V, A}",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La notación debe usar paréntesis en lugar de llaves para definir un grafo.",
                     "estado": "false"
                 },
                 "3": {
-                    "contenido": " G = (V, A)",
-                    "retroalimentacion": "",
+                    "contenido": "G = (V, A)",
+                    "retroalimentacion": "Un grafo G se define como un par ordenado (V, A) donde V es un conjunto de vértices y A (también conocido como E) es un conjunto de aristas.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "G = [V, E]",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La notación estándar usa paréntesis, no corchetes, para definir un grafo.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Grafos con peso",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un grafo con peso tiene valores asociados a sus aristas, no direcciones.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Grafos no dirigidos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un grafo no dirigido, las aristas no tienen una dirección asignada; conectan vértices en ambas direcciones.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Grafos dirigidos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un grafo dirigido, cada arista tiene una dirección específica desde un vértice origen hasta un vértice destino.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Grafos ordenados",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El término grafos ordenados no se refiere a aristas con direcciones.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Es el número de aristas del grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El número de aristas en un grafo se llama tamaño, no orden.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Es el número de vértices del grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El orden de un grafo es el número de vértices que contiene.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Es la suma de los grados de los vértices.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La suma de los grados de los vértices de un grafo se relaciona con las aristas, pero no define el orden del grafo.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Es la longitud máxima de un camino en el grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La longitud máxima de un camino en un grafo se refiere al diámetro del grafo, no a su orden.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "El número de vértices que entran al nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En un grafo no dirigido, no se habla de vértices que 'entran' a un nodo, ya que las aristas no tienen dirección.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "El número de aristas conectadas al nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El grado de un nodo en un grafo no dirigido es el número de aristas que están conectadas a él.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "La magnitud asignada a las aristas del nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El grado de un nodo no está relacionado con la magnitud o peso de las aristas.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "La longitud de la ruta más corta hasta otro nodo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La longitud de la ruta más corta entre nodos se refiere a la distancia o camino mínimo, no al grado del nodo.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Una secuencia de aristas que se sigue dentro de un grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un camino se define por una secuencia de vértices, no solo aristas.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": " Una secuencia de vértices conectados por aristas que se sigue dentro de un grafo.",
-                    "retroalimentacion": "",
+                    "contenido": "Una secuencia de vértices conectados por aristas que se sigue dentro de un grafo.",
+                    "retroalimentacion": "Un camino en un grafo es una secuencia de vértices, donde cada par consecutivo de vértices está conectado por una arista.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "La magnitud asignada a las aristas de un grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La magnitud asignada a las aristas se refiere al peso de las aristas, no a un camino.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "La ruta más corta entre dos nodos en un grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un camino no necesariamente es la ruta más corta. La ruta más corta es un tipo específico de camino.",
                     "estado": "false"
                 }
             }

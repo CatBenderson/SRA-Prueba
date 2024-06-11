@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Aumento de costos futuros",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El código de buena calidad tiende a reducir los costos futuros asociados con el mantenimiento y la corrección de errores.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Reducción de la velocidad de desarrollo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La calidad del código bien mantenido suele aumentar la velocidad de desarrollo, ya que reduce el tiempo necesario para identificar y corregir errores.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Identificación más rápida de errores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Uno de los beneficios principales de tener código de buena calidad es que los errores tienden a ser identificados más rápidamente, lo que permite corregirlos antes de que se conviertan en problemas mayores.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Mejora la comunicación entre equipos de desarrollo",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si bien la calidad del código puede influir en la comunicación entre equipos de desarrollo, no es uno de los beneficios principales asociados con la calidad del código.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Aumentando la complejidad del proyecto",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La calidad del código bien mantenido tiende a reducir la complejidad del proyecto, lo que facilita la agilidad en el desarrollo.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Facilitando la experiencia del desarrollador y permitiendo cambios rápidos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La calidad del código contribuye a la agilidad en el desarrollo al proporcionar una base sólida para la implementación de cambios rápidos y eficientes.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Ralentizando el proceso de identificación de errores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La calidad del código bien mantenido tiende a acelerar el proceso de identificación de errores, lo que aumenta la agilidad en el desarrollo.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Reduciendo la colaboración entre desarrolladores",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La calidad del código puede fomentar la colaboración entre desarrolladores al proporcionar una base clara y comprensible para el trabajo en equipo.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Porque disminuye la complejidad del proyecto",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La mantenibilidad y la escalabilidad del código tienden a aumentar la complejidad del proyecto al proporcionar una estructura sólida y flexible para el crecimiento futuro.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Porque aumenta la cantidad de errores en el código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La mantenibilidad y la escalabilidad del código tienden a reducir la cantidad de errores al proporcionar una base sólida para futuras modificaciones y expansiones del proyecto.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Porque facilita la modificación, mantenimiento y crecimiento del proyecto en el futuro",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La mantenibilidad y la escalabilidad del código son importantes porque facilitan la modificación, el mantenimiento y el crecimiento del proyecto a medida que cambian los requisitos y las demandas del usuario.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Porque disminuye la calidad del proyecto",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La mantenibilidad y la escalabilidad del código tienden a aumentar la calidad del proyecto al proporcionar una base sólida y flexible para futuras iteraciones y mejoras.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Reducir la cantidad de pruebas unitarias",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Reducir la cantidad de pruebas unitarias no contribuye a generar código de calidad, ya que las pruebas unitarias son una parte fundamental del aseguramiento de la calidad del software.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "No documentar el código para mantenerlo más claro",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La documentación clara y concisa del código es fundamental para comprender su funcionamiento y mantenimiento, por lo que no documentar el código no contribuye a la calidad del mismo.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Realizar revisiones de código de forma diaria",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Realizar revisiones de código de forma diaria es una práctica recomendada que puede ayudar a identificar y corregir problemas en el código de manera oportuna, contribuyendo así a la calidad del mismo.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Escribir código limpio y seguir estándares de codificación",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Escribir código limpio y seguir estándares de codificación son prácticas que contribuyen significativamente a generar código de calidad, ya que hacen que el código sea más legible, mantenible y menos propenso a errores.",
                     "estado": "true"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Mejorar la legibilidad, eficiencia y mantenibilidad del código sin alterar su funcionalidad",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La refactorización de código es un proceso que busca mejorar la calidad interna del código sin cambiar su comportamiento externo, lo que incluye mejorar su legibilidad, eficiencia y mantenibilidad.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Aumentar la complejidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La refactorización de código busca precisamente lo contrario, reducir la complejidad y mejorar la calidad del código existente.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Reducir la flexibilidad del código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La refactorización de código generalmente busca mejorar la flexibilidad del código al eliminar código duplicado y mejorar la estructura del mismo.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Introducir más errores en el código",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La refactorización de código se realiza para mejorar la calidad del código existente y reducir la cantidad de errores, no para introducir más.",
                     "estado": "false"
                 }
             }
